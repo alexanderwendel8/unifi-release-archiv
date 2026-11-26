@@ -201,11 +201,36 @@ def archivieren(kategorie, ziel, jetzt):
     return neu, geaendert, len(releases)
 
 
+def index_schreiben(ziel):
+    """archiv/index.json: Liste der Kategorien fuer die Weboberflaeche.
+
+    Enthaelt bewusst keinen Zeitstempel, damit sie sich nur bei echten
+    Aenderungen aendert (der Workflow committet sonst nicht).
+    """
+    kategorien = []
+    for datei in sorted(os.listdir(ziel)):
+        if not datei.endswith(".json") or datei == "index.json":
+            continue
+        with open(os.path.join(ziel, datei), encoding="utf-8") as f:
+            releases = json.load(f)["releases"]
+        kategorien.append({
+            "kategorie": datei[:-5],
+            "datei": datei,
+            "anzahl": len(releases),
+            "neuestes": releases[0]["veroeffentlicht"] if releases else None,
+        })
+    pfad = os.path.join(ziel, "index.json")
+    neu = json.dumps({"kategorien": kategorien}, ensure_ascii=False, indent=2) + "\n"
+    if not os.path.exists(pfad) or open(pfad, encoding="utf-8").read() != neu:
+        with open(pfad, "w", encoding="utf-8") as f:
+            f.write(neu)
+
+
 def suchen(ziel, begriff):
     muster = re.compile(r"\b" + re.escape(begriff).replace(r"\-", "[- ]") + r"\b", re.I)
     treffer = []
     for datei in sorted(os.listdir(ziel)):
-        if not datei.endswith(".json"):
+        if not datei.endswith(".json") or datei == "index.json":
             continue
         with open(os.path.join(ziel, datei), encoding="utf-8") as f:
             for r in json.load(f)["releases"]:
@@ -241,6 +266,7 @@ def main():
         except Exception as e:  # eine kaputte Kategorie soll die anderen nicht stoppen
             fehler += 1
             print(f"  FEHLER: {e} - Archiv dieser Kategorie unveraendert", file=sys.stderr)
+    index_schreiben(args.ziel)
     sys.exit(1 if fehler else 0)
 
 

@@ -1,0 +1,52 @@
+{
+  "kategorien": [
+    {
+      "kategorie": "access-hub",
+      "datei": "access-hub.json",
+      "anzahl": 20,
+      "neuestes": "2026-11-24T02:52:54+00:00"
+    },
+    {
+      "kategorie": "access-point",
+      "datei": "access-point.json",
+      "anzahl": 20,
+      "neuestes": "2026-11-03T16:43:39+00:00"
+    },
+    {
+      "kategorie": "network-application",
+      "datei": "network-application.json",
+      "anzahl": 20,
+      "neuestes": "2026-11-24T14:36:23+00:00"
+    },
+    {
+      "kategorie": "protect-application",
+      "datei": "protect-application.json",
+      "anzahl": 20,
+      "neuestes": "2026-11-02T15:41:29+00:00"
+    },
+    {
+      "kategorie": "security-advisories",
+      "datei": "security-advisories.json",
+      "anzahl": 20,
+      "neuestes": "2026-11-19T04:32:04+00:00"
+    },
+    {
+      "kategorie": "switch",
+      "datei": "switch.json",
+      "anzahl": 20,
+      "neuestes": "2026-11-05T08:39:16+00:00"
+    },
+    {
+      "kategorie": "unifi-os-dream-machines",
+      "datei": "unifi-os-dream-machines.json",
+      "anzahl": 20,
+      "neuestes": "2026-11-24T15:02:23+00:00"
+    },
+    {
+      "kategorie": "unifi-os-server",
+      "datei": "unifi-os-server.json",
+      "anzahl": 10,
+      "neuestes": "2026-11-17T16:10:24+00:00"
+    }
+  ]
+}
