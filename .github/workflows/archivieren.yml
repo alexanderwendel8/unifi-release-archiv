@@ -1,0 +1,50 @@
+name: Releases archivieren
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # taeglich 05:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archivieren
+  cancel-in-progress: false
+
+jobs:
+  archivieren:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Feeds abrufen
+        id: lauf
+        # Schlaegt eine Kategorie fehl, werden die anderen trotzdem gespeichert
+        # und committet; der Job wird danach als fehlgeschlagen markiert.
+        run: |
+          set +e
+          python3 -I unifi_archiv.py --ziel archiv
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Aenderungen committen
+        run: |
+          # Nur der Zeitstempel "zuletzt_abgerufen" geaendert? Dann nichts committen.
+          geaendert=$(git diff --numstat -- archiv | awk '$1 > 1 || $2 > 1' | wc -l)
+          if [ "$geaendert" -eq 0 ] && [ -z "$(git ls-files --others --exclude-standard archiv)" ]; then
+            echo "Keine neuen oder geaenderten Releases."
+            git checkout -- archiv
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archiv
+          git commit -m "Archiv aktualisiert: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Fehler melden
+        if: steps.lauf.outputs.status != '0'
+        run: |
+          echo "::error::Mindestens ein Feed konnte nicht abgerufen werden (siehe Schritt 'Feeds abrufen')."
+          exit 1

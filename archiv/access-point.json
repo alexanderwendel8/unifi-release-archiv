@@ -1,0 +1,964 @@
+{
+  "kategorie": "access-point",
+  "feed": "https://community.ui.com/rss/releases/x/9fc3b2fa-9e73-449a-924f-470e79884470",
+  "zuletzt_abgerufen": "2026-11-26T04:54:38+00:00",
+  "releases": [
+    {
+      "id": "10247e29-044d-48b2-9e83-e7c5fb17305a",
+      "kategorie": "access-point",
+      "version": "8.8.14",
+      "titel": "UniFi Access Point & Wireless Bridge 8.8.14",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-and-Wireless-Bridge-8-8-14/10247e29-044d-48b2-9e83-e7c5fb17305a",
+      "veroeffentlicht": "2026-11-03T16:43:39+00:00",
+      "kanal": "stable",
+      "stable_freigaben": [
+        {
+          "modelle": [
+            "U7-Lite",
+            "U7-In-Wall",
+            "U7-Mesh",
+            "U7-Industrial",
+            "UDB-Switch",
+            "AirWire",
+            "U6-Mesh",
+            "U6-Mesh-Pro",
+            "U6-Enterprise-IW",
+            "U6-IW"
+          ],
+          "stable_seit": "2026-11-12"
+        },
+        {
+          "modelle": [
+            "U7-Pro",
+            "U7-Pro-Max",
+            "U7-Pro-Wall",
+            "U7-Pro-XG",
+            "U7-Pro-XGS",
+            "U7-Pro-XG-Wall",
+            "U7-Outdoor",
+            "U7-Pro-Outdoor",
+            "E7",
+            "E7-Campus",
+            "E7-Audience"
+          ],
+          "stable_seit": "2026-11-18"
+        }
+      ],
+      "abschnitte": {
+        "Overview": [
+          "This release is promoted to Official/Stable release channel for these models:",
+          "U7-Lite, U7-In-Wall, U7-Mesh, U7-Industrial, UDB-Switch, AirWire, U6-Mesh, U6-Mesh-Pro, U6-Enterprise-IW, U6-IW - November 12, 2026",
+          "U7-Pro, U7-Pro-Max, U7-Pro-Wall, U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience - November 18, 2026",
+          "U6 is joining the same software feature track as U7. Going forward, U6 devices will receive the same applicable software features, improvements, and fixes, while hardware-specific capabilities remain dependent on the AP model.",
+          "New Features:",
+          "U7 access points now support mesh links using 5 GHz and 6 GHz Multi-Link Operation (MLO) STR.",
+          "Added Multicast Suppression for WiFi networks."
+        ],
+        "Improvements": [
+          "Added Mesh Uplink Roaming - mesh access points now seamlessly switch to a better uplink.",
+          "Added support for RADIUS servers specified by FQDN.",
+          "Improved connectivity for legacy WiFi clients.",
+          "Improved background neighbor scanning to reduce client latency spikes.",
+          "Improved firmware update and boot reliability.",
+          "Updated 6 GHz regulatory for Australia, Bangladesh, Bermuda, Iraq, Nigeria, North Macedonia, Paraguay and South Korea.",
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed clients occasionally failing to pass traffic after connecting.",
+          "Fixed IPv6 connectivity to wireless clients being lost over time.",
+          "Fixed IPv6 and broadcast/multicast connectivity issues on WiFi networks with Fast Roaming enabled.",
+          "Fixed Fast Roaming not working after being enabled until the access point restarted.",
+          "Fixed connectivity between clients on Multi-Link Operation WiFi networks after band changes.",
+          "Fixed voice and video traffic losing WiFi priority on WiFi 7 access points.",
+          "Fixed 6 GHz radios getting stuck at reduced transmit power.",
+          "Fixed VLAN leakage to the management network during configuration changes.",
+          "Fixed VLAN leakage on Auto-Link ports when using Network Override.",
+          "Fixed clients on VLAN networks behind UDB-IoT failing to obtain an IP address.",
+          "Fixed wired clients behind UDB-IoT losing connectivity when the same VLAN was assigned through a Private Pre-Shared Key.",
+          "Fixed connectivity issues between wireless clients and devices behind mesh access points.",
+          "Fixed multicast and VLAN traffic not reaching clients behind mesh access points.",
+          "Fixed several mesh uplink reliability and configuration synchronization issues.",
+          "Fixed UDB Switch port LEDs incorrectly indicating a connection on disabled ports.",
+          "Fixed the status LED not indicating wireless uplink loss."
+        ],
+        "Additional information": [
+          "INFO: U7-LR, U6-LR, U6-Lite models support will be added in upcoming releases.",
+          "----",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)",
+          "AP Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is promoted to Official/Stable release channel for these models:<br></p><ul><li><p><em>U7-Lite, U7-In-Wall, U7-Mesh, U7-Industrial, UDB-Switch, AirWire, U6-Mesh, U6-Mesh-Pro, U6-Enterprise-IW, U6-IW - November 12, 2026</em></p></li><li><p><em>U7-Pro, U7-Pro-Max, U7-Pro-Wall, U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience - November 18, 2026</em></p></li></ul><p></p><p>U6 is joining the same software feature track as U7. Going forward, U6 devices will receive the same applicable software features, improvements, and fixes, while hardware-specific capabilities remain dependent on the AP model.</p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/a46ad57e-460a-49cf-89ac-51ffc75ca5c9\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><strong>New Features:</strong></p><p><strong>U7 access points now support mesh links using 5 GHz and 6 GHz Multi-Link Operation (MLO) STR.</strong></p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/97f2f1eb-e8c3-4c8c-b441-b9b149c65221\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><br></p><p><br></p><p><strong>Added Multicast Suppression for WiFi networks.</strong></p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/0ba1d7be-6dc3-4d03-85d9-82f191272597\" style=\"width: 100%;object-fit: cover;height: 205px\" /><h2>Improvements</h2><ul><li><p>Added Mesh Uplink Roaming - mesh access points now seamlessly switch to a better uplink.</p></li><li><p>Added support for RADIUS servers specified by FQDN.</p></li><li><p>Improved connectivity for legacy WiFi clients.</p></li><li><p>Improved background neighbor scanning to reduce client latency spikes.</p></li><li><p>Improved firmware update and boot reliability.</p></li><li><p>Updated 6 GHz regulatory for Australia, Bangladesh, Bermuda, Iraq, Nigeria, North Macedonia, Paraguay and South Korea.</p></li><li><p>Improved stability.</p></li></ul><p></p><h2>Bugfixes</h2><ul><li><p>Fixed clients occasionally failing to pass traffic after connecting.</p></li><li><p>Fixed IPv6 connectivity to wireless clients being lost over time.</p></li><li><p>Fixed IPv6 and broadcast/multicast connectivity issues on WiFi networks with Fast Roaming enabled.</p></li><li><p>Fixed Fast Roaming not working after being enabled until the access point restarted.</p></li><li><p>Fixed connectivity between clients on Multi-Link Operation WiFi networks after band changes.</p></li><li><p>Fixed voice and video traffic losing WiFi priority on WiFi 7 access points.</p></li><li><p>Fixed 6 GHz radios getting stuck at reduced transmit power.</p></li><li><p>Fixed VLAN leakage to the management network during configuration changes.</p></li><li><p>Fixed VLAN leakage on Auto-Link ports when using Network Override.</p></li><li><p>Fixed clients on VLAN networks behind UDB-IoT failing to obtain an IP address.</p></li><li><p>Fixed wired clients behind UDB-IoT losing connectivity when the same VLAN was assigned through a Private Pre-Shared Key.</p></li><li><p>Fixed connectivity issues between wireless clients and devices behind mesh access points.</p></li><li><p>Fixed multicast and VLAN traffic not reaching clients behind mesh access points.</p></li><li><p>Fixed several mesh uplink reliability and configuration synchronization issues.</p></li><li><p>Fixed UDB Switch port LEDs incorrectly indicating a connection on disabled ports.</p></li><li><p>Fixed the status LED not indicating wireless uplink loss.</p></li></ul><p></p><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR, U6-LR, U6-Lite</strong> models support will be added in upcoming releases.</p><p></p><p>----</p><p></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li><p>AP model(s)</p></li><li><p>Previous AP release version</p></li><li><p>UniFi Network application version</p></li><li><p>UniFi Console <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\">Support File</a> (as private attachment)</p></li><li><p>AP Support File (as private attachment)</p></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "35a517b8-0a2d-4c7f-8e60-cdf5936b9f2d",
+      "kategorie": "access-point",
+      "version": "8.8.13",
+      "titel": "UniFi Access Point & Wireless Bridge 8.8.13",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-and-Wireless-Bridge-8-8-13/35a517b8-0a2d-4c7f-8e60-cdf5936b9f2d",
+      "veroeffentlicht": "2026-10-28T12:22:11+00:00",
+      "kanal": "release-candidate",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "U6 is joining the same software feature track as U7. Going forward, U6 devices will receive the same applicable software features, improvements, and fixes, while hardware-specific capabilities remain dependent on the AP model.",
+          "New Features:",
+          "U7 access points now support mesh links using 5 GHz and 6 GHz Multi-Link Operation (MLO) STR.",
+          "Added Multicast Suppression for WiFi networks."
+        ],
+        "Improvements": [
+          "Added Mesh Uplink Roaming - mesh access points now seamlessly switch to a better uplink.",
+          "Added support for RADIUS servers specified by FQDN.",
+          "Improved background neighbor scanning to reduce client latency spikes.",
+          "Improved firmware update and boot reliability.",
+          "Updated 6 GHz regulatory for Australia, Bangladesh, Bermuda, Iraq, Nigeria, North Macedonia, Paraguay and South Korea.",
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed clients occasionally failing to pass traffic after connecting.",
+          "Fixed IPv6 connectivity to wireless clients being lost over time.",
+          "Fixed IPv6 and broadcast/multicast connectivity issues on WiFi networks with Fast Roaming enabled.",
+          "Fixed Fast Roaming not working after being enabled until the access point restarted.",
+          "Fixed connectivity between clients on Multi-Link Operation WiFi networks after band changes.",
+          "Fixed voice and video traffic losing WiFi priority on WiFi 7 access points.",
+          "Fixed 6 GHz radios getting stuck at reduced transmit power.",
+          "Fixed VLAN leakage to the management network during configuration changes.",
+          "Fixed VLAN leakage on Auto-Link ports when using Network Override.",
+          "Fixed clients on VLAN networks behind UDB-IoT failing to obtain an IP address.",
+          "Fixed wired clients behind UDB-IoT losing connectivity when the same VLAN was assigned through a Private Pre-Shared Key.",
+          "Fixed connectivity issues between wireless clients and devices behind mesh access points.",
+          "Fixed multicast and VLAN traffic not reaching clients behind mesh access points.",
+          "Fixed several mesh uplink reliability and configuration synchronization issues.",
+          "Fixed UDB Switch port LEDs incorrectly indicating a connection on disabled ports.",
+          "Fixed the status LED not indicating wireless uplink loss."
+        ],
+        "Additional information": [
+          "INFO: U7-LR, U6-LR, U6-Lite models support will be added in upcoming releases.",
+          "----",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Release Candidate.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)",
+          "AP Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p>U6 is joining the same software feature track as U7. Going forward, U6 devices will receive the same applicable software features, improvements, and fixes, while hardware-specific capabilities remain dependent on the AP model.</p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/a46ad57e-460a-49cf-89ac-51ffc75ca5c9\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><strong>New Features:</strong></p><p><strong>U7 access points now support mesh links using 5 GHz and 6 GHz Multi-Link Operation (MLO) STR.</strong></p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/97f2f1eb-e8c3-4c8c-b441-b9b149c65221\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><br></p><p><br></p><p><strong>Added Multicast Suppression for WiFi networks.</strong></p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/0ba1d7be-6dc3-4d03-85d9-82f191272597\" style=\"width: 100%;object-fit: cover;height: 205px\" /><h2>Improvements</h2><ul><li>Added Mesh Uplink Roaming - mesh access points now seamlessly switch to a better uplink.</li><li>Added support for RADIUS servers specified by FQDN.</li><li>Improved background neighbor scanning to reduce client latency spikes.</li><li>Improved firmware update and boot reliability.</li><li>Updated 6 GHz regulatory for Australia, Bangladesh, Bermuda, Iraq, Nigeria, North Macedonia, Paraguay and South Korea.</li><li>Improved stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed clients occasionally failing to pass traffic after connecting.</li><li>Fixed IPv6 connectivity to wireless clients being lost over time.</li><li>Fixed IPv6 and broadcast/multicast connectivity issues on WiFi networks with Fast Roaming enabled.</li><li>Fixed Fast Roaming not working after being enabled until the access point restarted.</li><li>Fixed connectivity between clients on Multi-Link Operation WiFi networks after band changes.</li><li>Fixed voice and video traffic losing WiFi priority on WiFi 7 access points.</li><li>Fixed 6 GHz radios getting stuck at reduced transmit power.</li><li>Fixed VLAN leakage to the management network during configuration changes.</li><li>Fixed VLAN leakage on Auto-Link ports when using Network Override.</li><li>Fixed clients on VLAN networks behind UDB-IoT failing to obtain an IP address.</li><li>Fixed wired clients behind UDB-IoT losing connectivity when the same VLAN was assigned through a Private Pre-Shared Key.</li><li>Fixed connectivity issues between wireless clients and devices behind mesh access points.</li><li>Fixed multicast and VLAN traffic not reaching clients behind mesh access points.</li><li>Fixed several mesh uplink reliability and configuration synchronization issues.</li><li>Fixed UDB Switch port LEDs incorrectly indicating a connection on disabled ports.</li><li>Fixed the status LED not indicating wireless uplink loss.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR, U6-LR, U6-Lite</strong> models support will be added in upcoming releases.</p><p><br></p><p>----</p><p>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to<strong> Release Candidate</strong>.</p><ul><li><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li><li>AP Support File (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "b094108a-0606-49f3-9c28-cf0a7bc56347",
+      "kategorie": "access-point",
+      "version": "8.8.11",
+      "titel": "UniFi Access Point & Wireless Bridge 8.8.11",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-and-Wireless-Bridge-8-8-11/b094108a-0606-49f3-9c28-cf0a7bc56347",
+      "veroeffentlicht": "2026-10-14T16:29:12+00:00",
+      "kanal": "release-candidate",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "U6 is joining the same software feature track as U7. Going forward, U6 devices will receive the same applicable software features, improvements, and fixes, while hardware-specific capabilities remain dependent on the AP model.",
+          "New Features:",
+          "U7 access points now support mesh links using 5 GHz and 6 GHz Multi-Link Operation (MLO) STR.",
+          "Added Multicast Suppression for WiFi networks."
+        ],
+        "Improvements": [
+          "Added Mesh Uplink Roaming - mesh access points now seamlessly switch to a better uplink.",
+          "Added support for RADIUS servers specified by FQDN.",
+          "Improved background neighbor scanning to reduce client latency spikes.",
+          "Improved firmware update and boot reliability.",
+          "Updated 6 GHz regulatory for Australia, Bangladesh, Bermuda, Iraq, Nigeria, North Macedonia, Paraguay and South Korea.",
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed clients occasionally failing to pass traffic after connecting.",
+          "Fixed IPv6 connectivity to wireless clients being lost over time.",
+          "Fixed IPv6 and broadcast/multicast connectivity issues on WiFi networks with Fast Roaming enabled.",
+          "Fixed Fast Roaming not working after being enabled until the access point restarted.",
+          "Fixed connectivity between clients on Multi-Link Operation WiFi networks after band changes.",
+          "Fixed voice and video traffic losing WiFi priority on WiFi 7 access points.",
+          "Fixed 6 GHz radios getting stuck at reduced transmit power.",
+          "Fixed VLAN leakage to the management network during configuration changes.",
+          "Fixed VLAN leakage on Auto-Link ports when using Network Override.",
+          "Fixed clients on VLAN networks behind UDB-IoT failing to obtain an IP address.",
+          "Fixed wired clients behind UDB-IoT losing connectivity when the same VLAN was assigned through a Private Pre-Shared Key.",
+          "Fixed connectivity issues between wireless clients and devices behind mesh access points.",
+          "Fixed multicast and VLAN traffic not reaching clients behind mesh access points.",
+          "Fixed several mesh uplink reliability and configuration synchronization issues.",
+          "Fixed UDB Switch port LEDs incorrectly indicating a connection on disabled ports.",
+          "Fixed the status LED not indicating wireless uplink loss."
+        ],
+        "Additional information": [
+          "INFO: U7-LR, U6-LR, U6-Lite models support will be added in upcoming releases.",
+          "----",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Release Candidate.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)",
+          "AP Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p>U6 is joining the same software feature track as U7. Going forward, U6 devices will receive the same applicable software features, improvements, and fixes, while hardware-specific capabilities remain dependent on the AP model.</p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/a46ad57e-460a-49cf-89ac-51ffc75ca5c9\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><strong>New Features:</strong></p><p><strong>U7 access points now support mesh links using 5 GHz and 6 GHz Multi-Link Operation (MLO) STR.</strong></p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/97f2f1eb-e8c3-4c8c-b441-b9b149c65221\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><br></p><p><br></p><p><strong>Added Multicast Suppression for WiFi networks.</strong></p><img src=\"https://img.community.ui.com/34f36c9f-7fa0-43da-a752-70ff89a39e8f/releases/b094108a-0606-49f3-9c28-cf0a7bc56347/0ba1d7be-6dc3-4d03-85d9-82f191272597\" style=\"width: 100%;object-fit: cover;height: 205px\" /><h2>Improvements</h2><ul><li>Added Mesh Uplink Roaming - mesh access points now seamlessly switch to a better uplink.</li><li>Added support for RADIUS servers specified by FQDN.</li><li>Improved background neighbor scanning to reduce client latency spikes.</li><li>Improved firmware update and boot reliability.</li><li>Updated 6 GHz regulatory for Australia, Bangladesh, Bermuda, Iraq, Nigeria, North Macedonia, Paraguay and South Korea.</li><li>Improved stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed clients occasionally failing to pass traffic after connecting.</li><li>Fixed IPv6 connectivity to wireless clients being lost over time.</li><li>Fixed IPv6 and broadcast/multicast connectivity issues on WiFi networks with Fast Roaming enabled.</li><li>Fixed Fast Roaming not working after being enabled until the access point restarted.</li><li>Fixed connectivity between clients on Multi-Link Operation WiFi networks after band changes.</li><li>Fixed voice and video traffic losing WiFi priority on WiFi 7 access points.</li><li>Fixed 6 GHz radios getting stuck at reduced transmit power.</li><li>Fixed VLAN leakage to the management network during configuration changes.</li><li>Fixed VLAN leakage on Auto-Link ports when using Network Override.</li><li>Fixed clients on VLAN networks behind UDB-IoT failing to obtain an IP address.</li><li>Fixed wired clients behind UDB-IoT losing connectivity when the same VLAN was assigned through a Private Pre-Shared Key.</li><li>Fixed connectivity issues between wireless clients and devices behind mesh access points.</li><li>Fixed multicast and VLAN traffic not reaching clients behind mesh access points.</li><li>Fixed several mesh uplink reliability and configuration synchronization issues.</li><li>Fixed UDB Switch port LEDs incorrectly indicating a connection on disabled ports.</li><li>Fixed the status LED not indicating wireless uplink loss.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR, U6-LR, U6-Lite</strong> models support will be added in upcoming releases.</p><p><br></p><p>----</p><p>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to<strong> Release Candidate</strong>.</p><ul><li><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li><li>AP Support File (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "2dd402b1-3510-41fb-98fe-28a7ffe71ff8",
+      "kategorie": "access-point",
+      "version": "8.8.12",
+      "titel": "UniFi U7 Industrial 8.8.12",
+      "link": "https://community.ui.com/releases/UniFi-U7-Industrial-8-8-12/2dd402b1-3510-41fb-98fe-28a7ffe71ff8",
+      "veroeffentlicht": "2026-10-12T05:04:59+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is initial release for U7 Industrial."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)",
+          "AP Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is initial release for U7 Industrial.</p><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li><li>AP Support File (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "43d9ee85-eb78-4c21-92f8-5f3d7bcb6677",
+      "kategorie": "access-point",
+      "version": "8.0.77",
+      "titel": "UniFi Access Point for U7-LR 8.0.77",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-for-U7-LR-8-0-77/43d9ee85-eb78-4c21-92f8-5f3d7bcb6677",
+      "veroeffentlicht": "2026-10-02T13:59:21+00:00",
+      "kanal": "release-candidate",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Added Multi-Link Operation support for Virtual Network Override.",
+          "Added support for RADIUS servers specified by FQDN.",
+          "Improved access point stability."
+        ],
+        "Bugfixes": [
+          "Fixed missing interference data in RF scan results.",
+          "Fixed incorrect EHT rate reporting in the Network application.",
+          "Fixed multicast traffic statistics showing zero in the Network application.",
+          "Fixed wireless uplink failing to reconnect after receiving a deauthentication.",
+          "Fixed MLO clients losing internet connectivity when using Dynamic VLANs.",
+          "Fixed 160 MHz channel support in India.",
+          "Fixed WiFi networks failing to broadcast after applying a WiFi network to all access points.",
+          "Fixed clients disconnecting when changing their IP address using Network Override.",
+          "Fixed WPA3-Enterprise Transition Mode preventing WPA2-Enterprise clients from connecting.",
+          "Fixed several Proxy ARP connectivity issues, including with PPSK networks.",
+          "Fixed transmit power settings not being honored by TPC.",
+          "Fixed 2.4 GHz DTIM settings not being applied correctly.",
+          "Fixed channel width and spatial stream settings not synchronizing with the uplink access point."
+        ],
+        "Additional information": [
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Release Candidate.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)",
+          "AP Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Added Multi-Link Operation support for Virtual Network Override.</li><li>Added support for RADIUS servers specified by FQDN.</li><li>Improved access point stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed missing interference data in RF scan results.</li><li>Fixed incorrect EHT rate reporting in the Network application.</li><li>Fixed multicast traffic statistics showing zero in the Network application.</li><li>Fixed wireless uplink failing to reconnect after receiving a deauthentication.</li><li>Fixed MLO clients losing internet connectivity when using Dynamic VLANs.</li><li>Fixed 160 MHz channel support in India.</li><li>Fixed WiFi networks failing to broadcast after applying a WiFi network to all access points.</li><li>Fixed clients disconnecting when changing their IP address using Network Override.</li><li>Fixed WPA3-Enterprise Transition Mode preventing WPA2-Enterprise clients from connecting.</li><li>Fixed several Proxy ARP connectivity issues, including with PPSK networks.</li><li>Fixed transmit power settings not being honored by TPC.</li><li>Fixed 2.4 GHz DTIM settings not being applied correctly.</li><li>Fixed channel width and spatial stream settings not synchronizing with the uplink access point.</li></ul><h2>Additional information</h2><p>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to<strong>&nbsp;Release Candidate.</strong></p><ul><li><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li><li>AP Support File (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "c60a703f-fbe1-43bc-a127-702004c37ad1",
+      "kategorie": "access-point",
+      "version": "8.0.76",
+      "titel": "UniFi Access Point for U7-LR 8.0.76",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-for-U7-LR-8-0-76/c60a703f-fbe1-43bc-a127-702004c37ad1",
+      "veroeffentlicht": "2026-08-31T14:35:58+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed Client Device Isolation not being enforced on some wireless networks."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Improved stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed Client Device Isolation not being enforced on some wireless networks.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "97000981-b2ee-4a8d-a783-ed251b8c04c1",
+      "kategorie": "access-point",
+      "version": "6.7.57",
+      "titel": "UniFi Access Point for U6-LR, U6-Lite & more 6.7.57",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-for-U6-LR-U6-Lite-and-more-6-7-57/97000981-b2ee-4a8d-a783-ed251b8c04c1",
+      "veroeffentlicht": "2026-08-25T14:57:18+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This release is only for these models:",
+          "U6-LR/U6-Lite",
+          "UAP-nanoHD/FlexHD/BeaconHD/IW-HD"
+        ],
+        "Improvements": [
+          "Added Test & Confirm mode to automatically revert configuration changes if the device becomes unreachable or the test period expires without confirmation."
+        ],
+        "Bugfixes": [
+          "Fixed clients failing to receive an IP address after changing an Enterprise WiFi network to Open.",
+          "Fixed certain 2.4 GHz IoT devices repeatedly reconnecting while appearing connected.",
+          "Fixed an issue where U6-LR could report unusually high channel utilization."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is only for these models:</p><ul><li>U6-LR/U6-Lite</li><li>UAP-nanoHD/FlexHD/BeaconHD/IW-HD</li></ul><h2>Improvements</h2><ul><li>Added Test &amp; Confirm mode to automatically revert configuration changes if the device becomes unreachable or the test period expires without confirmation.</li></ul><h2>Bugfixes</h2><ul><li>Fixed clients failing to receive an IP address after changing an Enterprise WiFi network to Open.</li><li>Fixed certain 2.4 GHz IoT devices repeatedly reconnecting while appearing connected.</li><li>Fixed an issue where U6-LR could report unusually high channel utilization.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "42b6f9d9-3dba-4cda-bde1-b8157edc1299",
+      "kategorie": "access-point",
+      "version": "8.7.11",
+      "titel": "UniFi Access Point (all U7 and E7 models) 8.7.11",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-7-11/42b6f9d9-3dba-4cda-bde1-b8157edc1299",
+      "veroeffentlicht": "2026-07-20T18:08:30+00:00",
+      "kanal": "stable",
+      "stable_freigaben": [
+        {
+          "modelle": [
+            "U7-Pro"
+          ],
+          "stable_seit": "2026-07-27"
+        },
+        {
+          "modelle": [
+            "U7-Lite",
+            "U7-In-Wall",
+            "U7-Mesh"
+          ],
+          "stable_seit": "2026-08-26"
+        },
+        {
+          "modelle": [
+            "U7-Pro-Max",
+            "U7-Pro-Wall",
+            "U7-Pro-XG",
+            "U7-Pro-XGS",
+            "U7-Pro-XG-Wall",
+            "U7-Outdoor",
+            "U7-Pro-Outdoor",
+            "E7",
+            "E7-Campus",
+            "E7-Audience"
+          ],
+          "stable_seit": "2026-08-31"
+        },
+        {
+          "modelle": [
+            "UDB-Switch",
+            "AirWire"
+          ],
+          "stable_seit": "2026-08-31"
+        }
+      ],
+      "abschnitte": {
+        "Overview": [
+          "This release is promoted to Official/Stable release channel for these models:",
+          "U7-Pro - July 27, 2026",
+          "U7-Lite, U7-In-Wall, U7-Mesh - August 26, 2026",
+          "U7-Pro-Max, U7-Pro-Wall, U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience - August 31, 2026",
+          "UDB-Switch, AirWire - August 31, 2026",
+          "Roaming Improvements",
+          "Smoother, more reliable WiFi roaming with improved transitions between access points. Access points can now discover and advertise neighboring APs that aren’t directly within wireless range, improving roaming performance in sparsely populated deployments, alongside other roaming reliability enhancements.",
+          "Force WiFi 4 Mode",
+          "Wireless networks can now be configured to operate in WiFi 4 mode, improving compatibility with legacy WiFi clients that may experience connectivity or interoperability issues with newer standards.",
+          "For the best balance of performance and legacy device support, we recommend using a dedicated WiFi broadcast for legacy clients.",
+          "Extended VLAN support on U7 In-Wall",
+          "U7 In-Wall Ethernet ports now support VLANs across the full 802.1Q range, enabling deployments that require a significantly larger number of isolated networks. This improves flexibility for large-scale and high-density environments with advanced network segmentation requirements."
+        ],
+        "Improvements": [
+          "Improved client roaming behavior.",
+          "Improved compatibility with legacy WiFi devices when IoT mode is enabled.",
+          "Extended the maximum supported VLAN count to the full 802.1Q range for U7 In-Wall.",
+          "Improved handling of configuration changes to reduce wireless client disruption.",
+          "Improved Ethernet link speed negotiation with switch ports configured at a fixed speed.",
+          "Improved captive portal security with stronger encryption and automatic certificate renewal.",
+          "Added Restricted Target Wake Time support on WiFi 7 access points.",
+          "Added RADIUS Accounting Stop packets on reboot and firmware upgrade.",
+          "Improved boot speed on access points with many WiFi networks configured.",
+          "Improved Locate mode LED brightness."
+        ],
+        "Bugfixes": [
+          "Fixed clients on VLAN SSIDs occasionally receiving traffic from the Default network.",
+          "Fixed connectivity issues affecting legacy and IoT devices on 5 GHz WiFi 7 access points.",
+          "Fixed connectivity issues affecting some WiFi 7 clients when Multi-Link Operation was enabled.",
+          "Fixed severe 5 GHz WiFi performance degradation after automatic off-channel scans.",
+          "Fixed Multicast and Broadcast filtering blocking traffic for hosts added to the exceptions list.",
+          "Fixed Minimum RSSI preventing mesh access points from establishing wireless uplinks.",
+          "Fixed slow mesh recovery and repeated restarts when falling back from a wireless to a wired uplink.",
+          "Fixed several mesh access point reliability issues.",
+          "Fixed 6 GHz radios ignoring configured reduced transmit power after AFC responses.",
+          "Fixed 6 GHz transmit power dropping unexpectedly.",
+          "Fixed WiFi speed limit rules occasionally not being applied.",
+          "Fixed several Auto Channel Selection issues.",
+          "Fixed NTP time synchronization getting stuck on an unreachable first server.",
+          "Fixed legitimate same-network access points being flagged as rogue APs.",
+          "Fixed per-client traffic statistics and usage graphs showing zero on WiFi 7 access points.",
+          "Fixed ghost clients appearing in the Network application after failed authentication.",
+          "Fixed duplicate wired clients appearing for devices using wireless mesh uplinks with multiple VLANs.",
+          "Fixed neighboring access point information not updating after adding a new WiFi network.",
+          "Fixed SNMP reporting issues on WiFi 7 access points.",
+          "Fixed the access point LED not reflecting the correct state after configuration changes.",
+          "Fixed disabling E7 LEDs also suppressing boot and firmware upgrade indicators."
+        ],
+        "Additional information": [
+          "INFO: U7-LR model support will be added in upcoming releases.",
+          "----",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is promoted to Official/Stable release channel for these models:</p><p><br></p><ul><li><em>U7-Pro - July 27, 2026</em></li><li><em>U7-Lite, U7-In-Wall, U7-Mesh - August 26, 2026</em></li><li><em>U7-Pro-Max, U7-Pro-Wall, U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience</em> - August<em> 31, 2026</em></li><li><em>UDB-Switch, AirWire - </em>August<em> 31, 2026</em></li></ul><p><br></p><p><br></p><p><strong>Roaming Improvements</strong></p><p><br></p><p>Smoother, more reliable WiFi roaming with improved transitions between access points. Access points can now discover and advertise neighboring APs that aren’t directly within wireless range, improving roaming performance in sparsely populated deployments, alongside other roaming reliability enhancements.</p><img src=\"https://img.community.ui.com/b0c88cc2-a683-43b4-8c87-b55c6108b110/releases/42b6f9d9-3dba-4cda-bde1-b8157edc1299/152965e3-5e3a-4d20-b642-f7f5356925bc\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><strong>Force WiFi 4 Mode</strong></p><p><br></p><p>Wireless networks can now be configured to operate in WiFi 4 mode, improving compatibility with legacy WiFi clients that may experience connectivity or interoperability issues with newer standards.</p><p><br></p><p><em>For the best balance of performance and legacy device support, we recommend using a dedicated WiFi broadcast for legacy clients.</em></p><img src=\"https://img.community.ui.com/b0c88cc2-a683-43b4-8c87-b55c6108b110/releases/42b6f9d9-3dba-4cda-bde1-b8157edc1299/e1f207a9-d8ab-4f1c-a79d-00cd2ba13e42\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><strong>Extended VLAN support on U7 In-Wall&nbsp;</strong></p><p><br></p><p>U7 In-Wall Ethernet ports now support VLANs across the full 802.1Q range, enabling deployments that require a significantly larger number of isolated networks. This improves flexibility for large-scale and high-density environments with advanced network segmentation requirements.</p><img src=\"https://img.community.ui.com/b0c88cc2-a683-43b4-8c87-b55c6108b110/releases/42b6f9d9-3dba-4cda-bde1-b8157edc1299/18e08701-379f-45dd-a570-136714701a25\" style=\"width: 100%;object-fit: cover;height: 205px\" /><h2>Improvements</h2><ul><li>Improved client roaming behavior.</li><li>Improved compatibility with legacy WiFi devices when IoT mode is enabled.</li><li>Extended the maximum supported VLAN count to the full 802.1Q range for U7 In-Wall.</li><li>Improved handling of configuration changes to reduce wireless client disruption.</li><li>Improved Ethernet link speed negotiation with switch ports configured at a fixed speed.</li><li>Improved captive portal security with stronger encryption and automatic certificate renewal.</li><li>Added Restricted Target Wake Time support on WiFi 7 access points.</li><li>Added RADIUS Accounting Stop packets on reboot and firmware upgrade.</li><li>Improved boot speed on access points with many WiFi networks configured.</li><li>Improved Locate mode LED brightness.</li></ul><h2>Bugfixes</h2><ul><li>Fixed clients on VLAN SSIDs occasionally receiving traffic from the Default network.</li><li>Fixed connectivity issues affecting legacy and IoT devices on 5 GHz WiFi 7 access points.</li><li>Fixed connectivity issues affecting some WiFi 7 clients when Multi-Link Operation was enabled.</li><li>Fixed severe 5 GHz WiFi performance degradation after automatic off-channel scans.</li><li>Fixed Multicast and Broadcast filtering blocking traffic for hosts added to the exceptions list.</li><li>Fixed Minimum RSSI preventing mesh access points from establishing wireless uplinks.</li><li>Fixed slow mesh recovery and repeated restarts when falling back from a wireless to a wired uplink.</li><li>Fixed several mesh access point reliability issues.</li><li>Fixed 6 GHz radios ignoring configured reduced transmit power after AFC responses.</li><li>Fixed 6 GHz transmit power dropping unexpectedly.</li><li>Fixed WiFi speed limit rules occasionally not being applied.</li><li>Fixed several Auto Channel Selection issues.</li><li>Fixed NTP time synchronization getting stuck on an unreachable first server.</li><li>Fixed legitimate same-network access points being flagged as rogue APs.</li><li>Fixed per-client traffic statistics and usage graphs showing zero on WiFi 7 access points.</li><li>Fixed ghost clients appearing in the Network application after failed authentication.</li><li>Fixed duplicate wired clients appearing for devices using wireless mesh uplinks with multiple VLANs.</li><li>Fixed neighboring access point information not updating after adding a new WiFi network.</li><li>Fixed SNMP reporting issues on WiFi 7 access points.</li><li>Fixed the access point LED not reflecting the correct state after configuration changes.</li><li>Fixed disabling E7 LEDs also suppressing boot and firmware upgrade indicators.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR</strong>&nbsp;model support will be added in upcoming releases.</p><p>----</p><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "870dc144-8a98-4f7c-9854-eac5e4b3157e",
+      "kategorie": "access-point",
+      "version": "8.0.74",
+      "titel": "UniFi Access Point for U7-LR 8.0.74",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-for-U7-LR-8-0-74/870dc144-8a98-4f7c-9854-eac5e4b3157e",
+      "veroeffentlicht": "2026-07-07T18:08:55+00:00",
+      "kanal": "release-candidate",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Improved client connectivity and roam event reporting.",
+          "Improved Auto-Link compatibility.",
+          "Improved connectivity for legacy IoT clients.",
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Auto Channel Selection on 2.4 GHz could select restricted channels.",
+          "Fixed connectivity issues where UDB-IoT clients could not access the internet.",
+          "Fixed an issue where UDB-IoT clients could not reach DVLAN clients on UAP devices.",
+          "Fixed an issue where bandwidth was not synchronized on meshed APs.",
+          "Fixed an issue causing clients to get stuck in a roaming loop between 2.4 GHz and 5 GHz.",
+          "Fixed an issue where clients could not connect using OWE.",
+          "Fixed an issue where SSIDs failed to broadcast when MLO and Fast Roaming were enabled.",
+          "Fixed an issue where OWE association could cause the AP to reboot.",
+          "Fixed an issue where Lock to AP failed to keep clients locked after roaming.",
+          "Fixed an issue where the 2.4 GHz radio continued broadcasting after being disabled.",
+          "Fixed an issue where Fast Roaming could cause SSIDs to fail to broadcast.",
+          "Fixed an issue where MLO clients could create ghost clients in the clients list."
+        ],
+        "Additional information": [
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Release Candidate.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Improved client connectivity and roam event reporting.</li><li>Improved Auto-Link compatibility.</li><li>Improved connectivity for legacy IoT clients.</li><li>Improved stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where Auto Channel Selection on 2.4 GHz could select restricted channels.</li><li>Fixed connectivity issues where UDB-IoT clients could not access the internet.</li><li>Fixed an issue where UDB-IoT clients could not reach DVLAN clients on UAP devices.</li><li>Fixed an issue where bandwidth was not synchronized on meshed APs.</li><li>Fixed an issue causing clients to get stuck in a roaming loop between 2.4 GHz and 5 GHz.</li><li>Fixed an issue where clients could not connect using OWE.</li><li>Fixed an issue where SSIDs failed to broadcast when MLO and Fast Roaming were enabled.</li><li>Fixed an issue where OWE association could cause the AP to reboot.</li><li>Fixed an issue where Lock to AP failed to keep clients locked after roaming.</li><li>Fixed an issue where the 2.4 GHz radio continued broadcasting after being disabled.</li><li>Fixed an issue where Fast Roaming could cause SSIDs to fail to broadcast.</li><li>Fixed an issue where MLO clients could create ghost clients in the clients list.</li></ul><h2>Additional information</h2><p>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to<strong>&nbsp;Release Candidate</strong>.</p><ul><li><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "758132b8-27dc-4a5f-ac6c-5b87aa80a777",
+      "kategorie": "access-point",
+      "version": "6.7.54",
+      "titel": "UniFi Access Point for U6-LR, U6-Lite, U6+ & more 6.7.54",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-for-U6-LR-U6-Lite-U6-and-more-6-7-54/758132b8-27dc-4a5f-ac6c-5b87aa80a777",
+      "veroeffentlicht": "2026-06-15T18:08:41+00:00",
+      "kanal": "release-candidate",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This release is only for these models:",
+          "U6-LR/U6-Lite/U6+",
+          "UAP-nanoHD/FlexHD/BeaconHD/IW-HD"
+        ],
+        "Improvements": [
+          "Improved client connectivity and roam event reporting.",
+          "Improved Auto-Link compatibility.",
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Auto Channel Selection on 2.4 GHz could select restricted channels.",
+          "Fixed connectivity issues where UDB-IoT clients could not access the internet.",
+          "Fixed an issue where UDB-IoT clients could not reach certain clients connected to UniFi APs.",
+          "Fixed an issue where channel width was not synchronized on meshed APs.",
+          "Fixed an issue causing clients to get stuck in a roaming loop between 2.4 GHz and 5 GHz.",
+          "Fixed an issue where clients could not connect using OWE.",
+          "Fixed an issue where clients were repeatedly rejected by the AP.",
+          "Fixed an issue where AP configuration would not be saved properly.",
+          "Fixed an issue where the AP would fail to broadcast beacons."
+        ],
+        "Additional information": [
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Release Candidate.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "----",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is only for these models:</p><ul><li>U6-LR/U6-Lite/U6+</li><li>UAP-nanoHD/FlexHD/BeaconHD/IW-HD</li></ul><h2>Improvements</h2><ul><li>Improved client connectivity and roam event reporting.</li><li>Improved Auto-Link compatibility.</li><li>Improved stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where Auto Channel Selection on 2.4 GHz could select restricted channels.</li><li>Fixed connectivity issues where UDB-IoT clients could not access the internet.</li><li>Fixed an issue where UDB-IoT clients could not reach certain clients connected to UniFi APs.</li><li>Fixed an issue where channel width was not synchronized on meshed APs.</li><li>Fixed an issue causing clients to get stuck in a roaming loop between 2.4 GHz and 5 GHz.</li><li>Fixed an issue where clients could not connect using OWE.</li><li>Fixed an issue where clients were repeatedly rejected by the AP.</li><li>Fixed an issue where AP configuration would not be saved properly.</li><li>Fixed an issue where the AP would fail to broadcast beacons.</li></ul><h2>Additional information</h2><p>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to<strong>&nbsp;Release Candidate</strong>.</p><ul><li><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p>----</p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "0d476b79-b684-4370-96af-ccb21ce35cbd",
+      "kategorie": "access-point",
+      "version": "8.6.11",
+      "titel": "UniFi Access Point (all U7 and E7 models) 8.6.11",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-6-11/0d476b79-b684-4370-96af-ccb21ce35cbd",
+      "veroeffentlicht": "2026-05-26T20:20:25+00:00",
+      "kanal": "stable",
+      "stable_freigaben": [
+        {
+          "modelle": [
+            "U7-Pro-Max",
+            "U7-Pro-Wall",
+            "U7-In-Wall",
+            "U7-Lite",
+            "U7-Mesh"
+          ],
+          "stable_seit": "2026-05-29"
+        },
+        {
+          "modelle": [
+            "U7-Pro"
+          ],
+          "stable_seit": "2026-06-04"
+        },
+        {
+          "modelle": [
+            "U7-Pro-XG",
+            "U7-Pro-XGS",
+            "U7-Pro-XG-Wall",
+            "U7-Outdoor",
+            "U7-Pro-Outdoor",
+            "E7",
+            "E7-Campus",
+            "E7-Audience"
+          ],
+          "stable_seit": "2026-06-10"
+        }
+      ],
+      "abschnitte": {
+        "Overview": [
+          "This release is promoted to Official/Stable release channel for these models:",
+          "U7-Pro-Max, U7-Pro-Wall, U7-In-Wall, U7-Lite, U7-Mesh - May 29, 2026",
+          "U7-Pro - June 4, 2026",
+          "U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience - June 10, 2026"
+        ],
+        "Bugfixes": [
+          "Fixed WiFi dropping when Wireless Meshing is disabled and the gateway is unreachable."
+        ],
+        "Additional information": [
+          "INFO: U7-LR model support will be added in upcoming releases.",
+          "----",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is promoted to Official/Stable release channel for these models:</p><p><br></p><ul><li><em>U7-Pro-Max, U7-Pro-Wall, U7-In-Wall, U7-Lite, U7-Mesh - May 29, 2026</em></li><li><em>U7-Pro - June 4, 2026</em></li><li><em>U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience</em> - June<em> 10, 2026</em></li></ul><h2>Bugfixes</h2><ul><li>Fixed WiFi dropping when Wireless Meshing is disabled and the gateway is unreachable.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR</strong>&nbsp;model support will be added in upcoming releases.</p><p>----</p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "6cfd2afd-d990-4e77-8251-f7f31bae1bd1",
+      "kategorie": "access-point",
+      "version": "8.6.10",
+      "titel": "UniFi Access Point (all U7 and E7 models) 8.6.10",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-6-10/6cfd2afd-d990-4e77-8251-f7f31bae1bd1",
+      "veroeffentlicht": "2026-05-15T16:49:08+00:00",
+      "kanal": "stable",
+      "stable_freigaben": [
+        {
+          "modelle": [
+            "U7-Pro-XG",
+            "U7-Pro-XGS",
+            "U7-Pro-XG-Wall",
+            "U7-Outdoor",
+            "U7-Pro-Outdoor",
+            "E7",
+            "E7-Campus",
+            "E7-Audience"
+          ],
+          "stable_seit": "2026-05-18"
+        }
+      ],
+      "abschnitte": {
+        "Overview": [
+          "This release is promoted to Official/Stable release channel for these models:",
+          "U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience - May 18, 2026"
+        ],
+        "Improvements": [
+          "Added DNS Assistance.",
+          "Improved delivery of broadcast DHCP offers to wireless clients.",
+          "Improved client connectivity.",
+          "Improved stability of mesh links.",
+          "Improved AP stability."
+        ],
+        "Bugfixes": [
+          "Fixed DHCP failures for default network EAP/PPSK clients.",
+          "Fixed an issue where mDNS/multicast service discovery could break after configuration changes or AP reboot.",
+          "Fixed multicast streams sometimes not reaching wired clients on non-default VLANs.",
+          "Fixed IPv6 connectivity issues on PPSK SSIDs after configuration changes or with multicast filtering enabled.",
+          "Fixed hidden SSIDs appearing in Wi-Fi scan results.",
+          "Fixed guest portal showing a blank page for clients.",
+          "Fixed 10 Gbps ports not passing traffic after reboot or link events."
+        ],
+        "Additional information": [
+          "INFO: U7-LR model support will be added in upcoming releases.",
+          "----",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is promoted to Official/Stable release channel for these models:</p><ul><li><em>U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience</em>&nbsp;-&nbsp;<em>May 18, 2026</em></li></ul><h2>Improvements</h2><ul><li>Added DNS Assistance.</li><li>Improved delivery of broadcast DHCP offers to wireless clients.</li><li>Improved client connectivity.</li><li>Improved stability of mesh links.</li><li>Improved AP stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed DHCP failures for default network EAP/PPSK clients.</li><li>Fixed an issue where mDNS/multicast service discovery could break after configuration changes or AP reboot.</li><li>Fixed multicast streams sometimes not reaching wired clients on non-default VLANs.</li><li>Fixed IPv6 connectivity issues on PPSK SSIDs after configuration changes or with multicast filtering enabled.</li><li>Fixed hidden SSIDs appearing in Wi-Fi scan results.</li><li>Fixed guest portal showing a blank page for clients.</li><li>Fixed 10 Gbps ports not passing traffic after reboot or link events.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR</strong>&nbsp;model support will be added in upcoming releases.</p><p>----</p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "dad09daa-1d06-40fa-b949-a45c52587bb1",
+      "kategorie": "access-point",
+      "version": "8.6.9",
+      "titel": "UniFi Access Point (all U7 and E7 models) 8.6.9",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-6-9/dad09daa-1d06-40fa-b949-a45c52587bb1",
+      "veroeffentlicht": "2026-05-07T17:02:52+00:00",
+      "kanal": "release-candidate",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Added DNS Assistance.",
+          "Improved delivery of broadcast DHCP offers to wireless clients.",
+          "Improved client connectivity.",
+          "Improved AP stability."
+        ],
+        "Bugfixes": [
+          "Fixed DHCP failures for default network EAP/PPSK clients.",
+          "Fixed an issue where mDNS/multicast service discovery could break after configuration changes or AP reboot.",
+          "Fixed multicast streams sometimes not reaching wired clients on non-default VLANs.",
+          "Fixed IPv6 connectivity issues on PPSK SSIDs after configuration changes or with multicast filtering enabled.",
+          "Fixed hidden SSIDs appearing in Wi-Fi scan results.",
+          "Fixed guest portal showing a blank page for clients.",
+          "Fixed 10 Gbps ports not passing traffic after reboot or link events."
+        ],
+        "Additional information": [
+          "INFO: U7-LR model support will be added in upcoming releases.",
+          "----",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Release Candidate.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Added DNS Assistance.</li><li>Improved delivery of broadcast DHCP offers to wireless clients.</li><li>Improved client connectivity.</li><li>Improved AP stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed DHCP failures for default network EAP/PPSK clients.</li><li>Fixed an issue where mDNS/multicast service discovery could break after configuration changes or AP reboot.</li><li>Fixed multicast streams sometimes not reaching wired clients on non-default VLANs.</li><li>Fixed IPv6 connectivity issues on PPSK SSIDs after configuration changes or with multicast filtering enabled.</li><li>Fixed hidden SSIDs appearing in Wi-Fi scan results.</li><li>Fixed guest portal showing a blank page for clients.</li><li>Fixed 10 Gbps ports not passing traffic after reboot or link events.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR</strong>&nbsp;model support will be added in upcoming releases.</p><p>----</p><p>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to<strong> Release Candidate</strong>.</p><ul><li><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "61e7e825-1bac-4e05-b271-09623a666f95",
+      "kategorie": "access-point",
+      "version": "8.5.21",
+      "titel": "UniFi AirWire and UDB Switch 8.5.21",
+      "link": "https://community.ui.com/releases/UniFi-AirWire-and-UDB-Switch-8-5-21/61e7e825-1bac-4e05-b271-09623a666f95",
+      "veroeffentlicht": "2026-04-10T08:17:08+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "We’re introducing initial Multi-Link Operation (MLO) mesh support for AirWire and UDB-Switch deployments.",
+          "MLO is a WiFi 7 feature that allows devices to use multiple bands simultaneously, improving latency, stability, and overall link performance when supported by both APs and clients.",
+          "To configure Mesh MLO STR UniFi Network 10.2+ required",
+          "A 6 GHz-capable WiFi 7 AP (U7 or E7) is required for MLO meshing (firmware 8.5+)",
+          "Mesh MLO operates on 5 GHz + 6 GHz bands",
+          "UDR7 / UX7 support will be added in a future update"
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>We’re introducing initial <strong>Multi-Link Operation (MLO) mesh support</strong> for AirWire and UDB-Switch deployments.</p><p><br></p><p>MLO is a WiFi 7 feature that allows devices to use multiple bands simultaneously, improving <strong>latency, stability, and overall link performance</strong> when supported by both APs and clients.</p><p><br></p><ul><li>To configure Mesh MLO STR UniFi Network&nbsp;<strong>10.2+&nbsp;</strong>required</li><li>A 6 GHz-capable WiFi 7 AP (U7 or E7) is required for MLO meshing (firmware <strong>8.5+</strong>)</li><li>Mesh MLO operates on 5 GHz + 6 GHz bands</li><li>UDR7 / UX7 support will be added in a future update</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "ba1bacba-86ec-424e-96b5-90701c9eaf95",
+      "kategorie": "access-point",
+      "version": "8.5.21",
+      "titel": "UniFi Access Point (all U7 and E7 models) 8.5.21",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-5-21/ba1bacba-86ec-424e-96b5-90701c9eaf95",
+      "veroeffentlicht": "2026-04-08T12:09:57+00:00",
+      "kanal": "stable",
+      "stable_freigaben": [
+        {
+          "modelle": [
+            "U7-Pro-XG",
+            "U7-Pro-XGS",
+            "U7-Pro-XG-Wall",
+            "U7-Pro-Wall",
+            "U7-Outdoor",
+            "U7-Pro-Outdoor",
+            "E7",
+            "E7-Campus",
+            "E7-Audience"
+          ],
+          "stable_seit": "2026-04-13"
+        },
+        {
+          "modelle": [
+            "U7-Pro-Max",
+            "U7-In-Wall",
+            "U7-Lite",
+            "U7-Mesh"
+          ],
+          "stable_seit": "2026-04-17"
+        },
+        {
+          "modelle": [
+            "U7-Pro"
+          ],
+          "stable_seit": "2026-04-21"
+        }
+      ],
+      "abschnitte": {
+        "Overview": [
+          "This release introduces Multi-Link Operation (MLO) Mesh support, specifically optimized for AirWire and UDB-Switch deployments. By leveraging MLO STR (Simultaneous Transmit and Receive), the mesh backhaul can now utilize multiple wireless bands simultaneously, improving throughput, latency, and link stability.",
+          "To configure Mesh MLO STR UniFi Network 10.2+ required",
+          "Mesh MLO operates on 5 GHz + 6 GHz bands",
+          "Child devices with mesh MLO support: AirWire and UDB-Switch",
+          "---",
+          "This release is promoted to Official/Stable release channel for these models:",
+          "U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Pro-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience - April 13, 2026",
+          "U7-Pro-Max, U7-In-Wall, U7-Lite, U7-Mesh - April 17, 2026",
+          "U7-Pro - April 21, 2026"
+        ],
+        "Improvements": [
+          "Improved client connectivity and roam events reporting.",
+          "Improved automatic channel selection for 160 MHz bandwidth.",
+          "Improved boot time.",
+          "Stability improvements."
+        ],
+        "Bugfixes": [
+          "Fixed authentication failures for Samsung A53 devices.",
+          "Fixed SSIDs not broadcasting due to boot or configuration race conditions.",
+          "Fixed IGMP/MLD querier being enabled.",
+          "Fixed LED brightness control on U7 series devices.",
+          "Fixed MLO peer inactivity and bulk roaming stability issues.",
+          "Fixed multicast/broadcast blocker incorrectly dropping ARP requests.",
+          "Fixed RADIUS CoA re-authentication timeouts.",
+          "Fixed ARP proxy stopping after more than 30 IPv6-capable clients connected."
+        ],
+        "Additional information": [
+          "INFO: U7-LR model support will be added in upcoming releases.",
+          "----",
+          "Important:",
+          "If you encounter any issues, please share setup details and a support file. When possible, generate it before downgrading or power cycling, with Debug logs enabled. A support file from a working state is also helpful for comparison."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release introduces <strong>Multi-Link Operation (MLO) Mesh support</strong>, specifically optimized for <strong>AirWire</strong> and <strong>UDB-Switch</strong> deployments. By leveraging <strong>MLO STR (Simultaneous Transmit and Receive)</strong>, the mesh backhaul can now utilize multiple wireless bands simultaneously, improving throughput, latency, and link stability.</p><p><br></p><ul><li>To configure Mesh MLO STR UniFi Network <strong>10.2+ </strong>required</li><li>Mesh MLO operates on 5 GHz + 6 GHz bands</li><li>Child devices with mesh MLO support: <strong>AirWire</strong> and <strong>UDB-Switch</strong></li></ul><p><br></p><p>---</p><p>This release is promoted to Official/Stable release channel for these models:</p><ul><li><em>U7-Pro-XG, U7-Pro-XGS, U7-Pro-XG-Wall, U7-Pro-Wall, U7-Outdoor, U7-Pro-Outdoor, E7, E7-Campus, E7-Audience</em>&nbsp;-&nbsp;<em>April 13, 2026</em></li><li><em>U7-Pro-Max, U7-In-Wall, U7-Lite, U7-Mesh - April 17, 2026</em></li><li><em>U7-Pro  - April 21, 2026</em></li></ul><h2>Improvements</h2><ul><li>Improved client connectivity and roam events reporting.</li><li>Improved automatic channel selection for 160 MHz bandwidth.</li><li>Improved boot time.</li><li>Stability improvements.</li></ul><h2>Bugfixes</h2><ul><li>Fixed authentication failures for Samsung A53 devices.</li><li>Fixed SSIDs not broadcasting due to boot or configuration race conditions.</li><li>Fixed IGMP/MLD querier being enabled.</li><li>Fixed LED brightness control on U7 series devices.</li><li>Fixed MLO peer inactivity and bulk roaming stability issues.</li><li>Fixed multicast/broadcast blocker incorrectly dropping ARP requests.</li><li>Fixed RADIUS CoA re-authentication timeouts.</li><li>Fixed ARP proxy stopping after more than 30 IPv6-capable clients connected.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR</strong>&nbsp;model support will be added in upcoming releases.</p><p>----</p><p><br></p><p><strong>Important:</strong></p><p>If you encounter any issues, please share setup details and a support file. When possible, generate it <em>before</em> downgrading or power cycling, with Debug logs enabled. A support file from a working state is also helpful for comparison.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "113a8d09-c1bf-4274-82c0-c142781a081b",
+      "kategorie": "access-point",
+      "version": "8.5.19",
+      "titel": "UniFi AirWire 8.5.19",
+      "link": "https://community.ui.com/releases/UniFi-AirWire-8-5-19/113a8d09-c1bf-4274-82c0-c142781a081b",
+      "veroeffentlicht": "2026-03-27T07:42:41+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "AirWire Initial Release - Mesh MLO STR Support",
+          "We’re introducing initial Multi-Link Operation (MLO) mesh support for AirWire deployments.",
+          "MLO is a WiFi 7 feature that allows devices to use multiple bands simultaneously, improving latency, stability, and overall link performance when supported by both APs and clients.",
+          "Requirements:",
+          "UniFi Network 10.2+",
+          "A 6 GHz-capable WiFi 7 AP (U7 or E7) is required for MLO meshing (firmware 8.5+)",
+          "--",
+          "Mesh MLO operates on 5 GHz + 6 GHz bands",
+          "UDR7 / UX7 support will be added in a future update"
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>AirWire Initial Release - Mesh MLO STR Support</p><p><br></p><p>We’re introducing initial <strong>Multi-Link Operation (MLO) mesh support</strong> for AirWire deployments.</p><p><br></p><p>MLO is a WiFi 7 feature that allows devices to use multiple bands simultaneously, improving <strong>latency, stability, and overall link performance</strong> when supported by both APs and clients.</p><p><br></p><p>Requirements:</p><ul><li>UniFi Network <strong>10.2+</strong></li><li>A 6 GHz-capable WiFi 7 AP (U7 or E7) is required for MLO meshing (firmware <strong>8.5+</strong>)</li></ul><p>--</p><ul><li>Mesh MLO operates on 5 GHz + 6 GHz bands</li><li>UDR7 / UX7 support will be added in a future update</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "16307d34-3e20-4382-b638-a62c5598d8a6",
+      "kategorie": "access-point",
+      "version": "8.5.18",
+      "titel": "UniFi Access Point (all U7 and E7 models) 8.5.18",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-all-U7-and-E7-models-8-5-18/16307d34-3e20-4382-b638-a62c5598d8a6",
+      "veroeffentlicht": "2026-03-24T06:04:02+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This release introduces Multi-Link Operation (MLO) Mesh support, specifically optimized for AirWire and UDB-Switch deployments. By leveraging MLO STR (Simultaneous Transmit and Receive), the mesh backhaul can now utilize multiple wireless bands simultaneously, improving throughput, latency, and link stability.",
+          "UniFi Network 10.2+ required",
+          "Mesh MLO operates on 5 GHz + 6 GHz bands",
+          "Supported for Mesh Child devices: AirWire and UDB-Switch"
+        ],
+        "Improvements": [
+          "Improved client connectivity and roam events reporting.",
+          "Improved automatic channel selection for 160 MHz bandwidth.",
+          "Improved boot time.",
+          "Stability improvements."
+        ],
+        "Bugfixes": [
+          "Fixed authentication failures for Samsung A53 devices.",
+          "Fixed SSIDs not broadcasting due to boot or configuration race conditions.",
+          "Fixed IGMP/MLD querier being enabled.",
+          "Fixed LED brightness control on U7 series devices.",
+          "Fixed MLO peer inactivity and bulk roaming stability issues.",
+          "Fixed multicast/broadcast blocker incorrectly dropping ARP requests.",
+          "Fixed RADIUS CoA re-authentication timeouts.",
+          "Fixed ARP proxy stopping after more than 30 IPv6-capable clients connected."
+        ],
+        "Additional information": [
+          "INFO: U7-LR model support will be added in upcoming releases.",
+          "----",
+          "Important:",
+          "If you encounter any issues, please share setup details and a support file. When possible, generate it before downgrading or power cycling, with Debug logs enabled. A support file from a working state is also helpful for comparison."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release introduces <strong>Multi-Link Operation (MLO) Mesh support</strong>, specifically optimized for <strong>AirWire</strong> and <strong>UDB-Switch</strong> deployments. By leveraging <strong>MLO STR (Simultaneous Transmit and Receive)</strong>, the mesh backhaul can now utilize multiple wireless bands simultaneously, improving throughput, latency, and link stability.</p><p><br></p><ul><li>UniFi Network <strong>10.2+ </strong>required</li><li>Mesh MLO operates on 5 GHz + 6 GHz bands</li><li>Supported for Mesh Child devices<strong>:</strong> <strong>AirWire</strong> and <strong>UDB-Switch</strong></li></ul><h2>Improvements</h2><ul><li>Improved client connectivity and roam events reporting.</li><li>Improved automatic channel selection for 160 MHz bandwidth.</li><li>Improved boot time.</li><li>Stability improvements.</li></ul><h2>Bugfixes</h2><ul><li>Fixed authentication failures for Samsung A53 devices.</li><li>Fixed SSIDs not broadcasting due to boot or configuration race conditions.</li><li>Fixed IGMP/MLD querier being enabled.</li><li>Fixed LED brightness control on U7 series devices.</li><li>Fixed MLO peer inactivity and bulk roaming stability issues.</li><li>Fixed multicast/broadcast blocker incorrectly dropping ARP requests.</li><li>Fixed RADIUS CoA re-authentication timeouts.</li><li>Fixed ARP proxy stopping after more than 30 IPv6-capable clients connected.</li></ul><h2>Additional information</h2><p>INFO:&nbsp;<strong>U7-LR</strong>&nbsp;model support will be added in upcoming releases.</p><p>----</p><p><br></p><p><strong>Important:</strong></p><p>If you encounter any issues, please share setup details and a support file. When possible, generate it <em>before</em> downgrading or power cycling, with Debug logs enabled. A support file from a working state is also helpful for comparison.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "09bfa588-4b20-43ff-b9f0-c42006471b6e",
+      "kategorie": "access-point",
+      "version": "8.4.7",
+      "titel": "UniFi Access Point (U7-Mesh) 8.4.7",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-U7-Mesh-8-4-7/09bfa588-4b20-43ff-b9f0-c42006471b6e",
+      "veroeffentlicht": "2026-03-02T15:04:06+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for U7-Mesh product."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for U7-Mesh product.</p><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>UniFi Network application version</li><li>UniFi Console <a href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\" rel=\"noopener noreferrer\" target=\"_blank\">Support File</a> (as private attachment)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "07f28441-5018-4c5e-82ed-f2a7e20481e2",
+      "kategorie": "access-point",
+      "version": "8.0.64",
+      "titel": "UniFi Access Point for U7-LR 8.0.64",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-for-U7-LR-8-0-64/07f28441-5018-4c5e-82ed-f2a7e20481e2",
+      "veroeffentlicht": "2026-02-03T12:41:42+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Improved network self-healing: APs now consistently revert to stable wired connections, automatically clearing unintended wireless paths after topology changes."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Improved network self-healing: APs now consistently revert to stable wired connections, automatically clearing unintended wireless paths after topology changes.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "e57d76ae-1bbd-4e95-818f-185afc0961f2",
+      "kategorie": "access-point",
+      "version": "6.7.41",
+      "titel": "UniFi Access Point for U6-LR, U6-Lite, U6+ & more 6.7.41",
+      "link": "https://community.ui.com/releases/UniFi-Access-Point-for-U6-LR-U6-Lite-U6-and-more-6-7-41/e57d76ae-1bbd-4e95-818f-185afc0961f2",
+      "veroeffentlicht": "2026-02-03T12:40:03+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This release is only for these models:",
+          "U6-LR/U6-Lite/U6+",
+          "UAP-nanoHD/FlexHD/BeaconHD/IW-HD"
+        ],
+        "Improvements": [
+          "Improved network self-healing: APs now consistently revert to stable wired connections, automatically clearing unintended wireless paths after topology changes."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the below information:",
+          "AP model(s)",
+          "Previous AP release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is only for these models:</p><ul><li>U6-LR/U6-Lite/U6+</li><li>UAP-nanoHD/FlexHD/BeaconHD/IW-HD</li></ul><h2>Improvements</h2><ul><li>Improved network self-healing: APs now consistently revert to stable wired connections, automatically clearing unintended wireless paths after topology changes.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with some details on your setup and include the below information:</p><ul><li>AP model(s)</li><li>Previous AP release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    }
+  ]
+}

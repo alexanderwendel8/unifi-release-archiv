@@ -1,0 +1,998 @@
+{
+  "kategorie": "switch",
+  "feed": "https://community.ui.com/rss/releases/x/f5882c6b-e77f-45c1-b019-68fd20000c31",
+  "zuletzt_abgerufen": "2026-11-26T04:54:38+00:00",
+  "releases": [
+    {
+      "id": "8d0d0873-3fc3-4341-bda3-ee52167b5a83",
+      "kategorie": "switch",
+      "version": "7.6.11",
+      "titel": "UniFi Switch 7.6.11",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-6-11/8d0d0873-3fc3-4341-bda3-ee52167b5a83",
+      "veroeffentlicht": "2026-11-05T08:39:16+00:00",
+      "kanal": "stable",
+      "stable_freigaben": [
+        {
+          "modelle": [
+            "USW-Flex",
+            "USW-Flex-XG",
+            "USW-Enterprise-8-PoE",
+            "USW-Pro-XG-24",
+            "USW-Pro-XG-24-PoE",
+            "USW-Pro-XG-48",
+            "USW-Pro-XG-48-PoE",
+            "USW-Pro-XG-Aggregation",
+            "ECS-24-PoE",
+            "ECS-48-PoE",
+            "EAV-XG-24-PoE",
+            "EAV-Fiber"
+          ],
+          "stable_seit": "2026-11-12"
+        },
+        {
+          "modelle": [
+            "USW-Industrial-DIN-8",
+            "USW-Industrial-DIN-8-PoE"
+          ],
+          "stable_seit": "2026-11-13"
+        },
+        {
+          "modelle": [
+            "US-8",
+            "US-8-60W",
+            "US-8-150W",
+            "US-16-150W",
+            "US-16-XG",
+            "US-24",
+            "US-24-250W",
+            "US-24-500W",
+            "US-L2-24-PoE",
+            "US-48",
+            "US-48-500W",
+            "US-48-750W",
+            "US-L2-48-PoE",
+            "US-XG-6PoE",
+            "USW-Pro-24",
+            "USW-Pro-24-PoE",
+            "USW-Pro-48",
+            "USW-Pro-48-PoE",
+            "USW-Enterprise-24-PoE",
+            "USW-Enterprise-48-PoE",
+            "USW-Pro-Aggregation",
+            "USW-EnterpriseXG-24",
+            "USW-Industrial"
+          ],
+          "stable_seit": "2026-11-16"
+        },
+        {
+          "modelle": [
+            "USW-Lite-8-PoE",
+            "USW-Lite-16-PoE",
+            "USW-16-PoE",
+            "USW-24",
+            "USW-24-PoE",
+            "USW-48",
+            "USW-48-PoE",
+            "USW-Aggregation",
+            "USW-Mission-Critical",
+            "USW-Pro-8-PoE",
+            "USW-Pro-Max-16",
+            "USW-Pro-Max-16-PoE",
+            "USW-Pro-Max-24",
+            "USW-Pro-Max-24-PoE",
+            "USW-Pro-Max-48",
+            "USW-Pro-Max-48-PoE",
+            "USW-Pro-HD-24",
+            "USW-Pro-HD-24-PoE",
+            "USW-Pro-XG-8-PoE",
+            "USW-Pro-XG-10-PoE"
+          ],
+          "stable_seit": "2026-11-23"
+        }
+      ],
+      "abschnitte": {
+        "Overview": [
+          "This release is promoted to Official/Stable release channel for these models:",
+          "USW-Flex, USW-Flex-XG, USW-Enterprise-8-PoE, USW-Pro-XG-24, USW-Pro-XG-24-PoE, USW-Pro-XG-48, USW-Pro-XG-48-PoE, USW-Pro-XG-Aggregation, ECS-24-PoE, ECS-48-PoE, EAV-XG-24-PoE, EAV-Fiber - November 12, 2026",
+          "USW-Industrial-DIN-8, USW-Industrial-DIN-8-PoE - November 13, 2026",
+          "US-8, US-8-60W, US-8-150W, US-16-150W, US-16-XG, US-24, US-24-250W, US-24-500W, US-L2-24-PoE, US-48, US-48-500W, US-48-750W, US-L2-48-PoE, US-XG-6PoE, USW-Pro-24, USW-Pro-24-PoE, USW-Pro-48, USW-Pro-48-PoE, USW-Enterprise-24-PoE, USW-Enterprise-48-PoE, USW-Pro-Aggregation, USW-EnterpriseXG-24, USW-Industrial - November 16, 2026",
+          "USW-Lite-8-PoE, USW-Lite-16-PoE, USW-16-PoE, USW-24, USW-24-PoE, USW-48, USW-48-PoE, USW-Aggregation, USW-Mission-Critical, USW-Pro-8-PoE, USW-Pro-Max-16, USW-Pro-Max-16-PoE, USW-Pro-Max-24, USW-Pro-Max-24-PoE, USW-Pro-Max-48, USW-Pro-Max-48-PoE, USW-Pro-HD-24, USW-Pro-HD-24-PoE, USW-Pro-XG-8-PoE, USW-Pro-XG-10-PoE - November 23, 2026",
+          "UniFi Switch 7.6.11 adds Lock Port to UniFi Device and includes the improvements and bugfixes below.",
+          "Lock Port to UniFi Device - Lock a switch port to a specific UniFi device so that only that device can pass traffic on the port.",
+          "Requires UniFi Network Application 11 or newer.",
+          "Not available on the US-16-XG, USW-Industrial, and US-8 models."
+        ],
+        "Improvements": [
+          "Improved RSTP stability on USW-Aggregation uplinks under high traffic loads.",
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where PoE could remain unavailable after a cold boot.",
+          "Fixed an issue preventing SSH from starting when password authentication was disabled.",
+          "Fixed an issue affecting the forwarding of AP roaming-related frames when IGMP Snooping was enabled.",
+          "Fixed an issue with VLAN assignment from an external RADIUS server during MAC-based authentication."
+        ],
+        "Known issues": [
+          "When a USW-Pro-Aggregation is connected to a USW-Pro-XG-Aggregation, USW-Pro-XG-24/48-PoE, ECS-24/48-PoE, or ECS-24S/48S-PoE, the SFP28 link may negotiate at 1 Gbps after an upgrade or reboot. Workaround: set the link speed manually to 25G on both ends."
+        ],
+        "Additional information": [
+          "Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the following information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version",
+          "UniFi Console Support File (as private attachment)",
+          "Switch Support File (as private attachment)"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This release is promoted to Official/Stable release channel for these models:</p><p></p><ul><li><p>USW-Flex, USW-Flex-XG, USW-Enterprise-8-PoE, USW-Pro-XG-24, USW-Pro-XG-24-PoE, USW-Pro-XG-48, USW-Pro-XG-48-PoE, USW-Pro-XG-Aggregation, ECS-24-PoE, ECS-48-PoE, EAV-XG-24-PoE, EAV-Fiber - November 12, 2026</p></li></ul><p></p><ul><li><p>USW-Industrial-DIN-8, USW-Industrial-DIN-8-PoE - November 13, 2026</p></li></ul><p></p><ul><li><p>US-8, US-8-60W, US-8-150W, US-16-150W, US-16-XG, US-24, US-24-250W, US-24-500W, US-L2-24-PoE, US-48, US-48-500W, US-48-750W, US-L2-48-PoE, US-XG-6PoE, USW-Pro-24, USW-Pro-24-PoE, USW-Pro-48, USW-Pro-48-PoE, USW-Enterprise-24-PoE, USW-Enterprise-48-PoE, USW-Pro-Aggregation, USW-EnterpriseXG-24, USW-Industrial - November 16, 2026</p></li></ul><p></p><ul><li><p>USW-Lite-8-PoE, USW-Lite-16-PoE, USW-16-PoE, USW-24, USW-24-PoE, USW-48, USW-48-PoE, USW-Aggregation, USW-Mission-Critical, USW-Pro-8-PoE, USW-Pro-Max-16, USW-Pro-Max-16-PoE, USW-Pro-Max-24, USW-Pro-Max-24-PoE, USW-Pro-Max-48, USW-Pro-Max-48-PoE, USW-Pro-HD-24, USW-Pro-HD-24-PoE, USW-Pro-XG-8-PoE, USW-Pro-XG-10-PoE - November 23, 2026</p></li></ul><p><br>UniFi Switch 7.6.11 adds Lock Port to UniFi Device and includes the improvements and bugfixes below.<br><br><strong>Lock Port to UniFi Device</strong> - Lock a switch port to a specific UniFi device so that only that device can pass traffic on the port.</p><img src=\"https://img.community.ui.com/35eace9a-7ea2-4e90-9d90-25cbdbeaa23b/releases/8d0d0873-3fc3-4341-bda3-ee52167b5a83/96367a45-f948-4761-8204-ce3086182d59\" style=\"width: 100%;object-fit: cover;height: 205px\" /><ul><li><p>Requires UniFi Network Application 11 or newer.</p></li><li><p>Not available on the US-16-XG, USW-Industrial, and US-8 models.</p></li></ul><p></p><h2>Improvements</h2><ul><li><p>Improved RSTP stability on USW-Aggregation uplinks under high traffic loads.</p></li><li><p>Improved stability.</p></li></ul><p></p><h2>Bugfixes</h2><ul><li><p>Fixed an issue where PoE could remain unavailable after a cold boot.</p></li><li><p>Fixed an issue preventing SSH from starting when password authentication was disabled.</p></li><li><p>Fixed an issue affecting the forwarding of AP roaming-related frames when IGMP Snooping was enabled.</p></li><li><p>Fixed an issue with VLAN assignment from an external RADIUS server during MAC-based authentication.</p></li></ul><p></p><h2>Known issues</h2><ul><li><p>When a USW-Pro-Aggregation is connected to a USW-Pro-XG-Aggregation, USW-Pro-XG-24/48-PoE, ECS-24/48-PoE, or ECS-24S/48S-PoE, the SFP28 link may negotiate at 1 Gbps after an upgrade or reboot. Workaround: set the link speed manually to 25G on both ends.</p></li></ul><p></p><h2>Additional information</h2><ul><li><p>Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.</p></li><li><p>If you encounter any issues with this release, please provide us with some details on your setup and include the following information:</p><ul><li><p>Switch model(s)</p></li><li><p>Previous Switch release version</p></li><li><p>UniFi Network application version</p></li><li><p>UniFi Console <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\">Support File</a> (as private attachment)</p></li><li><p>Switch <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://help.ui.com/hc/en-us/articles/360049956374-Getting-Support-Files-and-Logs\">Support File</a> (as private attachment)</p></li></ul></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "c8b55335-528c-4a51-baa9-57aab79cf624",
+      "kategorie": "switch",
+      "version": "7.4.119",
+      "titel": "Enterprise Campus 24S/48S PoE 7.4.119",
+      "link": "https://community.ui.com/releases/Enterprise-Campus-24S-48S-PoE-7-4-119/c8b55335-528c-4a51-baa9-57aab79cf624",
+      "veroeffentlicht": "2026-09-03T13:05:28+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the ECS-24S, ECS-24S-PoE, ECS-48S and ECS-48S-PoE."
+        ],
+        "Additional information": [
+          "Requires UniFi Network 10.6 or newer.",
+          "Learn more about switch stacking here."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the <a href=\"https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-stackable/products/ecs-24s?variant=ecs-24s\" rel=\"noopener noreferrer\" target=\"_blank\">ECS-24S</a>, <a href=\"https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-stackable/products/ecs-24s-poe\" rel=\"noopener noreferrer\" target=\"_blank\">ECS-24S-PoE</a>, <a href=\"https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-stackable/products/ecs-48s?variant=ecs-48s\" rel=\"noopener noreferrer\" target=\"_blank\">ECS-48S</a> and <a href=\"https://store.ui.com/us/en/category/switching-enterprise/collections/enterprise-campus-stackable/products/ecs-48s-poe\" rel=\"noopener noreferrer\" target=\"_blank\">ECS-48S-PoE</a>.</p><h2>Additional information</h2><ul><li>Requires UniFi Network 10.6 or newer.</li><li>Learn more about switch stacking <a href=\"https://help.ui.com/hc/en-us/articles/42683864129047\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "bf576b40-c001-4224-b8c0-8c95baec920d",
+      "kategorie": "switch",
+      "version": "7.5.15",
+      "titel": "UniFi Switch 7.5.15",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-5-15/bf576b40-c001-4224-b8c0-8c95baec920d",
+      "veroeffentlicht": "2026-09-01T12:03:19+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.5.15 includes the improvements and bugfixes below."
+        ],
+        "Bugfixes": [
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, US-16-XG",
+          "Fixed an issue where Virtual Network Override configurations were not applied correctly.",
+          "Fixed an issue where CPU usage and load could remain high after an upgrade.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), Aggregation",
+          "Fixed an issue where swapping a UF-RJ45-10G module for a UF-RJ45-1G module on the same port could cause link flapping.",
+          "XG-6-PoE, Pro (24/48-PoE), Enterprise (24/48-PoE)",
+          "Fixed an issue where the last PoE port could fail to power the connected device after a switch reboot."
+        ],
+        "Known issues": [
+          "When a USW-Pro-Aggregation is connected to a USW-Pro-XG-Aggregation, USW-Pro-XG-24/48-PoE, ECS-24/48-PoE, or ECS-24S/48S-PoE, the SFP28 link may negotiate at 1 Gbps after an upgrade or reboot. This behavior does not occur when the link speed is set manually to 25G on both ends"
+        ],
+        "Additional information": [
+          "Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the following information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.5.15 includes the improvements and bugfixes below.</p><h2>Bugfixes</h2><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, US-16-XG</strong></p><ul><li>Fixed an issue where Virtual Network Override configurations were not applied correctly.</li><li>Fixed an issue where CPU usage and load could remain high after an upgrade.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), Aggregation</strong></p><ul><li>Fixed an issue where swapping a UF-RJ45-10G module for a UF-RJ45-1G module on the same port could cause link flapping.</li></ul><p><strong>XG-6-PoE, Pro (24/48-PoE), Enterprise (24/48-PoE)</strong></p><ul><li>Fixed an issue where the last PoE port could fail to power the connected device after a switch reboot.</li></ul><h2>Known issues</h2><ul><li>When a USW-Pro-Aggregation is connected to a USW-Pro-XG-Aggregation, USW-Pro-XG-24/48-PoE, ECS-24/48-PoE, or ECS-24S/48S-PoE, the SFP28 link may negotiate at 1 Gbps after an upgrade or reboot. This behavior does not occur when the link speed is set manually to 25G on both ends</li></ul><h2>Additional information</h2><ul><li>Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.</li></ul><p>&nbsp;</p><p><br></p><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the following information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "968b2f45-4758-442e-9760-4cb5306b1b31",
+      "kategorie": "switch",
+      "version": "7.5.10",
+      "titel": "UniFi Switch 7.5.10",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-5-10/968b2f45-4758-442e-9760-4cb5306b1b31",
+      "veroeffentlicht": "2026-08-06T10:54:47+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.5.10 includes the below improvements and bugfixes and is currently available for the models listed below.",
+          "USW-Flex-XG | USW-Enterprise-8-PoE",
+          "USW-Pro-XG-24/48-PoE | USW-Pro-XG-24/48 | ECS-24/48-PoE | USW-Pro-XG-Aggregation",
+          "EAV-XG-24-PoE | EAV-Fiber",
+          "USW-Aggregation",
+          "USW-Pro-8-PoE | USW-Pro-Max-16/24/48-POE | USW-Pro-Max-16/24/48",
+          "USW-Pro-HD-24-PoE | USW-Pro-XG-8/10-PoE",
+          "USW-16/24/48-POE | USW-24-48 | USW-Lite-8/16-POE | USW-Mission-Critical",
+          "USW-Flex",
+          "Test & Confirm - Automatically reverts changes if connectivity to the switch is lost after configuration updates.",
+          "Requires UniFi Network Application 10.5.67 or newer.",
+          "Power Port Sequencing - Staggers PoE port power-up during switch restarts, reducing power surges and improving stability.",
+          "Requires UniFi Network Application 10.5.67 or newer.",
+          "Not currently available on the USW-Enterprise-8-PoE.",
+          "Link Debounce - Reduces link flapping caused by brief interruptions and unstable connections.",
+          "Requires UniFi Network Application 10.5.67 or newer."
+        ],
+        "Improvements": [
+          "All Models",
+          "Improved device connectivity stability through more resilient management configuration handling.",
+          "Improved reporting to prevent incorrectly logged STP state and link flapping events.",
+          "Improved SFP auto-negotiation reliability for DACs, fiber modules, and RJ45 SFP modules.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, US-16-XG",
+          "Added support for Energy Efficient Ethernet (EEE) to reduce power consumption on supported ports.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)",
+          "Expanded custom MAC and IPv4 ACL capabilities to 512 entries.",
+          "USW-Flex",
+          "Improved topology accuracy."
+        ],
+        "Bugfixes": [
+          "All Models",
+          "Fixed brief traffic interruptions that could occur when VLAN networks were added or removed.",
+          "Fixed RADIUS Auto/MAC authentication to correctly assign IP addresses to VoIP phones on the Voice VLAN.",
+          "Fixed Storm Control settings not syncing across Link Aggregation groups.",
+          "Fixed an issue where 802.1X MAC-based sessions would not time out after exceeding the configured idle timeout.",
+          "Fixed an issue where 802.1X MAC-based authenticated clients could lose network access after the idle timeout expired.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation",
+          "Fixed an issue where 1 Gbps copper SFP modules could fail to establish a link after hot-plugging.",
+          "Fixed an issue where RADIUS accounting did not work correctly.",
+          "Fixed an issue where guest MAC entries did not expire on 802.1X MAC-based ports.",
+          "Fixed an issue where forwarding failed when multiple Virtual Network Override devices were connected to the same port.",
+          "Fixed an issue where Virtual Network Override and Dynamic VLAN Assignments did not adhere to the port VLAN configuration.",
+          "The VLAN must now be included in the Tagged VLANs configured on the port.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)",
+          "Fixed a missing default route after creating or removing an L3 network.",
+          "Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)",
+          "Fixed an issue where 25 Gbps Link Aggregation links did not establish after a cold boot.",
+          "Fixed an issue where clients could not authenticate using 802.1X EAP-TLS.",
+          "Fixed an issue where allowed MAC addresses on MAC-restricted ports could not access the network after a reboot.",
+          "USW-48-PoE",
+          "Fixed an issue where 802.1X MAC-based authentication and fallback VLAN assignment could fail when DHCP Guarding was enabled.",
+          "USW-Aggregation",
+          "Fixed an issue where the touchscreen did not initialize after a firmware upgrade.",
+          "EAV (Fiber, XG-24-PoE), ECS-24/48, Pro-XG (24/48, Aggregation), Enterprise-8, Flex-XG",
+          "Fixed an issue where the switch could unexpectedly reboot or go offline while applying configuration changes.",
+          "Fixed an issue where 802.1X MAC-based EAP-TLS authentication did not work correctly.",
+          "Fixed an issue where 802.1X-authenticated clients could not access the network when using RADIUS-assigned VLANs without a VLAN assignment.",
+          "Fixed an issue where 802.1X multi-host mode was not applied correctly after port mode changes.",
+          "Fixed an issue where VLAN leakage could occur on 802.1X-authenticated ports when using RADIUS-assigned VLANs.",
+          "Fixed an issue where Voice VLAN-tagged traffic could be forwarded to an 802.1X-authenticated client.",
+          "Fixed an issue where multiple Port Mirroring configurations did not take effect.",
+          "Fixed an issue where link instability and packet loss could occur with directly connected Intel I219-V NICs and Cisco Meraki access points.",
+          "Fixed a missing Default Gateway IP setting in Layer 3 DHCP configuration.",
+          "Fixed an issue where DHCP Snooping could prevent devices from obtaining an IP address after a reboot.",
+          "EAV (Fiber, XG-24-PoE)",
+          "Fixed an issue where PTP time synchronization did not start after a reboot."
+        ],
+        "Known issues": [
+          "XG-6-PoE, Pro (24/48-PoE), Enterprise (24/48-PoE): The last PoE port may fail to power the connected device when the switch is rebooted. To recover, disable PoE on the affected port using the Port Manager, wait a few seconds, and then re-enable PoE."
+        ],
+        "Additional information": [
+          "Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the following information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.5.10 includes the below improvements and bugfixes and is currently available for the models listed below.</p><ul><li>USW-Flex-XG | USW-Enterprise-8-PoE</li><li>USW-Pro-XG-24/48-PoE | USW-Pro-XG-24/48 | ECS-24/48-PoE | USW-Pro-XG-Aggregation</li><li>EAV-XG-24-PoE | EAV-Fiber</li><li>USW-Aggregation</li><li>USW-Pro-8-PoE | USW-Pro-Max-16/24/48-POE | USW-Pro-Max-16/24/48</li><li>USW-Pro-HD-24-PoE | USW-Pro-XG-8/10-PoE</li><li>USW-16/24/48-POE | USW-24-48 | USW-Lite-8/16-POE | USW-Mission-Critical</li><li>USW-Flex</li></ul><p><br></p><p><br></p><p><br></p><p>&nbsp;</p><p><br></p><p><br></p><p><strong>Test &amp; Confirm</strong>&nbsp;- Automatically reverts changes if connectivity to the switch is lost after configuration updates.</p><ul><li>Requires UniFi Network Application 10.5.67 or newer.</li></ul><img src=\"https://img.community.ui.com/b1ad65ed-c921-409d-a05d-b8275e780ae9/releases/968b2f45-4758-442e-9760-4cb5306b1b31/aadbab37-0468-41dc-97dd-ef3987c8e7b9\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><br></p><p><br></p><p><strong>Power Port Sequencing</strong>&nbsp;- Staggers PoE port power-up during switch restarts, reducing power surges and improving stability.</p><ul><li>Requires UniFi Network Application 10.5.67 or newer.</li><li>Not currently available on the USW-Enterprise-8-PoE.</li></ul><img src=\"https://img.community.ui.com/b1ad65ed-c921-409d-a05d-b8275e780ae9/releases/968b2f45-4758-442e-9760-4cb5306b1b31/1a43d4cc-3494-4256-a658-15b308f34d2b\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><br></p><p><br></p><p><strong>Link Debounce</strong>&nbsp;- Reduces link flapping caused by brief interruptions and unstable connections.</p><ul><li>Requires UniFi Network Application 10.5.67 or newer.</li></ul><img src=\"https://img.community.ui.com/b1ad65ed-c921-409d-a05d-b8275e780ae9/releases/968b2f45-4758-442e-9760-4cb5306b1b31/08803285-53e2-4f78-88cb-48fc1cb62d86\" style=\"width: 100%;object-fit: cover;height: 205px\" /><h2>Improvements</h2><p><br></p><p><br></p><p><strong>All Models</strong></p><ul><li>Improved device connectivity stability through more resilient management configuration handling.</li><li>Improved reporting to prevent incorrectly logged STP state and link flapping events.</li><li>Improved SFP auto-negotiation reliability for DACs, fiber modules, and RJ45 SFP modules.</li></ul><p><br></p><p><br></p><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, US-16-XG</strong></p><ul><li>Added support for Energy Efficient Ethernet (EEE) to reduce power consumption on supported ports.</li></ul><p><br></p><p><br></p><p><br></p><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)</strong></p><ul><li>Expanded custom MAC and IPv4 ACL capabilities to 512 entries.</li></ul><p><strong>USW-Flex</strong></p><ul><li>Improved topology accuracy.</li></ul><h2>Bugfixes</h2><p><br></p><p><br></p><p><strong>All Models</strong></p><ul><li>Fixed brief traffic interruptions that could occur when VLAN networks were added or removed.</li><li>Fixed RADIUS Auto/MAC authentication to correctly assign IP addresses to VoIP phones on the Voice VLAN.</li><li>Fixed Storm Control settings not syncing across Link Aggregation groups.</li><li>Fixed an issue where 802.1X MAC-based sessions would not time out after exceeding the configured idle timeout.</li><li>Fixed an issue where 802.1X MAC-based authenticated clients could lose network access after the idle timeout expired.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation</strong></p><ul><li>Fixed an issue where 1 Gbps copper SFP modules could fail to establish a link after hot-plugging.</li><li>Fixed an issue where RADIUS accounting did not work correctly.</li><li>Fixed an issue where guest MAC entries did not expire on 802.1X MAC-based ports.</li><li>Fixed an issue where forwarding failed when multiple Virtual Network Override devices were connected to the same port.</li><li>Fixed an issue where Virtual Network Override and Dynamic VLAN Assignments did not adhere to the port VLAN configuration.</li><li class=\"ql-indent-1\">The VLAN must now be included in the Tagged VLANs configured on the port.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)</strong></p><ul><li>Fixed a missing default route after creating or removing an L3 network.</li></ul><p><strong>Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)</strong></p><ul><li>Fixed an issue where 25 Gbps Link Aggregation links did not establish after a cold boot.</li><li>Fixed an issue where clients could not authenticate using 802.1X EAP-TLS.</li><li>Fixed an issue where allowed MAC addresses on MAC-restricted ports could not access the network after a reboot.</li></ul><p><strong>USW-48-PoE</strong></p><ul><li>Fixed an issue where 802.1X MAC-based authentication and fallback VLAN assignment could fail when DHCP Guarding was enabled.</li></ul><p><strong>USW-Aggregation</strong></p><ul><li>Fixed an issue where the touchscreen did not initialize after a firmware upgrade.</li></ul><p><br></p><p><strong>EAV (Fiber, XG-24-PoE), ECS-24/48, Pro-XG (24/48, Aggregation), Enterprise-8, Flex-XG</strong></p><ul><li>Fixed an issue where the switch could unexpectedly reboot or go offline while applying configuration changes.</li><li>Fixed an issue where 802.1X MAC-based EAP-TLS authentication did not work correctly.</li><li>Fixed an issue where 802.1X-authenticated clients could not access the network when using RADIUS-assigned VLANs without a VLAN assignment.</li><li>Fixed an issue where 802.1X multi-host mode was not applied correctly after port mode changes.</li><li>Fixed an issue where VLAN leakage could occur on 802.1X-authenticated ports when using RADIUS-assigned VLANs.</li><li>Fixed an issue where Voice VLAN-tagged traffic could be forwarded to an 802.1X-authenticated client.</li><li>Fixed an issue where multiple Port Mirroring configurations did not take effect.</li><li>Fixed an issue where link instability and packet loss could occur with directly connected Intel I219-V NICs and Cisco Meraki access points.</li><li>Fixed a missing Default Gateway IP setting in Layer 3 DHCP configuration.</li><li>Fixed an issue where DHCP Snooping could prevent devices from obtaining an IP address after a reboot.</li></ul><p><strong>EAV (Fiber, XG-24-PoE)</strong></p><ul><li>Fixed an issue where PTP time synchronization did not start after a reboot.</li></ul><h2>Known issues</h2><ul><li><strong>XG-6-PoE</strong>,&nbsp;<strong>Pro (24/48-PoE), Enterprise (24/48-PoE):&nbsp;</strong>The last PoE port may fail to power the connected device when the switch is rebooted. To recover, disable PoE on the affected port using the Port Manager, wait a few seconds, and then re-enable PoE.</li></ul><h2>Additional information</h2><ul><li>Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.</li></ul><p>&nbsp;</p><p><br></p><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the following information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "d8931bd7-21eb-43ef-abcd-75ff9a1e8f07",
+      "kategorie": "switch",
+      "version": "7.5.9",
+      "titel": "UniFi Switch 7.5.9",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-5-9/d8931bd7-21eb-43ef-abcd-75ff9a1e8f07",
+      "veroeffentlicht": "2026-07-30T07:11:12+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.5.9 includes the below improvements and bugfixes and is available for the models listed below.",
+          "USW-Aggregation",
+          "USW-Pro-8-PoE | USW-Pro-Max-16/24/48-POE | USW-Pro-Max-16/24/48",
+          "USW-Pro-HD-24-PoE | USW-Pro-XG-8/10-PoE",
+          "USW-16/24/48-POE | USW-24-48 | USW-Lite-8/16-POE | USW-Mission-Critical",
+          "US-8/16/24/48 | USW-Industrial | USC-8",
+          "US-L2-PoE",
+          "US-16-XG",
+          "US-XG-6-PoE | USW-Pro-24/48 | USW-Pro-24/48-PoE | USW-Enterprise-24-PoE",
+          "USW-Pro-Aggregation | USW-Enterprise-48-PoE | USW-EnterpriseXG-24",
+          "USW-Flex",
+          "Test & Confirm - Automatically reverts changes if connectivity to the switch is lost after configuration updates.",
+          "Requires UniFi Network Application 10.5.67 or newer.",
+          "Power Port Sequencing - Staggers PoE port power-up during switch restarts, reducing power surges and improving stability.",
+          "Requires UniFi Network Application 10.5.67 or newer.",
+          "Link Debounce - Reduces link flapping caused by brief interruptions and unstable connections.",
+          "Requires UniFi Network Application 10.5.67 or newer."
+        ],
+        "Improvements": [
+          "All Models",
+          "Improved device connectivity stability through more resilient management configuration handling.",
+          "Improved reporting to prevent incorrectly logged STP state and link flapping events.",
+          "Improved SFP auto-negotiation reliability for DACs, fiber modules, and RJ45 SFP modules.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, US-16-XG",
+          "Added support for Energy Efficient Ethernet (EEE) to reduce power consumption on supported ports.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)",
+          "Expanded custom MAC and IPv4 ACL capabilities to 512 entries.",
+          "USW-Flex",
+          "Improved topology accuracy."
+        ],
+        "Bugfixes": [
+          "All Models",
+          "Fixed brief traffic interruptions that could occur when VLAN networks were added or removed.",
+          "Fixed RADIUS Auto/MAC authentication to correctly assign IP addresses to VoIP phones on the Voice VLAN.",
+          "Fixed Storm Control settings not syncing across Link Aggregation groups.",
+          "Fixed an issue where 802.1X MAC-based sessions would not time out after exceeding the configured idle timeout.",
+          "Fixed an issue where 802.1X MAC-based authenticated clients could lose network access after the idle timeout expired.",
+          "Fixed an issue where Virtual Network Override and Dynamic VLAN Assignments did not adhere to the port VLAN configuration.",
+          "The VLAN must now be included in the Tagged VLANs configured on the port.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation",
+          "Fixed an issue where 1 Gbps copper SFP modules could fail to establish a link after hot-plugging.",
+          "Fixed an issue where RADIUS accounting did not work correctly.",
+          "Fixed an issue where guest MAC entries did not expire on 802.1X MAC-based ports.",
+          "Fixed an issue where forwarding failed when multiple Virtual Network Override devices were connected to the same port.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)",
+          "Fixed a missing default route after creating or removing an L3 network.",
+          "Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)",
+          "Fixed an issue where 25 Gbps Link Aggregation links did not establish after a cold boot.",
+          "Fixed an issue where clients could not authenticate using 802.1X EAP-TLS.",
+          "Fixed an issue where allowed MAC addresses on MAC-restricted ports could not access the network after a reboot.",
+          "USW-48-PoE",
+          "Fixed an issue where 802.1X MAC-based authentication and fallback VLAN assignment could fail when DHCP Guarding was enabled.",
+          "USW-Aggregation",
+          "Fixed an issue where the touchscreen did not initialize after a firmware upgrade."
+        ],
+        "Known issues": [
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), Aggregation",
+          "Port link flaps may occur after swapping a UF-RJ45-10G module for a UF-RJ45-1G module on the same port. Rebooting the switch will stop the flapping."
+        ],
+        "Additional information": [
+          "Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the following information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.5.9 includes the below improvements and bugfixes and is available for the models listed below.</p><ul><li>USW-Aggregation</li><li>USW-Pro-8-PoE | USW-Pro-Max-16/24/48-POE | USW-Pro-Max-16/24/48</li><li>USW-Pro-HD-24-PoE | USW-Pro-XG-8/10-PoE</li><li>USW-16/24/48-POE | USW-24-48 | USW-Lite-8/16-POE | USW-Mission-Critical</li><li>US-8/16/24/48 | USW-Industrial | USC-8</li><li>US-L2-PoE</li><li>US-16-XG</li><li>US-XG-6-PoE | USW-Pro-24/48 | USW-Pro-24/48-PoE | USW-Enterprise-24-PoE</li><li>USW-Pro-Aggregation | USW-Enterprise-48-PoE | USW-EnterpriseXG-24</li><li>USW-Flex</li></ul><p><br></p><p><br></p><p>&nbsp;</p><p><br></p><p><br></p><p><strong>Test &amp; Confirm</strong>&nbsp;- Automatically reverts changes if connectivity to the switch is lost after configuration updates.</p><ul><li>Requires UniFi Network Application 10.5.67 or newer.</li></ul><img src=\"https://img.community.ui.com/7f65a79c-85bd-46cb-b31a-67b523796761/releases/d8931bd7-21eb-43ef-abcd-75ff9a1e8f07/d63011dd-aa5e-45de-825f-8e25de696fa7\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><br></p><p><br></p><p><strong>Power Port Sequencing</strong>&nbsp;- Staggers PoE port power-up during switch restarts, reducing power surges and improving stability.</p><ul><li>Requires UniFi Network Application 10.5.67 or newer.</li></ul><img src=\"https://img.community.ui.com/7f65a79c-85bd-46cb-b31a-67b523796761/releases/d8931bd7-21eb-43ef-abcd-75ff9a1e8f07/1390362c-d1ec-4e52-bcc0-ba80b97baa0b\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p><br></p><p><br></p><p><br></p><p><strong>Link Debounce</strong>&nbsp;- Reduces link flapping caused by brief interruptions and unstable connections.</p><ul><li>Requires UniFi Network Application 10.5.67 or newer.</li></ul><img src=\"https://img.community.ui.com/7f65a79c-85bd-46cb-b31a-67b523796761/releases/d8931bd7-21eb-43ef-abcd-75ff9a1e8f07/c7757817-ae22-4ece-b010-80b111cce22f\" style=\"width: 100%;object-fit: cover;height: 205px\" /><h2>Improvements</h2><p><br></p><p><br></p><p><strong>All Models</strong></p><ul><li>Improved device connectivity stability through more resilient management configuration handling.</li><li>Improved reporting to prevent incorrectly logged STP state and link flapping events.</li><li>Improved SFP auto-negotiation reliability for DACs, fiber modules, and RJ45 SFP modules.</li></ul><p><br></p><p><br></p><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, US-16-XG</strong></p><ul><li>Added support for Energy Efficient Ethernet (EEE) to reduce power consumption on supported ports.</li></ul><p><br></p><p><br></p><p><br></p><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)</strong></p><ul><li>Expanded custom MAC and IPv4 ACL capabilities to 512 entries.</li></ul><p><strong>USW-Flex</strong></p><ul><li>Improved topology accuracy.</li></ul><h2>Bugfixes</h2><p><br></p><p><br></p><p><strong>All Models</strong></p><ul><li>Fixed brief traffic interruptions that could occur when VLAN networks were added or removed.</li><li>Fixed RADIUS Auto/MAC authentication to correctly assign IP addresses to VoIP phones on the Voice VLAN.</li><li>Fixed Storm Control settings not syncing across Link Aggregation groups.</li><li>Fixed an issue where 802.1X MAC-based sessions would not time out after exceeding the configured idle timeout.</li><li>Fixed an issue where 802.1X MAC-based authenticated clients could lose network access after the idle timeout expired.</li><li>Fixed an issue where Virtual Network Override and Dynamic VLAN Assignments did not adhere to the port VLAN configuration.</li><li class=\"ql-indent-1\">The VLAN must now be included in the Tagged VLANs configured on the port.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation</strong></p><ul><li>Fixed an issue where 1 Gbps copper SFP modules could fail to establish a link after hot-plugging.</li><li>Fixed an issue where RADIUS accounting did not work correctly.</li><li>Fixed an issue where guest MAC entries did not expire on 802.1X MAC-based ports.</li><li>Fixed an issue where forwarding failed when multiple Virtual Network Override devices were connected to the same port.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)</strong></p><ul><li>Fixed a missing default route after creating or removing an L3 network.</li></ul><p><strong>Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)</strong></p><ul><li>Fixed an issue where 25 Gbps Link Aggregation links did not establish after a cold boot.</li><li>Fixed an issue where clients could not authenticate using 802.1X EAP-TLS.</li><li>Fixed an issue where allowed MAC addresses on MAC-restricted ports could not access the network after a reboot.</li></ul><p><strong>USW-48-PoE</strong></p><ul><li>Fixed an issue where 802.1X MAC-based authentication and fallback VLAN assignment could fail when DHCP Guarding was enabled.</li></ul><p><strong>USW-Aggregation</strong></p><ul><li>Fixed an issue where the touchscreen did not initialize after a firmware upgrade.</li></ul><h2>Known issues</h2><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), Aggregation</strong></p><ul><li>Port link flaps may occur after swapping a UF-RJ45-10G module for a UF-RJ45-1G module on the same port. Rebooting the switch will stop the flapping.</li></ul><h2>Additional information</h2><ul><li>Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.</li></ul><p>&nbsp;</p><p><br></p><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the following information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "9b2b8959-6f70-49a9-815a-57d94d896cfb",
+      "kategorie": "switch",
+      "version": "7.5.2",
+      "titel": "UniFi Enterprise Audio/Video 7.5.2",
+      "link": "https://community.ui.com/releases/UniFi-Enterprise-Audio-Video-7-5-2/9b2b8959-6f70-49a9-815a-57d94d896cfb",
+      "veroeffentlicht": "2026-05-08T09:50:19+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the EAV-XG-24-PoE and EAV-Fiber."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the <a href=\"https://store.ui.com/us/en/category/switching-enterprise/products/eav-xg-24-poe\" rel=\"noopener noreferrer\" target=\"_blank\">EAV-XG-24-PoE</a> and <a href=\"https://store.ui.com/us/en/category/switching-enterprise/products/eav-fiber\" rel=\"noopener noreferrer\" target=\"_blank\">EAV-Fiber</a>.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "6d6aed12-f95d-4ca9-affa-4f1bf3954208",
+      "kategorie": "switch",
+      "version": "7.4.1",
+      "titel": "UniFi Switch 7.4.1",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-4-1/6d6aed12-f95d-4ca9-affa-4f1bf3954208",
+      "veroeffentlicht": "2026-03-30T09:24:15+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.4.1 includes the bugfixes below. It is currently not available for the models listed below:",
+          "USP-RPS",
+          "USP-PDU-Pro/HD"
+        ],
+        "Improvements": [
+          "All Models",
+          "Improved CPU usage when collecting port data for each MAC address.",
+          "Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)",
+          "Improved RADIUS Accounting compatibility.",
+          "Improved IGMP Leave handling when Fast Leave is not enabled.",
+          "Added the ability to automatically restore port connectivity when a port fails to handle link-up/down events correctly.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)",
+          "Improved IPTV stream stability when IGMP Snooping is enabled.",
+          "Improved device connectivity when forwarding multicast traffic with IGMP Snooping enabled.",
+          "US-16-XG",
+          "Improved SFP+ link compatibility.",
+          "ECS-24/48, Pro-XG (24/48, Aggregation), Enterprise-8, Flex-XG",
+          "Improved QoS resiliency.",
+          "Improved RADIUS Accounting compatibility.",
+          "USW-Pro-XG-48-PoE",
+          "Improved connectivity with UACC-CM-RJ45-MG."
+        ],
+        "Bugfixes": [
+          "STP & Stability",
+          "All Models",
+          "Fixed false STP blocked anomalies when a port links up or when STP is disabled on a port.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)",
+          "Fixed connectivity loss on QoS-configured ports when modifying other ports.",
+          "Fixed management access loss after changing the Management VLAN.",
+          "Fixed intermittent loss of management DHCP IP after reboot.",
+          "Fixed management access loss under high PTP traffic.",
+          "Fixed the missing default route after creating or removing a L3 network.",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation",
+          "Fixed connectivity loss after changing the Native VLAN.",
+          "Fixed VLAN leakage on 802.1X-authenticated ports when RADIUS-assigned VLAN is enabled.",
+          "Fixed VLAN configuration changes causing link flapping and STP state transitions.",
+          "Fixed VLAN leakage during device boot.",
+          "Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)",
+          "Fixed unstable link behavior when using the UACC-CM-RJ45-1G SFP module.",
+          "Fixed ports continuing to forward traffic during switch reboot.",
+          "ECS-24/48, Pro-XG (24/48, Aggregation)",
+          "Fixed an issue where mDNS traffic was not forwarded after rebooting the device with STP disabled.",
+          "Fixed device going offline after deleting L3 network settings.",
+          "Fixed Virtual Network Override causing SFP port link flapping and frequent STP topology changes.",
+          "Fixed incorrect RSTP forwarding delay, causing prolonged STP blocking during port flapping.",
+          "Fixed incorrect uplink state when configuring port mirroring on uplink LAG ports.",
+          "Fixed STP status temporarily changing to Blocking when receiving STP Topology Change Notifications.",
+          "Fixed LAG member ports not linking up properly.",
+          "Fixed Storm Control settings being removed when modifying other port settings.",
+          "Fixed SFP link loss after device boot.",
+          "Fixed an issue where the device went offline when deleting L3 network settings.",
+          "Fixed an issue where the device could go offline in rare cases.",
+          "IGMP & Multicast",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation",
+          "Fixed missing Router Alert field in IGMP General Query messages.",
+          "Fixed PTP synchronization issues when IGMP Snooping is disabled.",
+          "Fixed part of multicast streams not flooding after boot.",
+          "Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)",
+          "Fixed Querier state transition when receiving a General Query from a Querier with a higher IP.",
+          "Fixed IGMP Report leaks on ports that are configured with Pro AV.",
+          "Fixed incorrectly set IGMP Querier Addresses when using IGMP Snooping on L3 Switch VLANs.",
+          "Fixed L3 routing not functioning when Multicast Router Port is enabled.",
+          "Others",
+          "Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation",
+          "Fixed an issue where 802.1X MAC-based EAP-TLS authentication did not work correctly.",
+          "Fixed an issue where 802.1X MAC-Based authentication did not work when Rogue DHCP Server Detection was disabled.",
+          "Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)",
+          "Fixed Unauthorized MAC Detected anomalies not clearing after the port stops receiving unauthorized MAC addresses.",
+          "Fixed ports reporting incorrect Loop Protection Triggered anomalies after re-enabling the port.",
+          "Fixed incorrect unicast storm detection port anomaly reporting.",
+          "ECS-24/48, Pro-XG (24/48, Aggregation), Enterprise-8, Flex-XG",
+          "Fixed an issue where QoS did not work correctly on LAG interfaces after device boot.",
+          "Fixed learning of duplicate MAC entries on different ports.",
+          "Fixed an issue where certain SFP module information was missing.",
+          "EnterpriseXG-24",
+          "Fixed Flow Control not working correctly.",
+          "Enterprise-8-PoE",
+          "Fixed an issue where the Voice VLAN was not correctly assigned.",
+          "US-8",
+          "Fixed an issue where the SNMP Community name setting failed to apply."
+        ],
+        "Additional information": [
+          "Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the following information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.4.1 includes the bugfixes below. It is currently not available for the models listed below:</p><ul><li>USP-RPS</li><li>USP-PDU-Pro/HD</li></ul><p><br></p><h2>Improvements</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>All Models</strong></p><ul><li>Improved CPU usage when collecting port data for each MAC address.</li></ul><p><strong>Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)</strong></p><ul><li>Improved RADIUS Accounting compatibility.</li><li>Improved IGMP Leave handling when Fast Leave is not enabled.</li><li>Added the ability to automatically restore port connectivity when a port fails to handle link-up/down events correctly.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)</strong></p><ul><li>Improved IPTV stream stability when IGMP Snooping is enabled.</li><li>Improved device connectivity when forwarding multicast traffic with IGMP Snooping enabled.</li></ul><p><strong>US-16-XG</strong></p><ul><li>Improved SFP+ link compatibility.</li></ul><p><strong>ECS-24/48, Pro-XG (24/48, Aggregation), Enterprise-8, Flex-XG</strong></p><ul><li>Improved QoS resiliency.</li><li>Improved RADIUS Accounting compatibility.</li></ul><p><br></p><p><strong>USW-Pro-XG-48-PoE</strong></p><ul><li>Improved connectivity with UACC-CM-RJ45-MG.</li></ul><h2>Bugfixes</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>STP &amp; Stability</strong></p><p><strong>All Models</strong></p><ul><li>Fixed false STP blocked anomalies when a port links up or when STP is disabled on a port.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24)</strong></p><ul><li>Fixed connectivity loss on QoS-configured ports when modifying other ports.</li><li>Fixed management access loss after changing the Management VLAN.</li><li>Fixed intermittent loss of management DHCP IP after reboot.</li><li>Fixed management access loss under high PTP traffic.</li><li>Fixed the missing default route after creating or removing a L3 network.</li></ul><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation</strong></p><ul><li>Fixed connectivity loss after changing the Native VLAN.</li><li>Fixed VLAN leakage on 802.1X-authenticated ports when RADIUS-assigned VLAN is enabled.</li><li>Fixed VLAN configuration changes causing link flapping and STP state transitions.</li><li>Fixed VLAN leakage during device boot.</li></ul><p><strong>Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)</strong></p><ul><li>Fixed unstable link behavior when using the UACC-CM-RJ45-1G SFP module.</li><li>Fixed ports continuing to forward traffic during switch reboot.</li></ul><p><strong>ECS-24/48, Pro-XG (24/48, Aggregation)</strong></p><ul><li>Fixed an issue where mDNS traffic was not forwarded after rebooting the device with STP disabled.</li><li>Fixed device going offline after deleting L3 network settings.</li><li>Fixed Virtual Network Override causing SFP port link flapping and frequent STP topology changes.</li><li>Fixed incorrect RSTP forwarding delay, causing prolonged STP blocking during port flapping.</li><li>Fixed incorrect uplink state when configuring port mirroring on uplink LAG ports.</li><li>Fixed STP status temporarily changing to Blocking when receiving STP Topology Change Notifications.</li><li>Fixed LAG member ports not linking up properly.</li><li>Fixed Storm Control settings being removed when modifying other port settings.</li><li>Fixed SFP link loss after device boot.</li><li>Fixed an issue where the device went offline when deleting L3 network settings.</li><li>Fixed an issue where the device could go offline in rare cases.</li></ul><p><br></p><p><strong>&nbsp;</strong></p><p><strong>IGMP &amp; Multicast</strong></p><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation</strong></p><ul><li>Fixed missing Router Alert field in IGMP General Query messages.</li><li>Fixed PTP synchronization issues when IGMP Snooping is disabled.</li><li>Fixed part of multicast streams not flooding after boot.</li></ul><p><strong>Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)</strong></p><ul><li>Fixed Querier state transition when receiving a General Query from a Querier with a higher IP.</li><li>Fixed IGMP Report leaks on ports that are configured with Pro AV.</li><li>Fixed incorrectly set IGMP Querier Addresses when using IGMP Snooping on L3 Switch VLANs.</li><li>Fixed L3 routing not functioning when Multicast Router Port is enabled.&nbsp;</li></ul><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Others</strong></p><p><strong>Pro-Max, Pro (8-PoE, XG-8/10-PoE, HD-24), USW-16/24/48, Lite-8/16-PoE, Aggregation</strong></p><ul><li>Fixed an issue where 802.1X MAC-based EAP-TLS authentication did not work correctly.</li><li>Fixed an issue where 802.1X MAC-Based authentication did not work when Rogue DHCP Server Detection was disabled.</li></ul><p><strong>Pro (24/48, Aggregation), Enterprise (24/48-PoE, XG-24)</strong></p><ul><li>Fixed Unauthorized MAC Detected anomalies not clearing after the port stops receiving unauthorized MAC addresses.</li><li>Fixed ports reporting incorrect Loop Protection Triggered anomalies after re-enabling the port.</li><li>Fixed incorrect unicast storm detection port anomaly reporting.</li></ul><p><strong>ECS-24/48, Pro-XG (24/48, Aggregation), Enterprise-8, Flex-XG</strong></p><ul><li>Fixed an issue where QoS did not work correctly on LAG interfaces after device boot.</li><li>Fixed learning of duplicate MAC entries on different ports.</li><li>Fixed an issue where certain SFP module information was missing.</li></ul><p><strong>EnterpriseXG-24</strong></p><ul><li>Fixed Flow Control not working correctly.</li></ul><p><strong>Enterprise-8-PoE</strong></p><ul><li>Fixed an issue where the Voice VLAN was not correctly assigned.</li></ul><p><strong>US-8</strong></p><ul><li>Fixed an issue where the SNMP Community name setting failed to apply.</li></ul><h2>Additional information</h2><ul><li>Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.</li></ul><p>&nbsp;</p><p><br></p><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the following information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "a7f686a7-877d-4804-bf0c-7a918fa5d17e",
+      "kategorie": "switch",
+      "version": "7.4.0",
+      "titel": "UniFi Switch 7.4.0",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-4-0/a7f686a7-877d-4804-bf0c-7a918fa5d17e",
+      "veroeffentlicht": "2026-03-12T10:08:43+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.4.0 includes the improvements and bugfixes below and is available only for selected models.",
+          "It is currently not available for the models listed below:",
+          "USP-RPS",
+          "USP-PDU-Pro/HD",
+          "USW-Pro-XG-24/48-PoE | USW-Pro-XG-24/48 | ECS-24/48-PoE | USW-Pro-XG-Aggregation"
+        ],
+        "Improvements": [
+          "All Models",
+          "Improved CPU usage when collecting port data for each MAC address.",
+          "USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24",
+          "Improved RADIUS Accounting compatibility.",
+          "Improved IGMP Leave handling when Fast Leave is not enabled.",
+          "Added the ability to automatically restore port connectivity when a port fails to handle link-up/down events correctly.",
+          "USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE",
+          "Improved IPTV stream stability when IGMP Snooping is enabled.",
+          "Improved device connectivity when forwarding multicast traffic with IGMP Snooping enabled.",
+          "US-16-XG",
+          "Improved SFP+ link compatibility."
+        ],
+        "Bugfixes": [
+          "STP & Stability",
+          "All Models",
+          "Fixed false STP blocked anomalies when a port links up or when STP is disabled on a port.",
+          "USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE",
+          "Fixed connectivity loss on QoS-configured ports when modifying other ports.",
+          "Fixed management access loss after changing the Management VLAN.",
+          "Fixed intermittent loss of management DHCP IP after reboot.",
+          "Fixed management access loss under high PTP traffic.",
+          "USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE | USW-16/24/48-PoE |",
+          "USW-Lite-8/16-PoE | USW-Aggregation",
+          "Fixed connectivity loss after changing the Native VLAN.",
+          "Fixed VLAN leakage on 802.1X-authenticated ports when RADIUS-assigned VLAN is enabled.",
+          "Fixed VLAN configuration changes causing link flapping and STP state transitions.",
+          "Fixed VLAN leakage during device boot.",
+          "USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24",
+          "Fixed unstable link behavior when using the UACC-CM-RJ45-1G SFP module.",
+          "Fixed ports continuing to forward traffic during switch reboot.",
+          "IGMP & Multicast",
+          "USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE | USW-16/24/48-PoE |",
+          "USW-Lite-8/16-PoE | USW-Aggregation",
+          "Fixed missing Router Alert field in IGMP General Query messages.",
+          "Fixed PTP synchronization issues when IGMP Snooping is disabled.",
+          "Fixed part of multicast streams not flooding after boot.",
+          "USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24",
+          "Fixed Querier state transition when receiving a General Query from a Querier with a higher IP.",
+          "Fixed IGMP Report leaks on ports that are configured with Pro AV.",
+          "Fixed incorrectly set IGMP Querier Addresses when using IGMP Snooping on L3 Switch VLANs.",
+          "Fixed L3 routing not functioning when Multicast Router Port is enabled.",
+          "Others",
+          "USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE | USW-16/24/48-PoE |",
+          "USW-Lite-8/16-PoE | USW-Aggregation",
+          "Fixed 802.1X MAC-based EAP-TLS authentication not functioning correctly.",
+          "Fixed an issue where 802.1X MAC-based EAP-TLS authentication did not work correctly.",
+          "USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24",
+          "Fixed Unauthorized MAC Detected anomalies not clearing after the port stops receiving unauthorized MAC addresses.",
+          "Fixed ports reporting incorrect Loop Protection Triggered anomalies after re-enabling the port.",
+          "Fixed incorrect unicast storm detection port anomaly reporting.",
+          "USW-EnterpriseXG-24",
+          "Fixed Flow Control not working correctly.",
+          "USW-Enterprise-8-PoE",
+          "Fixed an issue where the Voice VLAN was not correctly assigned.",
+          "US-8",
+          "Fixed an issue where the SNMP Community name setting failed to apply."
+        ],
+        "Additional information": [
+          "Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.",
+          "If you encounter any issues with this release, please provide us with some details on your setup and include the following information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.4.0 includes the improvements and bugfixes below and is available only for selected models.</p><p>It is currently not available for the models listed below:</p><ul><li>USP-RPS</li><li>USP-PDU-Pro/HD</li><li>USW-Pro-XG-24/48-PoE | USW-Pro-XG-24/48 | ECS-24/48-PoE | USW-Pro-XG-Aggregation</li></ul><h2>Improvements</h2><p>&nbsp;</p><p class=\"ql-indent-2\"><br></p><p class=\"ql-indent-1\"><strong>All Models</strong></p><ul><li class=\"ql-indent-1\">Improved CPU usage when collecting port data for each MAC address.</li></ul><p class=\"ql-indent-1\"><strong>USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24</strong></p><ul><li class=\"ql-indent-1\">Improved RADIUS Accounting compatibility.</li><li class=\"ql-indent-1\">Improved IGMP Leave handling when Fast Leave is not enabled.</li><li class=\"ql-indent-1\">Added the ability to automatically restore port connectivity when a port fails to handle link-up/down events correctly.</li></ul><p class=\"ql-indent-1\"><strong>USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE</strong></p><ul><li class=\"ql-indent-1\">Improved IPTV stream stability when IGMP Snooping is enabled.</li><li class=\"ql-indent-1\">Improved device connectivity when forwarding multicast traffic with IGMP Snooping enabled.</li></ul><p class=\"ql-indent-1\"><strong>US-16-XG</strong></p><ul><li class=\"ql-indent-1\">Improved SFP+ link compatibility.</li></ul><h2>Bugfixes</h2><p>&nbsp;</p><p><br></p><p class=\"ql-indent-1\"><strong>STP &amp; Stability</strong></p><p class=\"ql-indent-1\"><br></p><p class=\"ql-indent-2\"><strong>All Models</strong></p><p class=\"ql-indent-1\"><br></p><ul><li class=\"ql-indent-2\">Fixed false STP blocked anomalies when a port links up or when STP is disabled on a port.</li></ul><p><br></p><p class=\"ql-indent-2\"><strong>USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE</strong></p><p><br></p><ul><li class=\"ql-indent-2\">Fixed connectivity loss on QoS-configured ports when modifying other ports.</li><li class=\"ql-indent-2\">Fixed management access loss after changing the Management VLAN.</li><li class=\"ql-indent-2\">Fixed intermittent loss of management DHCP IP after reboot.</li><li class=\"ql-indent-2\">Fixed management access loss under high PTP traffic.</li></ul><p><br></p><p class=\"ql-indent-2\"><strong>USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE | USW-16/24/48-PoE |</strong></p><p class=\"ql-indent-2\"><strong>USW-Lite-8/16-PoE | USW-Aggregation</strong></p><p><br></p><ul><li class=\"ql-indent-2\">Fixed connectivity loss after changing the Native VLAN.</li><li class=\"ql-indent-2\">Fixed VLAN leakage on 802.1X-authenticated ports when RADIUS-assigned VLAN is enabled.</li><li class=\"ql-indent-2\">Fixed VLAN configuration changes causing link flapping and STP state transitions.</li><li class=\"ql-indent-2\">Fixed VLAN leakage during device boot.</li></ul><p><br></p><p class=\"ql-indent-2\"><strong>USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24</strong></p><p><br></p><ul><li class=\"ql-indent-2\">Fixed unstable link behavior when using the UACC-CM-RJ45-1G SFP module.</li><li class=\"ql-indent-2\">Fixed ports continuing to forward traffic during switch reboot.</li></ul><p><br></p><p class=\"ql-indent-1\"><strong>IGMP &amp; Multicast</strong></p><p class=\"ql-indent-1\"><br></p><p class=\"ql-indent-2\"><strong>USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE | USW-16/24/48-PoE |</strong></p><p class=\"ql-indent-2\"><strong>USW-Lite-8/16-PoE | USW-Aggregation</strong></p><p class=\"ql-indent-1\"><br></p><ul><li class=\"ql-indent-2\">Fixed missing Router Alert field in IGMP General Query messages.</li><li class=\"ql-indent-2\">Fixed PTP synchronization issues when IGMP Snooping is disabled.</li><li class=\"ql-indent-2\">Fixed part of multicast streams not flooding after boot.</li></ul><p class=\"ql-indent-2\"><br></p><p class=\"ql-indent-2\"><strong>USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24</strong></p><p><br></p><ul><li class=\"ql-indent-2\">Fixed Querier state transition when receiving a General Query from a Querier with a higher IP.</li><li class=\"ql-indent-2\">Fixed IGMP Report leaks on ports that are configured with Pro AV.</li><li class=\"ql-indent-2\">Fixed incorrectly set IGMP Querier Addresses when using IGMP Snooping on L3 Switch VLANs.</li><li class=\"ql-indent-2\">Fixed L3 routing not functioning when Multicast Router Port is enabled.&nbsp;&nbsp;</li></ul><p><br></p><p class=\"ql-indent-1\"><strong>Others</strong></p><p><br></p><p class=\"ql-indent-2\"><strong>USW-Pro-Max | USW-Pro-8-PoE | USW-Pro-XG-8/10-PoE | USW-Pro-HD-24-PoE | USW-16/24/48-PoE |</strong></p><p class=\"ql-indent-2\"><strong>USW-Lite-8/16-PoE | USW-Aggregation</strong></p><p><br></p><ul><li class=\"ql-indent-2\">Fixed 802.1X MAC-based EAP-TLS authentication not functioning correctly.</li><li class=\"ql-indent-2\">Fixed an issue where 802.1X MAC-based EAP-TLS authentication did not work correctly.</li></ul><p><br></p><p class=\"ql-indent-2\"><strong>USW-Pro | USW-Pro-Aggregation | USW-Enterprise-24/48-PoE | USW-EnterpriseXG-24</strong></p><p><br></p><ul><li class=\"ql-indent-2\">Fixed Unauthorized MAC Detected anomalies not clearing after the port stops receiving unauthorized MAC addresses.</li><li class=\"ql-indent-2\">Fixed ports reporting incorrect Loop Protection Triggered anomalies after re-enabling the port.</li><li class=\"ql-indent-2\">Fixed incorrect unicast storm detection port anomaly reporting.</li></ul><p class=\"ql-indent-2\"><br></p><p class=\"ql-indent-2\"><strong>USW-EnterpriseXG-24</strong></p><p><br></p><ul><li class=\"ql-indent-2\">Fixed Flow Control not working correctly.</li></ul><p><br></p><p class=\"ql-indent-2\"><strong>USW-Enterprise-8-PoE</strong></p><p class=\"ql-indent-2\"><br></p><ul><li class=\"ql-indent-2\">Fixed an issue where the Voice VLAN was not correctly assigned.</li></ul><p><br></p><p class=\"ql-indent-2\"><strong>US-8</strong></p><p class=\"ql-indent-2\"><br></p><ul><li class=\"ql-indent-2\">Fixed an issue where the SNMP Community name setting failed to apply.</li></ul><h2>Additional information</h2><ul><li>Touchscreen and Etherlighting may take several minutes to become operational after the firmware update.</li></ul><p>&nbsp;</p><p><br></p><p><br></p><p>If you encounter any issues with this release, please provide us with some details on your setup and include the following information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "4b641591-e974-47f1-bbb5-667944ee42de",
+      "kategorie": "switch",
+      "version": "7.3.109",
+      "titel": "UniFi Switch WAN 7.3.109",
+      "link": "https://community.ui.com/releases/UniFi-Switch-WAN-7-3-109/4b641591-e974-47f1-bbb5-667944ee42de",
+      "veroeffentlicht": "2026-01-15T10:56:56+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Bugfixes": [
+          "Fixed a memory leak."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Bugfixes</h2><ul><li>Fixed a memory leak.</li></ul><h2>Additional information</h2><p><br></p><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "831d8520-c857-44bc-9e6e-2d8ad425e1b5",
+      "kategorie": "switch",
+      "version": "7.2.123",
+      "titel": "UniFi Switch 7.2.123",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-2-123/831d8520-c857-44bc-9e6e-2d8ad425e1b5",
+      "veroeffentlicht": "2025-10-07T14:40:59+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.2.123 includes the improvements and bugfixes listed below."
+        ],
+        "Improvements": [
+          "Improved the IGMP Querier behavior to address IPTV issues reported in 7.2.120.",
+          "[USW-Pro][USW-Enterprise-24/48-PoE][USW-16/24/48-PoE][USW-Lite-8/16-PoE][USW-Pro-Max-16/24/48-PoE] Improved device stability by fixing improper memory handling.",
+          "[USW-16/24/48-PoE][USW-Lite-8/16-PoE][USW-Pro-Max-16/24/48-PoE] Improved device stability when handling 802.1X authentication results with long usernames.",
+          "[USW-Pro-24/48] Improved the DHCP packet rate warning functionality."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where switching to a static IP did not work.",
+          "[USW-Flex-XG] Fixed a device crash issue while requesting a DHCPv6 address.",
+          "[USW-Pro][USW-Enterprise-24/48-PoE] Fixed an issue where the device could be reported offline when repeated link events occurred."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Early Access.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.2.123 includes the improvements and bugfixes listed below.</p><h2>Improvements</h2><ul><li>Improved the IGMP Querier behavior to address IPTV issues reported in 7.2.120.</li><li>[USW-Pro][USW-Enterprise-24/48-PoE][USW-16/24/48-PoE][USW-Lite-8/16-PoE][USW-Pro-Max-16/24/48-PoE] Improved device stability by fixing improper memory handling.</li><li>[USW-16/24/48-PoE][USW-Lite-8/16-PoE][USW-Pro-Max-16/24/48-PoE] Improved device stability when handling 802.1X authentication results with long usernames.</li><li>[USW-Pro-24/48] Improved the DHCP packet rate warning functionality.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where switching to a static IP did not work.</li><li>[USW-Flex-XG] Fixed a device crash issue while requesting a DHCPv6 address.</li><li>[USW-Pro][USW-Enterprise-24/48-PoE] Fixed an issue where the device could be reported offline when repeated link events occurred.</li></ul><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li><li>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to&nbsp;<strong>Early Access</strong>.</li><li class=\"ql-indent-1\"><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "13b41926-9f20-465f-ab3e-9b98079f0a46",
+      "kategorie": "switch",
+      "version": "7.2.120",
+      "titel": "UniFi Switch 7.2.120",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-2-120/13b41926-9f20-465f-ab3e-9b98079f0a46",
+      "veroeffentlicht": "2025-09-02T13:23:43+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.2.120 includes the improvements and bugfixes listed below."
+        ],
+        "Improvements": [
+          "Added support for the IGMP Snooping options, Forward Unknown Multicast Traffic to Multicast Router Ports, and Control Flood Known Protocols.",
+          "Requires Network Application 9.1.120 or newer.",
+          "Added Loop Protection information to the built-in Touch Screen.",
+          "[USW-Pro-XG-24/48-PoE] Improved device stability when IGMP Snooping is enabled.",
+          "[USW-Pro-Aggregation][USW-Pro] Improved IGMP Snooping Querier election behavior.",
+          "[USW-Pro-Aggregation] Improved 25G link compatibility.",
+          "[USW-EnterpriseXG-24] Improved 10GbE link compatibility.",
+          "[USW-Pro-Max-48-PoE] Improved IGMP Snooping resiliency.",
+          "[USW-Pro-Max-48-PoE] Improved link stability after an upgrade.",
+          "[USW-Pro-Max] Improved stability when using L3 routing.",
+          "[USW-Pro-Max] Improved Etherlighting firmware update resiliency.",
+          "[USW-Enterprise-8-PoE] Improved connection resiliency when using DHCP Relay."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where IGMP Snooping Querier election participation was not enabled by default.",
+          "Fixed an issue where not all RADIUS servers were configured.",
+          "[USW-16/24/48-PoE] Fixed an issue where Management Access could be lost under high multicast load.",
+          "[USW-16/24/48-PoE] Fixed an issue where multicast packets were lost during high load.",
+          "[USW-16/24/48-PoE] Fixed an issue where SNMP community names with special characters did not work.",
+          "[USW-16/24/48-PoE] Fixed an issue where IPTV streams could be disrupted by unknown multicast traffic on Multicast Router Ports.",
+          "[USW-Pro-XG-24/48-PoE] Fixed an issue where 802.1X clients received an fallback IP address instead of VLAN-assigned addresses from RADIUS.",
+          "[USW-Pro-XG-24/48-PoE] Fixed an issue where reserved multicast traffic was not forwarded when ProAV was configured.",
+          "[USW-Pro-XG-24/48-PoE] Fixed an issue where 224.0.0.0/24 traffic was not flooded when IGMP Snooping was enabled.",
+          "[USW-Pro-XG-24/48-PoE] Fixed an issue where Dante subscriptions were not processed correctly when passing through LAG interfaces with IGMP Snooping enabled.",
+          "[USW-Pro-XG-24/48-PoE] Fixed jumbo frame configuration issues.",
+          "[USW-Pro-XG-48-PoE] Fixed an issue where Voice VLAN did not work on ports 33–48.",
+          "[USW-Pro-24/48-PoE] Fixed an issue where non-queriers sent specific query packets.",
+          "[USW-Enterprise-8-PoE] Fixed an issue where 802.1X MAC-based authentication failed after reboot.",
+          "[USW-Pro-Max] Fixed Dante subscription issues in cascaded topologies.",
+          "[USW-Pro-Aggregation][USW-Pro][USW-Gen1] Fixed Magic VLAN issues with NDI/Netool devices.",
+          "[USW-Pro-Aggregation][USW-Pro][USW-Gen1] Fixed an issue where 802.1X clients could not access the network after creating new networks.",
+          "[USW-Pro-Aggregation][USW-Pro][USW-Gen1] Fixed an issue where 802.1X clients failed to obtain a DHCP address from the fallback VLAN.",
+          "[USW-Pro-Aggregation] Fixed incorrect SFP fault reporting after reboot.",
+          "[USW-Aggregation] Fixed unstable links when connecting UF-AE with a 10G module.",
+          "[USW-Pro-24/48][USW-Enterprise-24/48-PoE] Fixed an issue where L3 Network Isolation did not work with custom IP ACLs.",
+          "[USW-Pro-Max] Fixed an issue where toggling L3 Guest Network affects regular networks.",
+          "[ECS-24/48-PoE] Fixed Link Aggregation issues with 2.5GbE and 10GbE ports.",
+          "[USW-Pro-Max] Fixed Link Aggregation issues with GbE and 2.5GbE ports.",
+          "[USW-Pro-Max] Fixed an issue where 802.1X clients were placed in the fallback VLAN after reboot.",
+          "[USW-Pro-Max-48][USW-Pro-HD][USW-Pro-XG-8/10-PoE] Fixed IGMP Snooping issue affecting 239.x.x.x multicast addresses.",
+          "[USW-Pro-XG-8/10-PoE] Fixed rare ACL configuration issues.",
+          "[USW-Pro-24/48-PoE] Fixed an issue where VLANs could be missing from port configurations after restart.",
+          "[USW-Pro-48-PoE] Fixed an issue where 802.1X MAC-based authentication failed on ports 1–24 after reboot.",
+          "[USW-Pro] Fixed an issue where IGMP Query packets from ProAV ports were not processed correctly.",
+          "[USW-Pro] Fixed an issue where IGMP Querier did not send query messages on the first port.",
+          "[USW-Industrial] Fixed inability to disable STP.",
+          "[USW-Flex] Fixed an issue where flow control did not work."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Early Access.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.2.120 includes the improvements and bugfixes listed below.</p><h2>Improvements</h2><ul><li>Added support for the IGMP Snooping options, Forward Unknown Multicast Traffic to Multicast Router Ports, and Control Flood Known Protocols.</li><li class=\"ql-indent-1\">Requires Network Application 9.1.120 or newer.</li><li>Added Loop Protection information to the built-in Touch Screen.</li><li>[USW-Pro-XG-24/48-PoE] Improved device stability when IGMP Snooping is enabled.</li><li>[USW-Pro-Aggregation][USW-Pro] Improved IGMP Snooping Querier election behavior.</li><li>[USW-Pro-Aggregation] Improved 25G link compatibility.</li><li>[USW-EnterpriseXG-24] Improved 10GbE link compatibility.</li><li>[USW-Pro-Max-48-PoE] Improved IGMP Snooping resiliency.</li><li>[USW-Pro-Max-48-PoE] Improved link stability after an upgrade.</li><li>[USW-Pro-Max] Improved stability when using L3 routing.</li><li>[USW-Pro-Max] Improved Etherlighting firmware update resiliency.</li><li>[USW-Enterprise-8-PoE] Improved connection resiliency when using DHCP Relay.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where IGMP Snooping Querier election participation was not enabled by default.</li><li>Fixed an issue where not all RADIUS servers were configured.</li><li>[USW-16/24/48-PoE] Fixed an issue where Management Access could be lost under high multicast load.</li><li>[USW-16/24/48-PoE] Fixed an issue where multicast packets were lost during high load.</li><li>[USW-16/24/48-PoE] Fixed an issue where SNMP community names with special characters did not work.</li><li>[USW-16/24/48-PoE] Fixed an issue where IPTV streams could be disrupted by unknown multicast traffic on Multicast Router Ports.</li><li>[USW-Pro-XG-24/48-PoE] Fixed an issue where 802.1X clients received an fallback IP address instead of VLAN-assigned addresses from RADIUS.</li><li>[USW-Pro-XG-24/48-PoE] Fixed an issue where reserved multicast traffic was not forwarded when ProAV was configured.</li><li>[USW-Pro-XG-24/48-PoE] Fixed an issue where 224.0.0.0/24 traffic was not flooded when IGMP Snooping was enabled.</li><li>[USW-Pro-XG-24/48-PoE] Fixed an issue where Dante subscriptions were not processed correctly when passing through LAG interfaces with IGMP Snooping enabled.</li><li>[USW-Pro-XG-24/48-PoE] Fixed jumbo frame configuration issues.</li><li>[USW-Pro-XG-48-PoE] Fixed an issue where Voice VLAN did not work on ports 33–48.</li><li>[USW-Pro-24/48-PoE] Fixed an issue where non-queriers sent specific query packets.</li><li>[USW-Enterprise-8-PoE] Fixed an issue where 802.1X MAC-based authentication failed after reboot.</li><li>[USW-Pro-Max] Fixed Dante subscription issues in cascaded topologies.</li><li>[USW-Pro-Aggregation][USW-Pro][USW-Gen1] Fixed Magic VLAN issues with NDI/Netool devices.</li><li>[USW-Pro-Aggregation][USW-Pro][USW-Gen1] Fixed an issue where 802.1X clients could not access the network after creating new networks.</li><li>[USW-Pro-Aggregation][USW-Pro][USW-Gen1] Fixed an issue where 802.1X clients failed to obtain a DHCP address from the fallback VLAN.</li><li>[USW-Pro-Aggregation] Fixed incorrect SFP fault reporting after reboot.</li><li>[USW-Aggregation] Fixed unstable links when connecting UF-AE with a 10G module.</li><li>[USW-Pro-24/48][USW-Enterprise-24/48-PoE] Fixed an issue where L3 Network Isolation did not work with custom IP ACLs.</li><li>[USW-Pro-Max] Fixed an issue where toggling L3 Guest Network affects regular networks.</li><li>[ECS-24/48-PoE] Fixed Link Aggregation issues with 2.5GbE and 10GbE ports.</li><li>[USW-Pro-Max] Fixed Link Aggregation issues with GbE and 2.5GbE ports.</li><li>[USW-Pro-Max] Fixed an issue where 802.1X clients were placed in the fallback VLAN after reboot.</li><li>[USW-Pro-Max-48][USW-Pro-HD][USW-Pro-XG-8/10-PoE] Fixed IGMP Snooping issue affecting 239.x.x.x multicast addresses.</li><li>[USW-Pro-XG-8/10-PoE] Fixed rare ACL configuration issues.</li><li>[USW-Pro-24/48-PoE] Fixed an issue where VLANs could be missing from port configurations after restart.</li><li>[USW-Pro-48-PoE] Fixed an issue where 802.1X MAC-based authentication failed on ports 1–24 after reboot.</li><li>[USW-Pro] Fixed an issue where IGMP Query packets from ProAV ports were not processed correctly.</li><li>[USW-Pro] Fixed an issue where IGMP Querier did not send query messages on the first port.</li><li>[USW-Industrial] Fixed inability to disable STP.</li><li>[USW-Flex] Fixed an issue where flow control did not work.</li></ul><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li><li>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to&nbsp;<strong>Early Access</strong>.</li><li class=\"ql-indent-1\"><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "3eabea93-03e1-47b2-82ce-031f2fcee66d",
+      "kategorie": "switch",
+      "version": "7.3.108",
+      "titel": "UniFi Switch Pro XG Aggregation 7.3.108",
+      "link": "https://community.ui.com/releases/UniFi-Switch-Pro-XG-Aggregation-7-3-108/3eabea93-03e1-47b2-82ce-031f2fcee66d",
+      "veroeffentlicht": "2025-09-01T06:12:29+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the UniFi Switch Pro XG Aggregation."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the <a href=\"https://store.ui.com/us/en/category/switching-aggregation/products/usw-pro-xg-aggregation\" rel=\"noopener noreferrer\" target=\"_blank\">UniFi Switch Pro XG Aggregation</a>.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "81084407-4a8f-458a-b391-dd8b8fb63187",
+      "kategorie": "switch",
+      "version": "7.2.114",
+      "titel": "UniFi Switch Pro XG 7.2.114",
+      "link": "https://community.ui.com/releases/UniFi-Switch-Pro-XG-7-2-114/81084407-4a8f-458a-b391-dd8b8fb63187",
+      "veroeffentlicht": "2025-05-29T19:43:07+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the USW-Pro-XG-24/48."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Early Access.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the USW-Pro-XG-24/48.</p><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li><li>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to&nbsp;<strong>Early Access</strong>.</li><li class=\"ql-indent-1\"><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "e845efcb-dc7b-409e-a173-9d7283dcd2b5",
+      "kategorie": "switch",
+      "version": "7.2.112",
+      "titel": "UniFi Switch WAN 7.2.112",
+      "link": "https://community.ui.com/releases/UniFi-Switch-WAN-7-2-112/e845efcb-dc7b-409e-a173-9d7283dcd2b5",
+      "veroeffentlicht": "2025-05-29T19:43:05+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the USW-WAN-RJ45."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Early Access.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the USW-WAN-RJ45.</p><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li><li>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to&nbsp;<strong>Early Access</strong>.</li><li class=\"ql-indent-1\"><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "23023cb4-7d03-4bfc-a891-a6ad375f42f0",
+      "kategorie": "switch",
+      "version": "7.2.111",
+      "titel": "UniFi Switch 7.2.111",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-2-111/23023cb4-7d03-4bfc-a891-a6ad375f42f0",
+      "veroeffentlicht": "2025-05-02T09:39:22+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the USW-Pro-XG lineup."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Early Access.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the USW-Pro-XG lineup.</p><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li><li>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to&nbsp;<strong>Early Access</strong>.</li><li class=\"ql-indent-1\"><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "cd3bc055-f563-4610-9f05-46eb7ca36280",
+      "kategorie": "switch",
+      "version": "7.2.110",
+      "titel": "UniFi Switch WAN 7.2.110",
+      "link": "https://community.ui.com/releases/UniFi-Switch-WAN-7-2-110/cd3bc055-f563-4610-9f05-46eb7ca36280",
+      "veroeffentlicht": "2025-05-02T09:39:19+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the USW-WAN."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Early Access.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the USW-WAN.</p><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li><li>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to&nbsp;<strong>Early Access</strong>.</li><li class=\"ql-indent-1\"><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "8807c0ee-505a-4b97-9b1d-a8032966c989",
+      "kategorie": "switch",
+      "version": "7.2.108",
+      "titel": "UniFi Enterprise Campus Switch 7.2.108",
+      "link": "https://community.ui.com/releases/UniFi-Enterprise-Campus-Switch-7-2-108/8807c0ee-505a-4b97-9b1d-a8032966c989",
+      "veroeffentlicht": "2025-02-24T15:28:21+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the UniFi Enterprise Campus Switches"
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "Update your devices by changing the Device Firmware Release Channel in the UniFi Network application to Early Access.",
+          "If you wish to go back to the Official release after the upgrade, change the release channel back to Official.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the UniFi Enterprise Campus Switches</p><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li><li>Update your devices by changing the&nbsp;<strong>Device Firmware Release Channel</strong>&nbsp;in the UniFi Network application to&nbsp;<strong>Early Access</strong>.</li><li class=\"ql-indent-1\"><em>If you wish to go back to the Official release after the upgrade, change the release channel back to&nbsp;</em><strong><em>Official</em></strong><em>.</em></li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "60dc57db-ca5b-4378-87fa-f85eb455f2de",
+      "kategorie": "switch",
+      "version": "7.1.33",
+      "titel": "UniFi Switch Pro HD 24 PoE 7.1.33",
+      "link": "https://community.ui.com/releases/UniFi-Switch-Pro-HD-24-PoE-7-1-33/60dc57db-ca5b-4378-87fa-f85eb455f2de",
+      "veroeffentlicht": "2025-01-07T17:18:25+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the USW-Pro-HD-24-PoE."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the USW-Pro-HD-24-PoE.</p><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "33e34ca9-ff95-498a-9d4e-98ab2dd58b1c",
+      "kategorie": "switch",
+      "version": "7.1.26",
+      "titel": "UniFi Switch 7.1.26",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-1-26/33e34ca9-ff95-498a-9d4e-98ab2dd58b1c",
+      "veroeffentlicht": "2024-10-02T08:12:03+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.1.26 adds support for Advanced IGMP Snooping and screen rotation."
+        ],
+        "Improvements": [
+          "Added support for Advanced IGMP Snooping.",
+          "Expanded options when IGMP Snooping is enabled.",
+          "Fast Leave",
+          "Forward unknown multicast traffic",
+          "Querier IP",
+          "Ports can be defined as \"Multicast Router Port\" if IGMP Snooping is enabled.",
+          "Requires UniFi Network Application 8.4.54 or newer.",
+          "Added support for screen rotation.",
+          "Requires UniFi Network Application version 8.4.54 or newer.",
+          "Improved the Etherlighting firmware update process.",
+          "[USW-Pro-Aggregation] Improved 25G speed link stability.",
+          "[USW-Pro-PoE] Improved PoE compatibility with 3rd-party cameras.",
+          "[USW-Enterprise-8-PoE] Added support for configuring SNMP location and contact.",
+          "[US-G1][USW-Pro] Improved CPU usage on forwarding multicast streaming."
+        ],
+        "Bugfixes": [
+          "Fixed the inability to return to the previous screen at port 9/10 status in the touchscreen.",
+          "Fixed clients need a long time to get an IPv6 address when Device Isolation (ACL) is enabled.",
+          "[USP-PDU-Pro] Fixed an issue where a different outlet could get power cycled when power cycling an outlet.",
+          "[USW-Enterprise-8-PoE] Fixed crash during packet processing when IP ACLs are configured.",
+          "[USW-Enterprise-8-PoE] Fixed DHCP Snooping configuration failure when LAG is configured.",
+          "[USW-Enterprise-8-PoE] Fixed an issue where the 2nd RADIUS server was not being used.",
+          "[USW-Enterprise-8-PoE] Fixed an issue where DHCP Guarding stops working after toggling the DHCP Snooping setting.",
+          "[USW-Pro-Max] Fixed the inability to adjust the Etherlighting color for the Native VLAN NONE.",
+          "[USW-Pro-Max] Fixed an issue where LAG didn't work after a reboot.",
+          "[USW-Pro-Max] Fixed an issue where the device gets an IP from the wrong VLAN.",
+          "[USW-Pro-Max] Fixed an issue where clients couldn't obtain an IP address from an L3 DHCP server when DHCP Snooping is disabled.",
+          "[USW-Aggregation] Fixed an issue where Loop Protection is not applied to LAG interfaces after a reboot.",
+          "[USW-48-PoE] Fixed an issue where Loop Protection didn't work properly.",
+          "[USW-48-PoE] Fixed manual speed setting on aggregation ports does not work.",
+          "[US-G1][USW-Pro] Fixed abnormal Tx drop counter increasing.",
+          "[US-48] Fixed mDNS traffic is not passing on some ports when IGMP Snooping is enabled.",
+          "[USW-PoE] Fixed SNMPv3 does not work if the password contains special characters.",
+          "[USW-PoE] Fixed the inability to authenticate with the RADIUS server if it contained special characters.",
+          "[USW-PoE] Fixed DNS queries using the same transaction ID for both IPv4 and IPv6 queries.",
+          "[USW-PoE] Fixed memory leak when using SNMP."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.1.26 adds support for Advanced IGMP Snooping and screen rotation.</p><h2>Improvements</h2><ul><li>Added support for Advanced IGMP Snooping.</li><li class=\"ql-indent-1\">Expanded options when IGMP Snooping is enabled.</li><li class=\"ql-indent-2\">Fast Leave</li><li class=\"ql-indent-2\">Forward unknown multicast traffic</li><li class=\"ql-indent-2\">Querier IP</li><li class=\"ql-indent-1\">Ports can be defined as \"Multicast Router Port\" if IGMP Snooping is enabled.</li><li class=\"ql-indent-1\">Requires UniFi Network Application 8.4.54 or newer.</li><li>Added support for screen rotation.</li><li class=\"ql-indent-1\">Requires UniFi Network Application version 8.4.54 or newer.</li><li>Improved the Etherlighting firmware update process.</li><li>[USW-Pro-Aggregation] Improved 25G speed link stability.</li><li>[USW-Pro-PoE] Improved PoE compatibility with 3rd-party cameras.</li><li>[USW-Enterprise-8-PoE] Added support for configuring SNMP location and contact.</li><li>[US-G1][USW-Pro] Improved CPU usage on forwarding multicast streaming.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the inability to return to the previous screen at port 9/10 status in the touchscreen.</li><li>Fixed clients need a long time to get an IPv6 address when Device Isolation (ACL) is enabled.</li><li>[USP-PDU-Pro] Fixed an issue where a different outlet could get power cycled when power cycling an outlet.</li><li>[USW-Enterprise-8-PoE] Fixed crash during packet processing when IP ACLs are configured.</li><li>[USW-Enterprise-8-PoE] Fixed DHCP Snooping configuration failure when LAG is configured.</li><li>[USW-Enterprise-8-PoE] Fixed an issue where the 2nd RADIUS server was not being used.</li><li>[USW-Enterprise-8-PoE] Fixed an issue where DHCP Guarding stops working after toggling the DHCP Snooping setting.</li><li>[USW-Pro-Max] Fixed the inability to adjust the Etherlighting color for the Native VLAN NONE.</li><li>[USW-Pro-Max] Fixed an issue where LAG didn't work after a reboot.</li><li>[USW-Pro-Max] Fixed an issue where the device gets an IP from the wrong VLAN.</li><li>[USW-Pro-Max] Fixed an issue where clients couldn't obtain an IP address from an L3 DHCP server when DHCP Snooping is disabled.</li><li>[USW-Aggregation] Fixed an issue where Loop Protection is not applied to LAG interfaces after a reboot.</li><li>[USW-48-PoE] Fixed an issue where Loop Protection didn't work properly.</li><li>[USW-48-PoE] Fixed manual speed setting on aggregation ports does not work.</li><li>[US-G1][USW-Pro] Fixed abnormal Tx drop counter increasing.</li><li>[US-48] Fixed mDNS traffic is not passing on some ports when IGMP Snooping is enabled.</li><li>[USW-PoE] Fixed SNMPv3 does not work if the password contains special characters.</li><li>[USW-PoE] Fixed the inability to authenticate with the RADIUS server if it contained special characters.</li><li>[USW-PoE] Fixed DNS queries using the same transaction ID for both IPv4 and IPv6 queries.</li><li>[USW-PoE] Fixed memory leak when using SNMP.</li></ul><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "5cf88e42-245e-45f6-82f9-533212c1b2ea",
+      "kategorie": "switch",
+      "version": "7.0.50",
+      "titel": "UniFi Switch 7.0.50",
+      "link": "https://community.ui.com/releases/UniFi-Switch-7-0-50/5cf88e42-245e-45f6-82f9-533212c1b2ea",
+      "veroeffentlicht": "2024-04-15T12:14:46+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Switch 7.0.50 includes the improvement and bugfixes listed below."
+        ],
+        "Improvements": [
+          "[USW-Pro-Max] Improved latency for configuring Etherlighting modes. Requires Network Application 8.1.122 or newer."
+        ],
+        "Bugfixes": [
+          "[USW-Pro-Max] Fixed an issue that caused the memory usage to increase slowly over time.",
+          "[USW-Pro-Aggregation] Fixed an issue where the switch stops passing Inter-VLAN traffic under heavy load.",
+          "[USW-Pro-Aggregation] Fixed an issue where provisioning changes take longer when disabling Loop Protection on Aggregrated ports."
+        ],
+        "Additional information": [
+          "Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.",
+          "Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.",
+          "If you encounter any issues with this release, please provide us some details on your setup and include the below information:",
+          "Switch model(s)",
+          "Previous Switch release version",
+          "UniFi Network application version"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Switch 7.0.50 includes the improvement and bugfixes listed below.</p><h2>Improvements</h2><ul><li>[USW-Pro-Max] Improved latency for configuring Etherlighting modes. <em>Requires Network Application 8.1.122 or newer.</em></li></ul><h2>Bugfixes</h2><ul><li>[USW-Pro-Max] Fixed an issue that caused the memory usage to increase slowly over time.</li><li>[USW-Pro-Aggregation] Fixed an issue where the switch stops passing Inter-VLAN traffic under heavy load.</li><li>[USW-Pro-Aggregation] Fixed an issue where provisioning changes take longer when disabling Loop Protection on Aggregrated ports.</li></ul><h2>Additional information</h2><ul><li>Your device built-in display may turn black or unresponsive for ~10 minutes after firmware upgrades to upgrade Touchscreen firmware.</li><li>Your device's Etherlighting ports may turn off for ~5 minutes after firmware upgrades to upgrade the Etherlighting firmware.</li></ul><p><br></p><p><em>&nbsp;</em></p><p>If you encounter any issues with this release, please provide us some details on your setup and include the below information:</p><ul><li>Switch model(s)</li><li>Previous Switch release version</li><li>UniFi Network application version</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    }
+  ]
+}

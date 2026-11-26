@@ -1,0 +1,786 @@
+{
+  "kategorie": "protect-application",
+  "feed": "https://community.ui.com/rss/releases/x/aada5f38-35d4-4525-9235-b14bd320e4d0",
+  "zuletzt_abgerufen": "2026-11-26T04:54:38+00:00",
+  "releases": [
+    {
+      "id": "3e80bb8a-bc8a-4bf7-a04f-6cde54cc4f8c",
+      "kategorie": "protect-application",
+      "version": "7.3.74",
+      "titel": "UniFi Protect Application 7.3.74",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-3-74/3e80bb8a-bc8a-4bf7-a04f-6cde54cc4f8c",
+      "veroeffentlicht": "2026-11-02T15:41:29+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.3.74 introduces following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where playback did not work in Safari when using a local connection.",
+          "Fixed an issue where the background image could not be changed on the G6 Pro Entry.",
+          "Fixed an issue where reassigning faces could result in the loss of existing face groups and detections.",
+          "Fixed an issue where an unavailable NAS could prevent uploads to other Off-Site Archiving destinations in some cases.",
+          "Fixed an issue where increased memory limits were incorrectly applied to ENVR Core."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.3.74 introduces following bugfixes.</p><h2>Bugfixes</h2><ul><li><p>Fixed an issue where playback did not work in Safari when using a local connection.</p></li><li><p>Fixed an issue where the background image could not be changed on the G6 Pro Entry.</p></li><li><p>Fixed an issue where reassigning faces could result in the loss of existing face groups and detections.</p></li><li><p>Fixed an issue where an unavailable NAS could prevent uploads to other Off-Site Archiving destinations in some cases.</p></li><li><p>Fixed an issue where increased memory limits were incorrectly applied to ENVR Core.</p></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "7853e377-dc73-4c41-9278-8174f252e3d2",
+      "kategorie": "protect-application",
+      "version": "7.3.70",
+      "titel": "UniFi Protect Application 7.3.70",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-3-70/7853e377-dc73-4c41-9278-8174f252e3d2",
+      "veroeffentlicht": "2026-10-02T12:31:01+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.3.70 introduces Dashboard Time Machine for reviewing past activity at a glance and Super Encoding to extend recording retention with up to 50% better storage efficiency. This release also brings major updates to Find Anything and Sensor Manager for easier identification management and sensor activity review."
+        ],
+        "Improvements": [
+          "Added Dashboard Time Machine.",
+          "Added Super Encoding setting in Storage Budgeting.",
+          "Added a sound level graph for Glass Break sensor calibration.",
+          "Added a Buzzer option in Alarm Manager for the G6 180 Enhancer.",
+          "Improved Find Anything:",
+          "Added Manage Identifications with drag-and-drop assignment, notification controls, and UniFi user identification.",
+          "Added Most Recent and Commonality views with quick access to people and license plates from search.",
+          "Added detection activity charts and improved filtering and contextual guidance.",
+          "Added links from face groups to corresponding users in the console’s People section.",
+          "Improved Sensor Manager with event charts, enhanced filtering, clearer data views, and customizable columns.",
+          "Improved Playback manage range selection.",
+          "Improved player controls for a consistent video experience.",
+          "Improved Case Manager PDF reports with a clearer incident summary."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where healthy storage drives could incorrectly appear as removed after a reboot or update in some cases.",
+          "Fixed an issue where doorbell rings and notifications did not work on consoles without recording storage.",
+          "Fixed an issue where event recordings triggered by paired sensors could not be played in some cases.",
+          "Fixed an issue where some existing Global Alarm Manager alarms could stop working after an upgrade.",
+          "Fixed an issue where Local Alarm Manager alarms did not trigger correctly after switching from Global Alarm Manager.",
+          "Fixed an issue where Face Recognition and LPR alarms did not trigger correctly for cameras enhanced by AI Key.",
+          "Fixed an issue where LPR alarms combined with Line Crossing did not trigger correctly.",
+          "Fixed an issue where Speed and Object Idle Time alarms did not trigger correctly.",
+          "Fixed an issue where alarms with Vehicle Description conditions could not be created correctly.",
+          "Fixed an issue where Relay and Alarm Hub output settings were inconsistent between device settings and Alarm Manager.",
+          "Fixed an issue where unadopted or removed devices could appear in Global Alarm Manager.",
+          "Fixed an issue where second-stage verification could stop working after camera re-adoption.",
+          "Fixed an issue where Basic Object Recognition features could not be disabled when using AI Key.",
+          "Fixed an issue where resetting Picture Preferences did not restore the camera zoom correctly.",
+          "Fixed an issue where PTZ cameras could return to Home View while being manually controlled.",
+          "Fixed an issue where PTZ cameras could incorrectly return to Home View after a patrol interruption.",
+          "Fixed an issue preventing PTZ presets from being saved when an AI Port snapshot was unavailable.",
+          "Fixed an issue where Find Anything searches could become unresponsive in some cases.",
+          "Fixed an issue where some named faces were missing from Find Anything results.",
+          "Fixed an issue where recognized license plates could incorrectly appear as “Unknown”.",
+          "Fixed an issue where face detections could not be reassigned after being removed from a known person.",
+          "Fixed an issue where sensor events couldn't be viewed in Find Anything after the paired camera became unmanaged.",
+          "Fixed an issue where newly created cases could display an incorrect asset count.",
+          "Fixed an issue where asset selection controls were incorrectly shown to users with view-only Case Manager access.",
+          "Fixed an issue where removed cameras could remain in Evidence Trust Global Watermark settings.",
+          "Fixed an issue where Continuous Off-Site Archiving with UNAS Pro could not be enabled in some cases.",
+          "Fixed an issue where enabled video overlays could disappear after an update.",
+          "Fixed an issue where third-party camera image settings could be overwritten after reconnecting to Protect.",
+          "Fixed an issue where Industrial Zones were incorrectly available for secondary doorbell cameras.",
+          "Fixed an issue where shared settings could display inconsistently across multi-lens cameras.",
+          "Fixed an issue where custom GIF animations could not be uploaded to supported doorbells.",
+          "Fixed an issue where Glass Break Sensor test duration was handled incorrectly.",
+          "Fixed an issue where camera names were missing when pairing with Floodlight.",
+          "Fixed an issue where Recent Detections could fail to load on the Dashboard in some cases.",
+          "Fixed an issue where Dashboard video feeds could flicker in Firefox.",
+          "Fixed an issue where camera view could remain stuck expanded after returning to the Dashboard from Recording Manager.",
+          "Fixed an issue where selecting an event in System Log could unexpectedly jump to the top of the list."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.3.70 introduces Dashboard Time Machine for reviewing past activity at a glance and Super Encoding to extend recording retention with up to 50% better storage efficiency. This release also brings major updates to Find Anything and Sensor Manager for easier identification management and sensor activity review.</p><h2>Improvements</h2><ul><li>Added Dashboard Time Machine.</li><li>Added Super Encoding setting in Storage Budgeting.</li><li>Added a sound level graph for Glass Break sensor calibration.</li><li>Added a Buzzer option in Alarm Manager for the G6 180 Enhancer.</li><li>Improved Find Anything:</li><li class=\"ql-indent-1\">Added Manage Identifications with drag-and-drop assignment, notification controls, and UniFi user identification.</li><li class=\"ql-indent-1\">Added Most Recent and Commonality views with quick access to people and license plates from search.</li><li class=\"ql-indent-1\">Added detection activity charts and improved filtering and contextual guidance.</li><li class=\"ql-indent-1\">Added links from face groups to corresponding users in the console’s People section.</li><li>Improved Sensor Manager with event charts, enhanced filtering, clearer data views, and customizable columns.</li><li>Improved Playback manage range selection.</li><li>Improved player controls for a consistent video experience.</li><li>Improved Case Manager PDF reports with a clearer incident summary.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where healthy storage drives could incorrectly appear as removed after a reboot or update in some cases.</li><li>Fixed an issue where doorbell rings and notifications did not work on consoles without recording storage.</li><li>Fixed an issue where event recordings triggered by paired sensors could not be played in some cases.</li><li>Fixed an issue where some existing Global Alarm Manager alarms could stop working after an upgrade.</li><li>Fixed an issue where Local Alarm Manager alarms did not trigger correctly after switching from Global Alarm Manager.</li><li>Fixed an issue where Face Recognition and LPR alarms did not trigger correctly for cameras enhanced by AI Key.</li><li>Fixed an issue where LPR alarms combined with Line Crossing did not trigger correctly.</li><li>Fixed an issue where Speed and Object Idle Time alarms did not trigger correctly.</li><li>Fixed an issue where alarms with Vehicle Description conditions could not be created correctly.</li><li>Fixed an issue where Relay and Alarm Hub output settings were inconsistent between device settings and Alarm Manager.</li><li>Fixed an issue where unadopted or removed devices could appear in Global Alarm Manager.</li><li>Fixed an issue where second-stage verification could stop working after camera re-adoption.</li><li>Fixed an issue where Basic Object Recognition features could not be disabled when using AI Key.</li><li>Fixed an issue where resetting Picture Preferences did not restore the camera zoom correctly.</li><li>Fixed an issue where PTZ cameras could return to Home View while being manually controlled.</li><li>Fixed an issue where PTZ cameras could incorrectly return to Home View after a patrol interruption.</li><li>Fixed an issue preventing PTZ presets from being saved when an AI Port snapshot was unavailable.</li><li>Fixed an issue where Find Anything searches could become unresponsive in some cases.</li><li>Fixed an issue where some named faces were missing from Find Anything results.</li><li>Fixed an issue where recognized license plates could incorrectly appear as “Unknown”.</li><li>Fixed an issue where face detections could not be reassigned after being removed from a known person.</li><li>Fixed an issue where sensor events couldn't be viewed in Find Anything after the paired camera became unmanaged.</li><li>Fixed an issue where newly created cases could display an incorrect asset count.</li><li>Fixed an issue where asset selection controls were incorrectly shown to users with view-only Case Manager access.</li><li>Fixed an issue where removed cameras could remain in Evidence Trust Global Watermark settings.</li><li>Fixed an issue where Continuous Off-Site Archiving with UNAS Pro could not be enabled in some cases.</li><li>Fixed an issue where enabled video overlays could disappear after an update.</li><li>Fixed an issue where third-party camera image settings could be overwritten after reconnecting to Protect.</li><li>Fixed an issue where Industrial Zones were incorrectly available for secondary doorbell cameras.</li><li>Fixed an issue where shared settings could display inconsistently across multi-lens cameras.</li><li>Fixed an issue where custom GIF animations could not be uploaded to supported doorbells.</li><li>Fixed an issue where Glass Break Sensor test duration was handled incorrectly.</li><li>Fixed an issue where camera names were missing when pairing with Floodlight.</li><li>Fixed an issue where Recent Detections could fail to load on the Dashboard in some cases.</li><li>Fixed an issue where Dashboard video feeds could flicker in Firefox.</li><li>Fixed an issue where camera view could remain stuck expanded after returning to the Dashboard from Recording Manager.</li><li>Fixed an issue where selecting an event in System Log could unexpectedly jump to the top of the list.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "4fa06975-6aa3-4e3f-b7d5-8814e331d14c",
+      "kategorie": "protect-application",
+      "version": "7.2.105",
+      "titel": "UniFi Protect Application 7.2.105",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-2-105/4fa06975-6aa3-4e3f-b7d5-8814e331d14c",
+      "veroeffentlicht": "2026-08-12T11:34:30+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.2.105 introduces Evidence Trust to verify the authenticity of exported cases, Redesigned Case Management, Extended Third Party Camera support, and Personal Protective Equipment (PPE) Detection. This release also improves the Integration API with the new PoS API."
+        ],
+        "Improvements": [
+          "Added Evidence Trust for verifiable evidence exports.",
+          "Requires camera firmware 5.4 (for visible watermarks).",
+          "Added ONVIF Profile support for expanded third-party camera compatibility.",
+          "Added PPE (personal protective equipment; currently vests and helmets) detection for workplace safety monitoring.",
+          "Requires camera firmware 5.4.",
+          "Requires AI Key firmware 2.2 or newer.",
+          "Added second-stage verification for enhanced security.",
+          "Requires AI Key firmware 2.2 or newer.",
+          "Added Dashboard multiview presets.",
+          "Added support for managing recordings in Multi-Camera Playback.",
+          "Added support for stopping all active sirens from a single action.",
+          "Added schedule support for Glass Break detection.",
+          "Added new sensor event filters in Find Anything.",
+          "Added NOx to Air Quality metrics.",
+          "Improved Case Manager with enhanced case management.",
+          "Requires UniFi OS 5.1.27 or newer (monitor.ui.com improvements).",
+          "Improved the device side panel for a more streamlined experience.",
+          "Improved Integration API by adding PoS support.",
+          "Improved Sensor Manager UX by adding column customization options.",
+          "Improved Find Anything calendar by disabling days with no matching events.",
+          "Improved PTZ preset control feedback when using keyboard shortcuts."
+        ],
+        "Bugfixes": [
+          "Fixed the security issues mentioned in Security Advisory Bulletin 067.",
+          "Fixed an issue where Wi-Fi cameras could not be moved to a different SSID.",
+          "Fixed an issue where devices could not be re-adopted after a LAN subnet change.",
+          "Fixed an issue where some third-party cameras could experience stream instability and unexpected configuration changes.",
+          "Fixed an issue where third-party camera adoption did not prompt for credentials in some cases.",
+          "Fixed an issue where event detection did not work on some third-party cameras paired with AI Port.",
+          "Fixed an issue where Global Alarm Manager alarms could still trigger when Local Alarm Manager mode was enabled.",
+          "Fixed an issue where the tamper detection triggers were grayed out in some cases, despite supporting them.",
+          "Fixed an issue where Line Crossing and Vehicle ID alarms could trigger incorrectly in rare cases.",
+          "Fixed an issue where AI Key enhanced cameras were missing in scope of Face ID and LPR triggers in Global Alarm Manager.",
+          "Fixed an issue where PTZ preset thumbnails could disappear after refreshing the page.",
+          "Fixed an issue where keyboard controls did not work when adjusting the PTZ Home View in Playback.",
+          "Fixed an issue where the Find Anything showed events outside the selected camera time range in some cases.",
+          "Fixed an issue where some face detections did not appear in Find Anything.",
+          "Fixed an issue with Find Anything image upload when no results were found.",
+          "Fixed an issue where downloading large cases could fail in some cases.",
+          "Fixed an issue where fingerprint and NFC scan events were not displayed.",
+          "Fixed an issue where armed sensors were missing from Sensor Manager Overview.",
+          "Fixed an issue where doorbell ring events were not reflected in the Last Event field.",
+          "Fixed an issue where the fit-to-window button was missing on hallway-mode cameras.",
+          "Fixed an issue where SuperLink sensors could go offline and fail to reconnect in some cases.",
+          "Fixed an issue where hyperlinks in the System Log description were displayed as plain text.",
+          "Fixed an issue where Off-Site Archiving connection loss was not clearly communicated.",
+          "Fixed an issue where Face and Vehicle recognition alarms did not trigger correctly across multiple detection zones.",
+          "Fixed an issue where third-party cameras with motion detection could not be selected in scope of Global Alarm Manager."
+        ],
+        "Additional information": [
+          "Recording settings have moved to Recording Manager.",
+          "Starting with Protect 7.2, all recording-related configuration is managed in Recording Manager instead of individual device settings."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Protect 7.2.105 introduces Evidence Trust to verify the authenticity of exported cases, Redesigned Case Management, Extended Third Party Camera support, and Personal Protective Equipment (PPE) Detection. This release also improves the Integration API with the new PoS API.</p><h2>Improvements</h2><ul><li>Added Evidence Trust for verifiable evidence exports.</li><li class=\"ql-indent-1\">Requires camera firmware 5.4 (for visible watermarks).</li><li>Added ONVIF Profile support for expanded third-party camera compatibility.</li><li>Added PPE (personal protective equipment; currently vests and helmets) detection for workplace safety monitoring.</li><li class=\"ql-indent-1\">Requires camera firmware 5.4.</li><li class=\"ql-indent-1\">Requires AI Key firmware 2.2 or newer.</li><li>Added second-stage verification for enhanced security.</li><li class=\"ql-indent-1\">Requires AI Key firmware 2.2 or newer.</li><li>Added Dashboard multiview presets.</li><li>Added support for managing recordings in Multi-Camera Playback.</li><li>Added support for stopping all active sirens from a single action.</li><li>Added schedule support for Glass Break detection.</li><li>Added new sensor event filters in Find Anything.</li><li>Added NOx to Air Quality metrics.</li><li>Improved Case Manager with enhanced case management.</li><li class=\"ql-indent-1\">Requires UniFi OS 5.1.27 or newer (monitor.ui.com improvements).</li><li>Improved the device side panel for a more streamlined experience.</li><li>Improved Integration API by adding PoS support.</li><li>Improved Sensor Manager UX by adding column customization options.</li><li>Improved Find Anything calendar by disabling days with no matching events.</li><li>Improved PTZ preset control feedback when using keyboard shortcuts.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/r/security/067\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 067</a>.</li><li>Fixed an issue where Wi-Fi cameras could not be moved to a different SSID.</li><li>Fixed an issue where devices could not be re-adopted after a LAN subnet change.</li><li>Fixed an issue where some third-party cameras could experience stream instability and unexpected configuration changes.</li><li>Fixed an issue where third-party camera adoption did not prompt for credentials in some cases.</li><li>Fixed an issue where event detection did not work on some third-party cameras paired with AI Port.</li><li>Fixed an issue where Global Alarm Manager alarms could still trigger when Local Alarm Manager mode was enabled.</li><li>Fixed an issue where the tamper detection triggers were grayed out in some cases, despite supporting them.</li><li>Fixed an issue where Line Crossing and Vehicle ID alarms could trigger incorrectly in rare cases.</li><li>Fixed an issue where AI Key enhanced cameras were missing in scope of Face ID and LPR triggers in Global Alarm Manager.</li><li>Fixed an issue where PTZ preset thumbnails could disappear after refreshing the page.</li><li>Fixed an issue where keyboard controls did not work when adjusting the PTZ Home View in Playback.</li><li>Fixed an issue where the Find Anything showed events outside the selected camera time range in some cases.</li><li>Fixed an issue where some face detections did not appear in Find Anything.</li><li>Fixed an issue with Find Anything image upload when no results were found.</li><li>Fixed an issue where downloading large cases could fail in some cases.</li><li>Fixed an issue where fingerprint and NFC scan events were not displayed.</li><li>Fixed an issue where armed sensors were missing from Sensor Manager Overview.</li><li>Fixed an issue where doorbell ring events were not reflected in the Last Event field.</li><li>Fixed an issue where the fit-to-window button was missing on hallway-mode cameras.</li><li>Fixed an issue where SuperLink sensors could go offline and fail to reconnect in some cases.</li><li>Fixed an issue where hyperlinks in the System Log description were displayed as plain text.</li><li>Fixed an issue where Off-Site Archiving connection loss was not clearly communicated.</li><li>Fixed an issue where Face and Vehicle recognition alarms did not trigger correctly across multiple detection zones.</li><li>Fixed an issue where third-party cameras with motion detection could not be selected in scope of Global Alarm Manager.</li></ul><h2>Additional information</h2><p><strong>Recording settings have moved to Recording Manager.</strong></p><p>Starting with&nbsp;Protect&nbsp;7.2, all recording-related configuration is managed in Recording Manager instead of individual device settings.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "a302598a-3c85-4f4b-af63-24c7a7bc660e",
+      "kategorie": "protect-application",
+      "version": "7.2.101",
+      "titel": "UniFi Protect Application 7.2.101",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-2-101/a302598a-3c85-4f4b-af63-24c7a7bc660e",
+      "veroeffentlicht": "2026-08-06T16:08:17+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.2.101 introduces following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where case exports could remain stuck in Preparing.",
+          "Fixed an issue where large downloads could fail when Evidence Trust was enabled."
+        ],
+        "Additional information": [
+          "Recording settings have moved to Recording Manager.",
+          "Starting with Protect 7.2, all recording-related configuration is managed in Recording Manager instead of individual device settings."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.2.101 introduces following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed an issue where case exports could remain stuck in Preparing.</li><li>Fixed an issue where large downloads could fail when Evidence Trust was enabled.</li></ul><h2>Additional information</h2><p><strong>Recording settings have moved to Recording Manager.</strong></p><p>Starting with&nbsp;Protect&nbsp;7.2, all recording-related configuration is managed in Recording Manager instead of individual device settings.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "3b090596-55f5-4c27-824b-44951c2d4a25",
+      "kategorie": "protect-application",
+      "version": "7.2.98",
+      "titel": "UniFi Protect Application 7.2.98",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-2-98/3b090596-55f5-4c27-824b-44951c2d4a25",
+      "veroeffentlicht": "2026-08-03T16:07:19+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.2.98 introduces Evidence Trust to verify the authenticity of exported cases, Redesigned Case Management, Extended Third Party Camera support, and Personal Protective Equipment (PPE) Detection. This release also improves the Integration API with the new PoS API."
+        ],
+        "Improvements": [
+          "Added Evidence Trust for verifiable evidence exports.",
+          "Requires camera firmware 5.4 (for visible watermarks).",
+          "Added ONVIF Profile support for expanded third-party camera compatibility.",
+          "Added PPE (personal protective equipment; currently vests and helmets) detection for workplace safety monitoring.",
+          "Requires camera firmware 5.4.",
+          "Requires AI Key firmware 2.2.5.",
+          "Added second-stage verification for enhanced security.",
+          "Requires AI Key firmware 2.2.5.",
+          "Added Dashboard multiview presets.",
+          "Added support for managing recordings in Multi-Camera Playback.",
+          "Added support for stopping all active sirens from a single action.",
+          "Added schedule support for Glass Break detection.",
+          "Added new sensor event filters in Find Anything.",
+          "Added NOx to Air Quality metrics.",
+          "Improved Case Manager with enhanced case management.",
+          "Requires UniFi OS 5.1.27 or newer (monitor.ui.com improvements).",
+          "Improved the device side panel for a more streamlined experience.",
+          "Improved Integration API by adding PoS support.",
+          "Improved Sensor Manager UX by adding column customization options.",
+          "Improved Find Anything calendar by disabling days with no matching events.",
+          "Improved PTZ preset control feedback when using keyboard shortcuts."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Wi-Fi cameras could not be moved to a different SSID.",
+          "Fixed an issue where devices could not be re-adopted after a LAN subnet change.",
+          "Fixed an issue where some third-party cameras could experience stream instability and unexpected configuration changes.",
+          "Fixed an issue where third-party camera adoption did not prompt for credentials in some cases.",
+          "Fixed an issue where event detection did not work on some third-party cameras paired with AI Port.",
+          "Fixed an issue where Global Alarm Manager alarms could still trigger when Local Alarm Manager mode was enabled.",
+          "Fixed an issue where the tamper detection triggers were grayed out in some cases, despite supporting them.",
+          "Fixed an issue where Line Crossing and Vehicle ID alarms could trigger incorrectly in rare cases.",
+          "Fixed an issue where AI Key enhanced cameras were missing in scope of Face ID and LPR triggers in Global Alarm Manager.",
+          "Fixed an issue where PTZ preset thumbnails could disappear after refreshing the page.",
+          "Fixed an issue where keyboard controls did not work when adjusting the PTZ Home View in Playback.",
+          "Fixed an issue where the Find Anything showed events outside the selected camera time range in some cases.",
+          "Fixed an issue where some face detections did not appear in Find Anything.",
+          "Fixed an issue with Find Anything image upload when no results were found.",
+          "Fixed an issue where downloading large cases could fail in some cases.",
+          "Fixed an issue where fingerprint and NFC scan events were not displayed.",
+          "Fixed an issue where armed sensors were missing from Sensor Manager Overview.",
+          "Fixed an issue where doorbell ring events were not reflected in the Last Event field.",
+          "Fixed an issue where the fit-to-window button was missing on hallway-mode cameras.",
+          "Fixed an issue where SuperLink sensors could go offline and fail to reconnect in some cases.",
+          "Fixed an issue where hyperlinks in the System Log description were displayed as plain text.",
+          "Fixed an issue where Off-Site Archiving connection loss was not clearly communicated.",
+          "Fixed an issue where Face and Vehicle recognition alarms did not trigger correctly across multiple detection zones.",
+          "Fixed an issue where third-party cameras with motion detection could not be selected in scope of Global Alarm Manager."
+        ],
+        "Additional information": [
+          "Recording settings have moved to Recording Manager.",
+          "Starting with Protect 7.2, all recording-related configuration is managed in Recording Manager instead of individual device settings."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.2.98 introduces Evidence Trust to verify the authenticity of exported cases, Redesigned Case Management, Extended Third Party Camera support, and Personal Protective Equipment (PPE) Detection. This release also improves the Integration API with the new PoS API.</p><h2>Improvements</h2><ul><li>Added Evidence Trust for verifiable evidence exports.</li><li class=\"ql-indent-1\">Requires camera firmware 5.4 (for visible watermarks).</li><li>Added ONVIF Profile support for expanded third-party camera compatibility.</li><li>Added PPE (personal protective equipment; currently vests and helmets) detection for workplace safety monitoring.</li><li class=\"ql-indent-1\">Requires camera firmware 5.4.</li><li class=\"ql-indent-1\">Requires AI Key firmware 2.2.5.</li><li>Added second-stage verification for enhanced security.</li><li class=\"ql-indent-1\">Requires AI Key firmware 2.2.5.</li><li>Added Dashboard multiview presets.</li><li>Added support for managing recordings in Multi-Camera Playback.</li><li>Added support for stopping all active sirens from a single action.</li><li>Added schedule support for Glass Break detection.</li><li>Added new sensor event filters in Find Anything.</li><li>Added NOx to Air Quality metrics.</li><li>Improved Case Manager with enhanced case management.</li><li class=\"ql-indent-1\">Requires UniFi OS 5.1.27 or newer (monitor.ui.com improvements).</li><li>Improved the device side panel for a more streamlined experience.</li><li>Improved Integration API by adding PoS support.</li><li>Improved Sensor Manager UX by adding column customization options.</li><li>Improved Find Anything calendar by disabling days with no matching events.</li><li>Improved PTZ preset control feedback when using keyboard shortcuts.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where Wi-Fi cameras could not be moved to a different SSID.</li><li>Fixed an issue where devices could not be re-adopted after a LAN subnet change.</li><li>Fixed an issue where some third-party cameras could experience stream instability and unexpected configuration changes.</li><li>Fixed an issue where third-party camera adoption did not prompt for credentials in some cases.</li><li>Fixed an issue where event detection did not work on some third-party cameras paired with AI Port.</li><li>Fixed an issue where Global Alarm Manager alarms could still trigger when Local Alarm Manager mode was enabled.</li><li>Fixed an issue where the tamper detection triggers were grayed out in some cases, despite supporting them.</li><li>Fixed an issue where Line Crossing and Vehicle ID alarms could trigger incorrectly in rare cases.</li><li>Fixed an issue where AI Key enhanced cameras were missing in scope of Face ID and LPR triggers in Global Alarm Manager.</li><li>Fixed an issue where PTZ preset thumbnails could disappear after refreshing the page.</li><li>Fixed an issue where keyboard controls did not work when adjusting the PTZ Home View in Playback.</li><li>Fixed an issue where the Find Anything showed events outside the selected camera time range in some cases.</li><li>Fixed an issue where some face detections did not appear in Find Anything.</li><li>Fixed an issue with Find Anything image upload when no results were found.</li><li>Fixed an issue where downloading large cases could fail in some cases.</li><li>Fixed an issue where fingerprint and NFC scan events were not displayed.</li><li>Fixed an issue where armed sensors were missing from Sensor Manager Overview.</li><li>Fixed an issue where doorbell ring events were not reflected in the Last Event field.</li><li>Fixed an issue where the fit-to-window button was missing on hallway-mode cameras.</li><li>Fixed an issue where SuperLink sensors could go offline and fail to reconnect in some cases.</li><li>Fixed an issue where hyperlinks in the System Log description were displayed as plain text.</li><li>Fixed an issue where Off-Site Archiving connection loss was not clearly communicated.</li><li>Fixed an issue where Face and Vehicle recognition alarms did not trigger correctly across multiple detection zones.</li><li>Fixed an issue where third-party cameras with motion detection could not be selected in scope of Global Alarm Manager.</li></ul><h2>Additional information</h2><p><strong>Recording settings have moved to Recording Manager.</strong></p><p>Starting with&nbsp;Protect&nbsp;7.2, all recording-related configuration is managed in Recording Manager instead of individual device settings.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "172d1de4-d519-4ee2-925a-8580ff64a003",
+      "kategorie": "protect-application",
+      "version": "7.1.87",
+      "titel": "UniFi Protect Application 7.1.87",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-87/172d1de4-d519-4ee2-925a-8580ff64a003",
+      "veroeffentlicht": "2026-07-06T10:41:58+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.87 introduces following bugfix."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Air Quality temperature charts displayed incorrectly when using Fahrenheit."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.87 introduces following bugfix.</p><h2>Bugfixes</h2><ul><li>Fixed an issue where Air Quality temperature charts displayed incorrectly when using Fahrenheit.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "70e6c6a6-cd7f-43e6-87fc-4d70f0a1d9c6",
+      "kategorie": "protect-application",
+      "version": "7.1.83",
+      "titel": "UniFi Protect Application 7.1.83",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-83/70e6c6a6-cd7f-43e6-87fc-4d70f0a1d9c6",
+      "veroeffentlicht": "2026-06-12T16:33:39+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.83 introduces following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue that could prevent webhook integrations from delivering notifications to external services.",
+          "Fixed an issue where Protect could briefly show the setup screen after a remote session connection was interrupted.",
+          "Fixed an issue that could cause Protect to restart when processing certain Siren records.",
+          "Fixed the security issues mentioned in Security Advisory Bulletin 066."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.83 introduces following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed an issue that could prevent webhook integrations from delivering notifications to external services.</li><li>Fixed an issue where&nbsp;Protect&nbsp;could briefly show the setup screen after a remote session connection was interrupted.</li><li>Fixed an issue that could cause Protect to restart when processing certain Siren records.</li><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/Security-Advisory-Bulletin-066-066/984eceb3-49c8-4227-942d-671c289b3afc\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 066.</a></li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "a593f548-299d-42db-a2ba-3738f9e07c28",
+      "kategorie": "protect-application",
+      "version": "7.1.77",
+      "titel": "UniFi Protect Application 7.1.77",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-77/a593f548-299d-42db-a2ba-3738f9e07c28",
+      "veroeffentlicht": "2026-06-05T10:09:44+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.77 introduces following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where RTSPS streams could fail to connect in third-party applications.",
+          "Fixed an issue where in some cases multi-sensor cameras incorrectly displayed “No recordings” in Multi-Camera Playback."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.77 introduces following bugfixes.</p><h2>Bugfixes</h2><p><br></p><ul><li>Fixed an issue where RTSPS streams could fail to connect in third-party applications.</li><li>Fixed an issue where in some cases multi-sensor cameras incorrectly displayed “No recordings” in Multi-Camera Playback.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "6947862f-81d9-4041-9160-64b1f171a902",
+      "kategorie": "protect-application",
+      "version": "7.1.76",
+      "titel": "UniFi Protect Application 7.1.76",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-76/6947862f-81d9-4041-9160-64b1f171a902",
+      "veroeffentlicht": "2026-06-02T14:21:28+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.76 introduces following improvement and bugfixes."
+        ],
+        "Improvements": [
+          "Improved system stability on UNVR G2 Pro."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Alarm Manager event scopes did not properly resolve cameras within camera groups.",
+          "Fixed an issue where cameras with duplicate IDs across multiple NVRs could resolve to the wrong device."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.76 introduces following improvement and bugfixes.</p><h2>Improvements</h2><ul><li>Improved system stability on UNVR G2 Pro.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where Alarm Manager event scopes did not properly resolve cameras within camera groups.</li><li>Fixed an issue where cameras with duplicate IDs across multiple NVRs could resolve to the wrong device.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "e6dab4ab-b536-40a3-b8d5-ab84adba5f46",
+      "kategorie": "protect-application",
+      "version": "7.1.75",
+      "titel": "UniFi Protect Application 7.1.75",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-75/e6dab4ab-b536-40a3-b8d5-ab84adba5f46",
+      "veroeffentlicht": "2026-05-28T10:48:03+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.75 introduces following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where, in some cases, consoles could become unstable after an update or a restart in specific scenarios.",
+          "Fixed an issue where device issue email notifications displayed an incorrect message.",
+          "Fixed an issue where the dashboard live view layout may flicker in some cases.",
+          "Fixed an issue where some License Plate Recognition events were missing thumbnails.",
+          "Fixed an issue where fingerprint and NFC scan events were missing in Find Anything.",
+          "Fixed an issue where large case exports could fail.",
+          "Fixed an issue where in some cases glass break sensor sensitivity settings reset to 0 after manual configuration changes.",
+          "Fixed an issue where package detections did not work correctly on cameras paired with AI Port.",
+          "Fixed an issue where AI Horn Speakers could not be adopted after a backup restore.",
+          "Fixed an issue where loitering Smart Zones could not be created in some cases.",
+          "Fixed an issue where in some cases multiple faces could not be selected in Known Face Spotlight after removing a face."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.75 introduces following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed an issue where, in some cases, consoles could become unstable after an update or a restart in specific scenarios.</li><li>Fixed an issue where device issue email notifications displayed an incorrect message.</li><li>Fixed an issue where the dashboard live view layout may flicker in some cases.&nbsp;</li><li>Fixed an issue where some License Plate Recognition events were missing thumbnails.</li><li>Fixed an issue where fingerprint and NFC scan events were missing in Find Anything.</li><li>Fixed an issue where large case exports could fail.</li><li>Fixed an issue where in some cases glass break sensor sensitivity settings reset to 0 after manual configuration changes.</li><li>Fixed an issue where package detections did not work correctly on cameras paired with AI Port.</li><li>Fixed an issue where AI Horn Speakers could not be adopted after a backup restore.</li><li>Fixed an issue where loitering Smart Zones could not be created in some cases.</li><li>Fixed an issue where in some cases multiple faces could not be selected in Known Face Spotlight after removing a face.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "63635e9e-362e-4e0a-aadd-9d2295b0f994",
+      "kategorie": "protect-application",
+      "version": "7.1.74",
+      "titel": "UniFi Protect Application 7.1.74",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-74/63635e9e-362e-4e0a-aadd-9d2295b0f994",
+      "veroeffentlicht": "2026-05-27T08:04:31+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.74 introduces following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where device issue email notifications displayed an incorrect message.",
+          "Fixed an issue where some License Plate Recognition events were missing thumbnails.",
+          "Fixed an issue where fingerprint and NFC scan events were missing in Find Anything.",
+          "Fixed an issue where large case exports could fail.",
+          "Fixed an issue where in some cases glass break sensor sensitivity settings reset to 0 after manual configuration changes.",
+          "Fixed an issue where package detections did not work correctly on cameras paired with AI Port.",
+          "Fixed an issue where AI Horn Speakers could not be adopted after a backup restore.",
+          "Fixed an issue where loitering Smart Zones could not be created in some cases.",
+          "Fixed an issue where in some cases multiple faces could not be selected in Known Face Spotlight after removing a face."
+        ],
+        "Known issues": [
+          "Dashboard live view layout may flicker in some cases."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.74 introduces following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed an issue where device issue email notifications displayed an incorrect message.</li><li>Fixed an issue where some License Plate Recognition events were missing thumbnails.</li><li>Fixed an issue where fingerprint and NFC scan events were missing in Find Anything.</li><li>Fixed an issue where large case exports could fail.</li><li>Fixed an issue where in some cases glass break sensor sensitivity settings reset to 0 after manual configuration changes.</li><li>Fixed an issue where package detections did not work correctly on cameras paired with AI Port.</li><li>Fixed an issue where AI Horn Speakers could not be adopted after a backup restore.</li><li>Fixed an issue where loitering Smart Zones could not be created in some cases.</li><li>Fixed an issue where in some cases multiple faces could not be selected in Known Face Spotlight after removing a face.</li></ul><h2>Known issues</h2><ul><li>Dashboard live view layout may flicker in some cases.&nbsp;</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "36c28013-dbea-476d-9de7-5224680d1fc7",
+      "kategorie": "protect-application",
+      "version": "7.1.69",
+      "titel": "UniFi Protect Application 7.1.69",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-69/36c28013-dbea-476d-9de7-5224680d1fc7",
+      "veroeffentlicht": "2026-05-21T13:23:45+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.69 introduces following improvement."
+        ],
+        "Improvements": [
+          "Improved memory management and performance for larger deployments on UniFi OS 5.1"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.69 introduces following improvement.</p><h2>Improvements</h2><ul><li>Improved memory management and performance for larger deployments on UniFi OS 5.1</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "470e3f55-27fe-4437-918f-1983562f459a",
+      "kategorie": "protect-application",
+      "version": "7.1.60",
+      "titel": "UniFi Protect Application 7.1.60",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-60/470e3f55-27fe-4437-918f-1983562f459a",
+      "veroeffentlicht": "2026-05-16T12:35:52+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.60 introduces Alarm response with professional monitoring and SIA integration, expanded third-party camera feature support, and webhook shortcuts on camera streams. This release also improves the Integration API and overall compatibility."
+        ],
+        "Improvements": [
+          "Added Alarm response integration.",
+          "SIA DC-09: integration with your local security service provider.",
+          "Added support for rearranging Dashboard widgets.",
+          "Added support for creating webhook shortcuts.",
+          "Added audio support for third-party cameras with audio capability.",
+          "Added motion detection support for third-party cameras with motion detection capabilities.",
+          "Added support for detecting configuration changes on third-party cameras.",
+          "Added support for exporting dewarped video.",
+          "Added vehicle auto-tracking support for AI PTZ cameras.",
+          "Added support for reverting device versions in Device Overview.",
+          "Added support for dragging and dropping individual detections into groups in Find Anything.",
+          "Improved Integration API with expanded device support, additional features, and enhanced documentation.",
+          "Improved camera order consistency in Timelapse Multi-Camera playback and added support for reordering live-views.",
+          "Improved Glass Break detection event dismissal UX.",
+          "Improved Playback event filtering.",
+          "Improved On-Site Retention budgeting."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where the oldest recording was displayed incorrectly in rare cases.",
+          "Fixed an issue where the device uptime filter did not retain user selection.",
+          "Fixed an issue where event downloads did not include the configured pre- and post-event buffer for basic detections.",
+          "Fixed an issue where recording resolution settings did not apply correctly when using a local connection.",
+          "Fixed an issue where LPR and Face Recognition settings did not retain user selection on AI Key devices.",
+          "Fixed an issue where water leak detection could not be disabled for UP Sense in Sensor Manager.",
+          "Fixed an issue where the Within/Outside schedule option was missing when using Custom Schedule on third-party cameras.",
+          "Fixed an issue causing repeated disconnections for some third-party cameras in rare cases.",
+          "Fixed an issue where AI Ports did not update RTSP URLs after a console IP change.",
+          "Fixed an issue where multiple detections at the same event triggered only a single alarm.",
+          "Fixed an issue where glass break sensors were not available as motion triggers in Alarm Manager.",
+          "Fixed an issue where cameras with FW version before 5.x could not check for updates in rare cases.",
+          "Fixed an issue where some camera feeds appeared unresponsive in All Cameras live view.",
+          "Fixed an issue with repeated mobile app prompts when using Protect in Safari on iPad.",
+          "Fixed an issue where devices could get stuck in a removed state and could not be re-adopted in very rare cases.",
+          "Fixed an issue where duplicate Smart Zone dialogs appeared when editing zones in Live View in some cases.",
+          "Fixed an issue where the zone editor appeared blank instead of showing a streaming error when video could not be played.",
+          "Fixed an issue where system log messages were incorrect in case a SuperLink-connected device went offline.",
+          "Fixed an issue where person ReID only worked after clicking the NeXT AI Summary in some cases.",
+          "Fixed an issue where the alarm trigger list displayed incorrect order and time range.",
+          "Fixed an issue where sensor values could not be viewed while the system was armed when used in alarms.",
+          "Fixed an issue where unmute controls did not appear for some cameras in Dashboard MultiView.",
+          "Fixed an issue where, after a Floodlight update, the version number did not reflect correctly in the UI."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.60 introduces Alarm response with professional monitoring and SIA integration, expanded third-party camera feature support, and webhook shortcuts on camera streams. This release also improves the Integration API and overall compatibility.</p><h2>Improvements</h2><ul><li>Added Alarm response integration.</li><li class=\"ql-indent-1\">SIA DC-09: integration with your local security service provider.</li><li>Added support for rearranging Dashboard widgets.</li><li>Added support for creating webhook shortcuts.</li><li>Added audio support for third-party cameras with audio capability.</li><li>Added motion detection support for third-party cameras with motion detection capabilities.</li><li>Added support for detecting configuration changes on third-party cameras.</li><li>Added support for exporting dewarped video.</li><li>Added vehicle auto-tracking support for AI PTZ cameras.</li><li>Added support for reverting device versions in Device Overview.</li><li>Added support for dragging and dropping individual detections into groups in Find Anything.</li><li>Improved Integration API with expanded device support, additional features, and enhanced documentation.</li><li>Improved camera order consistency in Timelapse Multi-Camera playback and added support for reordering live-views.</li><li>Improved Glass Break detection event dismissal UX.</li><li>Improved Playback event filtering.</li><li>Improved On-Site Retention budgeting.</li></ul><p><br></p><h2>Bugfixes</h2><ul><li>Fixed an issue where the oldest recording was displayed incorrectly in rare cases.</li><li>Fixed an issue where the device uptime filter did not retain user selection.</li><li>Fixed an issue where event downloads did not include the configured pre- and post-event buffer for basic detections.</li><li>Fixed an issue where recording resolution settings did not apply correctly when using a local connection.</li><li>Fixed an issue where LPR and Face Recognition settings did not retain user selection on AI Key devices.</li><li>Fixed an issue where water leak detection could not be disabled for UP Sense in Sensor Manager.</li><li>Fixed an issue where the Within/Outside schedule option was missing when using Custom Schedule on third-party cameras.</li><li>Fixed an issue causing repeated disconnections for some third-party cameras in rare cases.</li><li>Fixed an issue where AI Ports did not update RTSP URLs after a console IP change.</li><li>Fixed an issue where multiple detections at the same event triggered only a single alarm.</li><li>Fixed an issue where glass break sensors were not available as motion triggers in Alarm Manager.</li><li>Fixed an issue where cameras with FW version before 5.x could not check for updates in rare cases.</li><li>Fixed an issue where some camera feeds appeared unresponsive in All Cameras live view.</li><li>Fixed an issue with repeated mobile app prompts when using Protect in Safari on iPad.</li><li>Fixed an issue where devices could get stuck in a removed state and could not be re-adopted in very rare cases.</li><li>Fixed an issue where duplicate Smart Zone dialogs appeared when editing zones in Live View in some cases.</li><li>Fixed an issue where the zone editor appeared blank instead of showing a streaming error when video could not be played.</li><li>Fixed an issue where system log messages were incorrect in case a SuperLink-connected device went offline.</li><li>Fixed an issue where person ReID only worked after clicking the NeXT AI Summary in some cases.</li><li>Fixed an issue where the alarm trigger list displayed incorrect order and time range.</li><li>Fixed an issue where sensor values could not be viewed while the system was armed when used in alarms.</li><li>Fixed an issue where unmute controls did not appear for some cameras in Dashboard MultiView.</li><li>Fixed an issue where, after a Floodlight update, the version number did not reflect correctly in the UI.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "c341413c-f65a-41d2-a83e-2a8f317b27ac",
+      "kategorie": "protect-application",
+      "version": "7.1.55",
+      "titel": "UniFi Protect Application 7.1.55",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-1-55/c341413c-f65a-41d2-a83e-2a8f317b27ac",
+      "veroeffentlicht": "2026-05-14T13:24:09+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.1.55 introduces Alarm response with professional monitoring and SIA integration, expanded third-party camera feature support, and webhook shortcuts on camera streams. This release also improves the Integration API and overall compatibility."
+        ],
+        "Improvements": [
+          "Added Alarm response integration.",
+          "SIA DC-09: integration with your local security service provider.",
+          "Added support for rearranging Dashboard widgets.",
+          "Added support for creating webhook shortcuts.",
+          "Added audio support for third-party cameras with audio capability.",
+          "Added motion detection support for third-party cameras with motion detection capabilities.",
+          "Added support for detecting configuration changes on third-party cameras.",
+          "Added support for exporting dewarped video.",
+          "Added vehicle auto-tracking support for AI PTZ cameras.",
+          "Added support for reverting device versions in Device Overview.",
+          "Added support for dragging and dropping individual detections into groups in Find Anything.",
+          "Improved Integration API with expanded device support, additional features, and enhanced documentation.",
+          "Improved camera order consistency in Timelapse Multi-Camera playback and added support for reordering live-views.",
+          "Improved Glass Break detection event dismissal UX.",
+          "Improved Playback event filtering.",
+          "Improved On-Site Retention budgeting."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where the oldest recording was displayed incorrectly in rare cases.",
+          "Fixed an issue where the device uptime filter did not retain user selection.",
+          "Fixed an issue where event downloads did not include the configured pre- and post-event buffer for basic detections.",
+          "Fixed an issue where recording resolution settings did not apply correctly when using a local connection.",
+          "Fixed an issue where LPR and Face Recognition settings did not retain user selection on AI Key devices.",
+          "Fixed an issue where water leak detection could not be disabled for UP Sense in Sensor Manager.",
+          "Fixed an issue where the Within/Outside schedule option was missing when using Custom Schedule on third-party cameras.",
+          "Fixed an issue causing repeated disconnections for some third-party cameras in rare cases.",
+          "Fixed an issue where AI Ports did not update RTSP URLs after a console IP change.",
+          "Fixed an issue where multiple detections at the same event triggered only a single alarm.",
+          "Fixed an issue where glass break sensors were not available as motion triggers in Alarm Manager.",
+          "Fixed an issue where cameras with FW version before 5.x could not check for updates in rare cases.",
+          "Fixed an issue where some camera feeds appeared unresponsive in All Cameras live view.",
+          "Fixed an issue with repeated mobile app prompts when using Protect in Safari on iPad.",
+          "Fixed an issue where devices could get stuck in a removed state and could not be re-adopted in very rare cases.",
+          "Fixed an issue where duplicate Smart Zone dialogs appeared when editing zones in Live View in some cases.",
+          "Fixed an issue where the zone editor appeared blank instead of showing a streaming error when video could not be played.",
+          "Fixed an issue where system log messages were incorrect in case a SuperLink-connected device went offline.",
+          "Fixed an issue where person ReID only worked after clicking the NeXT AI Summary in some cases.",
+          "Fixed an issue where the alarm trigger list displayed incorrect order and time range.",
+          "Fixed an issue where sensor values could not be viewed while the system was armed when used in alarms."
+        ],
+        "Known issues": [
+          "Grouping of Unknown faces in Find Anything may not work correctly."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.1.55 introduces Alarm response with professional monitoring and SIA integration, expanded third-party camera feature support, and webhook shortcuts on camera streams. This release also improves the Integration API and overall compatibility.</p><h2>Improvements</h2><ul><li>Added Alarm response integration.</li><li class=\"ql-indent-1\">SIA DC-09: integration with your local security service provider.</li><li>Added support for rearranging Dashboard widgets.</li><li>Added support for creating webhook shortcuts.</li><li>Added audio support for third-party cameras with audio capability.</li><li>Added motion detection support for third-party cameras with motion detection capabilities.</li><li>Added support for detecting configuration changes on third-party cameras.</li><li>Added support for exporting dewarped video.</li><li>Added vehicle auto-tracking support for AI PTZ cameras.</li><li>Added support for reverting device versions in Device Overview.</li><li>Added support for dragging and dropping individual detections into groups in Find Anything.</li><li>Improved Integration API with expanded device support, additional features, and enhanced documentation.</li><li>Improved camera order consistency in Timelapse Multi-Camera playback and added support for reordering live-views.</li><li>Improved Glass Break detection event dismissal UX.</li><li>Improved Playback event filtering.</li><li>Improved On-Site Retention budgeting.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where the oldest recording was displayed incorrectly in rare cases.</li><li>Fixed an issue where the device uptime filter did not retain user selection.</li><li>Fixed an issue where event downloads did not include the configured pre- and post-event buffer for basic detections.</li><li>Fixed an issue where recording resolution settings did not apply correctly when using a local connection.</li><li>Fixed an issue where LPR and Face Recognition settings did not retain user selection on AI Key devices.</li><li>Fixed an issue where water leak detection could not be disabled for UP Sense in Sensor Manager.</li><li>Fixed an issue where the Within/Outside schedule option was missing when using Custom Schedule on third-party cameras.</li><li>Fixed an issue causing repeated disconnections for some third-party cameras in rare cases.</li><li>Fixed an issue where AI Ports did not update RTSP URLs after a console IP change.</li><li>Fixed an issue where multiple detections at the same event triggered only a single alarm.</li><li>Fixed an issue where glass break sensors were not available as motion triggers in Alarm Manager.</li><li>Fixed an issue where cameras with FW version before 5.x could not check for updates in rare cases.</li><li>Fixed an issue where some camera feeds appeared unresponsive in All Cameras live view.</li><li>Fixed an issue with repeated mobile app prompts when using Protect in Safari on iPad.</li><li>Fixed an issue where devices could get stuck in a removed state and could not be re-adopted in very rare cases.</li><li>Fixed an issue where duplicate Smart Zone dialogs appeared when editing zones in Live View in some cases.</li><li>Fixed an issue where the zone editor appeared blank instead of showing a streaming error when video could not be played.</li><li>Fixed an issue where system log messages were incorrect in case a SuperLink-connected device went offline.</li><li>Fixed an issue where person ReID only worked after clicking the NeXT AI Summary in some cases.</li><li>Fixed an issue where the alarm trigger list displayed incorrect order and time range.</li><li>Fixed an issue where sensor values could not be viewed while the system was armed when used in alarms.</li></ul><h2>Known issues</h2><ul><li>Grouping of Unknown faces in Find Anything may not work correctly.</li></ul><p><br></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "d3a33e2a-f9b8-450a-a796-441368b74f81",
+      "kategorie": "protect-application",
+      "version": "7.0.107",
+      "titel": "UniFi Protect Application 7.0.107",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-0-107/d3a33e2a-f9b8-450a-a796-441368b74f81",
+      "veroeffentlicht": "2026-04-16T07:08:22+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.0.107 introduces the following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Smart Detection notification thumbnails did not match the detected event.",
+          "Fixed an issue where an email link did not open corresponding event for Face and LPR detections."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.0.107 introduces the following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed an issue where Smart Detection notification thumbnails did not match the detected event.</li><li>Fixed an issue where an email link did not open corresponding event for Face and LPR detections.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "9598e007-8fdf-450e-89b1-46b7176e2e57",
+      "kategorie": "protect-application",
+      "version": "7.0.104",
+      "titel": "UniFi Protect Application 7.0.104",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-0-104/9598e007-8fdf-450e-89b1-46b7176e2e57",
+      "veroeffentlicht": "2026-03-27T14:47:59+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.0.104 introduces following improvement and bugfixes."
+        ],
+        "Improvements": [
+          "Improved event filter defaults to better reflect Smart Detection settings in Find Anything."
+        ],
+        "Bugfixes": [
+          "Fixed an issue impacting system stability by optimizing memory usage.",
+          "Fixed an issue where some detection events were not being recorded after update.",
+          "Fixed an issue where License Plate Recognition and Face Recognition settings failed to update in some cases.",
+          "Fixed an issue where it was sometimes allowed to create a face from person detections."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.0.104 introduces following improvement and bugfixes.</p><h2>Improvements</h2><ul><li>Improved event filter defaults to better reflect Smart Detection settings in Find Anything.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue impacting system stability by optimizing memory usage.</li><li>Fixed an issue where some detection events were not being recorded after update.</li><li>Fixed an issue where License Plate Recognition and Face Recognition settings failed to update in some cases.</li><li>Fixed an issue where it was sometimes allowed to create a face from person detections.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "4f4fa7b3-e01e-4752-b73e-35daf6817c65",
+      "kategorie": "protect-application",
+      "version": "7.0.94",
+      "titel": "UniFi Protect Application 7.0.94",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-0-94/4f4fa7b3-e01e-4752-b73e-35daf6817c65",
+      "veroeffentlicht": "2026-03-20T08:22:10+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Improved On-Site Retention by showing size of each recording distribution items."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Protect gets stuck on “Starting” after a restart or upgrade in rare cases.",
+          "Fixed an issue where Smart Detection events were not being saved in some cases.",
+          "Fixed an issue where some alarm manager notifications can be skipped if HDD is too slow.",
+          "Fixed an issue where retention settings exceeded available storage capacity in some cases.",
+          "Fixed an issue where retention data were not displaying correctly when auto retention was disabled.",
+          "Fixed an issue where retention day values became misaligned after adjustment in some cases.",
+          "Fixed an issue where fit-to-window zoom minimap didn't work for Doorbell and G6 180 cameras.",
+          "Fixed an issue where Wi-Fi Chime adoption was failing."
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Improved On-Site Retention by showing size of each recording distribution items.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where Protect gets stuck on “Starting” after a restart or upgrade in rare cases.</li><li>Fixed an issue where Smart Detection events were not being saved in some cases.</li><li>Fixed an issue where some alarm manager notifications can be skipped if HDD is too slow.</li><li>Fixed an issue where retention settings exceeded available storage capacity in some cases.</li><li>Fixed an issue where retention data were not displaying correctly when auto retention was disabled.</li><li>Fixed an issue where retention day values became misaligned after adjustment in some cases.</li><li>Fixed an issue where fit-to-window zoom minimap didn't work for Doorbell and G6 180 cameras.</li><li>Fixed an issue where Wi-Fi Chime adoption was failing.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "c66509fd-94ca-4f8e-984a-302e1d8aa97d",
+      "kategorie": "protect-application",
+      "version": "7.0.88",
+      "titel": "UniFi Protect Application 7.0.88",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-0-88/c66509fd-94ca-4f8e-984a-302e1d8aa97d",
+      "veroeffentlicht": "2026-03-16T10:42:49+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.0.88 introduces Off-Site Archiving settings with inline configuration, enhanced device management, improved Playback, Dashboard, and Find Anything sections."
+        ],
+        "Improvements": [
+          "Added support for custom camera layouts in the Dashboard.",
+          "Added version update and revert options in the Dashboard.",
+          "Requires UniFi OS 5.1.0 or later.",
+          "Added Case Manager link sharing support.",
+          "Requires UniFi OS 5.1.0 or later.",
+          "Added Off-Site Archiving section in Settings with inline configuration.",
+          "Added an option to change NAS shared drive used for offsite archiving.",
+          "Added Intelligence section for AI-related settings.",
+          "Added motion path overlay on thumbnails and in playback (excluding PTZ cameras).",
+          "Added storage I/O load warnings in the Dashboard.",
+          "Added Tag Manager for device organization.",
+          "Added aggregation counts for devices in Sensor Manager.",
+          "Added PTZ auto-tracking timeout setting.",
+          "Improved playback clip management, multiplayback, and live view controls.",
+          "Improved Find Anything:",
+          "Added support for filtering by “All” detections.",
+          "Added image-based search (Requires AI Key with computer vision enhancement enabled).",
+          "Added an auto switch from Basic to Smart filter in Find Anything, depending on the camera selection.",
+          "Improved On-Site Retention settings.",
+          "Improved granular admin permissions handling.",
+          "Improved timelapse scrubbing performance."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where scheduled recording did not work in some cases.",
+          "Fixed an issue where thumbnails only showed the beginning of motion detection for third-party cameras connected to AI Port.",
+          "Fixed an issue where pre- and post-event recording did not work in event-only mode.",
+          "Fixed an issue where secondary camera was not available for download, export, or Case creation from Playback.",
+          "Fixed an issue where duplicate spotlights were appearing for AI Key generated events.",
+          "Fixed an issue where line crossing counts did not accumulate correctly across events.",
+          "Fixed an issue where canceling a delayed arm countdown did not stop the arming process, causing the system to arm in the background.",
+          "Fixed an issue where device re-adoption failed in some cases.",
+          "Fixed an issue where the Safe Zone temperature slider displayed Celsius-based limits while the application was set to Fahrenheit.",
+          "Fixed an issue where RTSP link generation was failing in some cases.",
+          "Fixed an issue where the vehicle alarm also triggered stationary vehicles in some cases.",
+          "Fixed an issue where the capacity bar did not reflect actual camera usage in some cases.",
+          "Fixed an issue with search input infinite loading when deleting faces or license plates in Find Anything.",
+          "Fixed an issue where Incoming Bitrate widget was not loading in some cases."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.0.88 introduces Off-Site Archiving settings with inline configuration, enhanced device management, improved Playback, Dashboard, and Find Anything sections.</p><h2>Improvements</h2><ul><li>Added support for custom camera layouts in the Dashboard.</li><li>Added version update and revert options in the Dashboard.</li><li class=\"ql-indent-1\">Requires UniFi OS 5.1.0 or later.</li><li>Added Case Manager link sharing support.</li><li class=\"ql-indent-1\">Requires UniFi OS 5.1.0 or later.</li><li>Added Off-Site Archiving section in Settings with inline configuration.</li><li>Added an option to change NAS shared drive used for offsite archiving.</li><li>Added Intelligence section for AI-related settings.</li><li>Added motion path overlay on thumbnails and in playback (excluding PTZ cameras).</li><li>Added storage I/O load warnings in the Dashboard.</li><li>Added Tag Manager for device organization.</li><li>Added aggregation counts for devices in Sensor Manager.</li><li>Added PTZ auto-tracking timeout setting.</li><li>Improved playback clip management, multiplayback, and live view controls.</li><li>Improved Find Anything:</li><li class=\"ql-indent-1\">Added support for filtering by “All” detections.</li><li class=\"ql-indent-1\">Added image-based search (Requires AI Key with computer vision enhancement enabled).</li><li class=\"ql-indent-1\">Added an auto switch from Basic to Smart filter in Find Anything, depending on the camera selection.</li><li>Improved On-Site Retention settings.</li><li>Improved granular admin permissions handling.</li><li>Improved timelapse scrubbing performance.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where scheduled recording did not work in some cases.</li><li>Fixed an issue where thumbnails only showed the beginning of motion detection for third-party cameras connected to AI Port.</li><li>Fixed an issue where pre- and post-event recording did not work in event-only mode.</li><li>Fixed an issue where secondary camera was not available for download, export, or Case creation from Playback.</li><li>Fixed an issue where duplicate spotlights were appearing for AI Key generated events.</li><li>Fixed an issue where line crossing counts did not accumulate correctly across events.</li><li>Fixed an issue where canceling a delayed arm countdown did not stop the arming process, causing the system to arm in the background.</li><li>Fixed an issue where device re-adoption failed in some cases.</li><li>Fixed an issue where the Safe Zone temperature slider displayed Celsius-based limits while the application was set to Fahrenheit.</li><li>Fixed an issue where RTSP link generation was failing in some cases.</li><li>Fixed an issue where the vehicle alarm also triggered stationary vehicles in some cases.</li><li>Fixed an issue where the capacity bar did not reflect actual camera usage in some cases.</li><li>Fixed an issue with search input infinite loading when deleting faces or license plates in Find Anything.</li><li>Fixed an issue where Incoming Bitrate widget was not loading in some cases.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "128d7f05-7605-4cd2-8b28-659439be1418",
+      "kategorie": "protect-application",
+      "version": "7.0.73",
+      "titel": "UniFi Protect Application 7.0.73",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-7-0-73/128d7f05-7605-4cd2-8b28-659439be1418",
+      "veroeffentlicht": "2026-03-09T15:16:59+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Protect 7.0.73 introduces Off-Site Archiving settings with inline configuration, enhanced device management, improved Playback, Dashboard, and Find Anything sections."
+        ],
+        "Improvements": [
+          "Added support for custom camera layouts in the Dashboard.",
+          "Added version update and revert options in the Dashboard.",
+          "Requires UniFi OS 5.1.0 or later.",
+          "Added Case Manager link sharing support.",
+          "Requires UniFi OS 5.1.0 or later.",
+          "Added Off-Site Archiving section in Settings with inline configuration.",
+          "Added an option to change NAS shared drive used for offsite archiving.",
+          "Added Intelligence section for AI-related settings.",
+          "Added movement path overlay in playback (excluding PTZ cameras).",
+          "Added storage I/O load warnings in the Dashboard.",
+          "Added Tag Manager for device organization.",
+          "Added aggregation counts for devices in Sensor Manager.",
+          "Added PTZ auto-tracking timeout setting.",
+          "Improved playback clip management and live view controls.",
+          "Improved Find Anything:",
+          "Added support for filtering by “All” detections.",
+          "Added image-based search (Requires AI Key with computer vision enhancement enabled).",
+          "Added an auto switch from Basic to Smart filter in Find Anything, depending on the camera selection.",
+          "Improved granular admin permissions handling.",
+          "Improved timelapse scrubbing performance."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where canceling a delayed arm countdown did not stop the arming process, causing the system to arm in the background.",
+          "Fixed an issue where device re-adoption failed in some cases.",
+          "Fixed an issue where the Safe Zone temperature slider displayed Celsius-based limits while the application was set to Fahrenheit.",
+          "Fixed an issue where RTSP link generation was failing in some cases.",
+          "Fixed an issue where the vehicle alarm also triggered stationary vehicles in some cases.",
+          "Fixed an issue where the capacity bar did not reflect actual camera usage in some cases.",
+          "Fixed an issue with search input infinite loading when deleting faces or license plates in Find Anything.",
+          "Fixed an issue where Incoming Bitrate widget was not loading in some cases."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi&nbsp;Protect&nbsp;7.0.73 introduces Off-Site Archiving settings with inline configuration, enhanced device management, improved Playback, Dashboard, and Find Anything sections.</p><h2>Improvements</h2><ul><li>Added support for custom camera layouts in the Dashboard.</li><li>Added version update and revert options in the Dashboard.</li><li class=\"ql-indent-1\">Requires UniFi OS 5.1.0 or later.</li><li>Added Case Manager link sharing support.</li><li class=\"ql-indent-1\">Requires UniFi OS 5.1.0 or later.</li><li>Added Off-Site Archiving section in Settings with inline configuration.</li><li>Added an option to change NAS shared drive used for offsite archiving.</li><li>Added Intelligence section for AI-related settings.</li><li>Added movement path overlay in playback (excluding PTZ cameras).</li><li>Added storage I/O load warnings in the Dashboard.</li><li>Added Tag Manager for device organization.</li><li>Added aggregation counts for devices in Sensor Manager.</li><li>Added PTZ auto-tracking timeout setting.</li><li>Improved playback clip management and live view controls.</li><li>Improved Find Anything:</li><li class=\"ql-indent-1\">Added support for filtering by “All” detections.</li><li class=\"ql-indent-1\">Added image-based search (Requires AI Key with computer vision enhancement enabled).</li><li class=\"ql-indent-1\">Added an auto switch from Basic to Smart filter in Find Anything, depending on the camera selection.</li><li>Improved granular admin permissions handling.</li><li>Improved timelapse scrubbing performance.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where canceling a delayed arm countdown did not stop the arming process, causing the system to arm in the background.</li><li>Fixed an issue where device re-adoption failed in some cases.</li><li>Fixed an issue where the Safe Zone temperature slider displayed Celsius-based limits while the application was set to Fahrenheit.</li><li>Fixed an issue where RTSP link generation was failing in some cases.</li><li>Fixed an issue where the vehicle alarm also triggered stationary vehicles in some cases.</li><li>Fixed an issue where the capacity bar did not reflect actual camera usage in some cases.</li><li>Fixed an issue with search input infinite loading when deleting faces or license plates in Find Anything.</li><li>Fixed an issue where Incoming Bitrate widget was not loading in some cases.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "380272f8-2647-456d-bb1f-136a1114842d",
+      "kategorie": "protect-application",
+      "version": "6.2.88",
+      "titel": "UniFi Protect Application 6.2.88",
+      "link": "https://community.ui.com/releases/UniFi-Protect-Application-6-2-88/380272f8-2647-456d-bb1f-136a1114842d",
+      "veroeffentlicht": "2026-01-20T08:13:02+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Updated the bundled Camera FW to 5.1.240 to address stream recovery issues.",
+          "Improved Find Anything filter panel UX:",
+          "Added Confidence Threshold slider in All Detections.",
+          "Improved Face and License Plate tab filters.",
+          "Improved device selection UX.",
+          "Simplified detection highlight menu."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where motion zone sensitivity on AI Port–connected cameras reset to 50% after a restart.",
+          "Fixed an issue where Find Anything and Playback showed no results despite motion events being present.",
+          "Fixed an issue where Known Vehicle detections did not trigger consistently.",
+          "Fixed an issue where Known Vehicle detections could also trigger for unknown vehicles.",
+          "Fixed an issue where selecting Specific Vehicle Description in Alarm Manager also selected the Known Vehicle option."
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Updated the bundled Camera FW to&nbsp;<a href=\"https://community.ui.com/releases/r/camera/5.1.240\" rel=\"noopener noreferrer\" target=\"_blank\">5.1.240</a>&nbsp;to address stream recovery issues.</li><li>Improved Find Anything filter panel UX:</li><li class=\"ql-indent-1\">Added Confidence Threshold slider in All Detections.</li><li class=\"ql-indent-1\">Improved Face and License Plate tab filters.</li><li class=\"ql-indent-1\">Improved device selection UX.</li><li class=\"ql-indent-1\">Simplified detection highlight menu.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where motion zone sensitivity on AI Port–connected cameras reset to 50% after a restart.</li><li>Fixed an issue where Find Anything and Playback showed no results despite motion events being present.</li><li>Fixed an issue where&nbsp;Known Vehicle&nbsp;detections did not trigger consistently.</li><li>Fixed an issue where&nbsp;Known Vehicle&nbsp;detections could also trigger for unknown vehicles.</li><li>Fixed an issue where selecting&nbsp;Specific Vehicle Description&nbsp;in Alarm Manager also selected the&nbsp;Known Vehicle&nbsp;option.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "kategorie": "unifi-os-dream-machines",
+  "feed": "https://community.ui.com/rss/releases/x/b0f0a740-021e-4027-a778-ceba983be74b",
+  "zuletzt_abgerufen": "2026-11-26T04:54:38+00:00",
+  "releases": [
+    {
+      "id": "947e3cbf-473b-4126-9e1e-7b47e913453a",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "6.0.19",
+      "titel": "UniFi OS - Dream Machines 6.0.19",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-6-0-19/947e3cbf-473b-4126-9e1e-7b47e913453a",
+      "veroeffentlicht": "2026-11-24T15:02:23+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 6.0.19 includes the improvements and bugfixes below.",
+          "Bundled",
+          "UniFi Network 10.6.109",
+          "Identity Sync Service 1.8.8"
+        ],
+        "Improvements": [
+          "Improved firmware download resiliency.",
+          "Improved UniFi OS performance on large deployments.",
+          "Improved Shadow Mode stability.",
+          "Updated nginx to 1.30.7, addressing CVE-2026-123007, CVE-2026-123633, CVE-2026-125283, CVE-2026-121810, CVE-2026-123634, CVE-2026-113425, CVE-2026-120967, CVE-2026-123640, and CVE-2026-118899.",
+          "Updated APT to 3.0.4, addressing CVE-2026-109518.",
+          "Updated c-ares to 1.34.9, addressing CVE-2026-33630, CVE-2026-69184, and CVE-2026-69186.",
+          "Updated zlib to 1.3.1-1+deb13u1, addressing CVE-2026-27171 and CVE-2026-85091.",
+          "Updated PostgreSQL to versions 16.16 and 14.25, addressing CVE-2026-6460, CVE-2026-6467, CVE-2026-14661, CVE-2026-16237, CVE-2026-16240, CVE-2026-18447, CVE-2026-116303, CVE-2026-116304, CVE-2026-116306, CVE-2026-116307, CVE-2026-116308, CVE-2026-116309, CVE-2026-116311, CVE-2026-116312, CVE-2026-116314, CVE-2026-116315, CVE-2026-116316, CVE-2026-116317, CVE-2026-116319, CVE-2026-116320, CVE-2026-116321, CVE-2026-116323, CVE-2026-116326, CVE-2026-116327, CVE-2026-116328, CVE-2026-116330, CVE-2026-116331, CVE-2026-116332, CVE-2026-116335, CVE-2026-116336, CVE-2026-120139, CVE-2026-120141, CVE-2026-120143, CVE-2026-120145, CVE-2026-120146, CVE-2026-120147, CVE-2026-120148, CVE-2026-120149, CVE-2026-120150, CVE-2026-120151, CVE-2026-120152, CVE-2026-120153, and CVE-2026-120154."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where the Storage tab could crash during an application update."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 6.0.19 includes the improvements and bugfixes below.</p><p></p><p><strong>Bundled</strong></p><ul><li><p>UniFi Network <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.ui.com/releases/r/network/10.6.109\">10.6.109</a></p></li><li><p>Identity Sync Service <a target=\"_blank\" rel=\"nofollow\" href=\"https://community.ui.com/releases/r/identity-sync/1.8.8\">1.8.8</a></p></li></ul><p></p><h2>Improvements</h2><ul><li><p>Improved firmware download resiliency.</p></li><li><p>Improved UniFi OS performance on large deployments.</p></li><li><p>Improved Shadow Mode stability.</p></li><li><p>Updated nginx to 1.30.7, addressing CVE-2026-123007, CVE-2026-123633, CVE-2026-125283, CVE-2026-121810, CVE-2026-123634, CVE-2026-113425, CVE-2026-120967, CVE-2026-123640, and CVE-2026-118899.</p></li><li><p>Updated APT to 3.0.4, addressing CVE-2026-109518.</p></li><li><p>Updated c-ares to 1.34.9, addressing CVE-2026-33630, CVE-2026-69184, and CVE-2026-69186.</p></li><li><p>Updated zlib to 1.3.1-1+deb13u1, addressing CVE-2026-27171 and CVE-2026-85091.</p></li><li><p>Updated PostgreSQL to versions 16.16 and 14.25, addressing CVE-2026-6460, CVE-2026-6467, CVE-2026-14661, CVE-2026-16237, CVE-2026-16240, CVE-2026-18447, CVE-2026-116303, CVE-2026-116304, CVE-2026-116306, CVE-2026-116307, CVE-2026-116308, CVE-2026-116309, CVE-2026-116311, CVE-2026-116312, CVE-2026-116314, CVE-2026-116315, CVE-2026-116316, CVE-2026-116317, CVE-2026-116319, CVE-2026-116320, CVE-2026-116321, CVE-2026-116323, CVE-2026-116326, CVE-2026-116327, CVE-2026-116328, CVE-2026-116330, CVE-2026-116331, CVE-2026-116332, CVE-2026-116335, CVE-2026-116336, CVE-2026-120139, CVE-2026-120141, CVE-2026-120143, CVE-2026-120145, CVE-2026-120146, CVE-2026-120147, CVE-2026-120148, CVE-2026-120149, CVE-2026-120150, CVE-2026-120151, CVE-2026-120152, CVE-2026-120153, and CVE-2026-120154.</p></li></ul><p></p><h2>Bugfixes</h2><ul><li><p>Fixed an issue where the Storage tab could crash during an application update.</p></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "87d1677b-ef07-474a-9e65-bf55016560ec",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "6.0.17",
+      "titel": "UniFi OS - Dream Machines 6.0.17",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-6-0-17/87d1677b-ef07-474a-9e65-bf55016560ec",
+      "veroeffentlicht": "2026-11-05T08:58:48+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 6.0.17 includes the improvements and bugfixes below.",
+          "Bundled",
+          "UniFi Network 10.6.109",
+          "Identity Sync Service 1.8.8"
+        ],
+        "Improvements": [
+          "Added configurable backup schedules, multiple backup destinations, local backup management, and an improved restore experience.",
+          "Added a configurable session duration for Remember Me in Local Login.",
+          "Added Console resource reporting to Control Plane settings.",
+          "Added support for internationalized domain names in automatic certificates.",
+          "Added application update guidance when an adopted device requires a newer application version.",
+          "Added a STARTTLS option for custom mail servers.",
+          "Added a manual override for device upgrades, reboots, and resets during critical operations.",
+          "Improved storage reliability and resiliency.",
+          "Improved application installation resiliency.",
+          "Improved WAN SLA reliability.",
+          "Improved reporting to Site Manager",
+          "Improved system reliability",
+          "Improved mDNS stability",
+          "Improved UniFi OS backup restore reliability.",
+          "Improved application update behavior after firmware updates by only updating applications with auto-update enabled.",
+          "Improved ownership transfers with a clearer pending status.",
+          "Transfers to UI Accounts now complete after the recipient accepts the invitation.",
+          "Improved DNS and DHCP resiliency under heavy device load.",
+          "Improved Application Rollback resiliency.",
+          "Improved DNS resiliency when DNS-over-HTTPS providers rotate their server certificates.",
+          "Improved time synchronization resiliency.",
+          "Improved authentication reliability during two-factor challenges.",
+          "Improved Bluetooth reliability during setup.",
+          "Improved SFP negotiation speed.",
+          "Improved 1 Gbps link reliability when using the UACC-CM-RJ45-MG SFP module.",
+          "Improved Shadow Mode resiliency.",
+          "Upgraded the Debian distribution to Trixie.",
+          "[UDM/UDM-Pro/UDM-SE/UDM-Pro-Max] Improved PPPoE throughput for IPv6.",
+          "[UDM-Pro/UDM-SE/UDM-Pro-Max] Added LAG support for SFP ports.",
+          "[UDM-Pro-Max/UDM-Beast] Improved storage resiliency during RAID reshape operations.",
+          "[UDM-Pro-Max/UDM-Beast] Improved RAID scrubbing.",
+          "[UDM-Beast] Improved hardware offloading."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where WAN failover could trigger unnecessary DHCP renewals.",
+          "Fixed an issue where Policy-Based Routing could fail when many WireGuard tunnels were connected.",
+          "Fixed an issue where Network Application updates were not displayed when the application failed to start.",
+          "Fixed an issue where VPN client DNS settings could affect DNS resolution for all LAN clients.",
+          "Fixed connectivity issues affecting WireGuard VPNs.",
+          "Fixed an issue where Add New Person could become unresponsive when Remote Access was disabled.",
+          "Fixed an issue where DHCP leases could become corrupted after a High Availability failover, causing clients to receive incorrect IP addresses.",
+          "Fixed an issue where PPPoE configuration errors could cause connection instability.",
+          "Fixed an issue where heavy DNS traffic during a network outage could cause system instability when Content Filtering or Ad Blocking was enabled.",
+          "Fixed an issue where Honeypot alerts could stop being reported after a large number of detections.",
+          "Fixed an issue where WireGuard clients using IPv6 could lose connectivity after the WAN IPv6 prefix changed.",
+          "Fixed an issue where WAN interfaces using MAC Cloning could fail to obtain an IP address after reconnecting the cable.",
+          "Fixed an issue where deleting a network using a delegated IPv6 prefix could cause other networks to change IPv6 addresses after a reboot.",
+          "Fixed an issue where WAN DHCP connectivity could drop.",
+          "Fixed an IPS/IDS SIP signature parsing issue.",
+          "Fixed an issue where a disabled port could become enabled again after a reboot.",
+          "Fixed incorrect At Risk status reporting for disks with an extremely high power cycle count.",
+          "Fixed an issue where the Dashboard could show no data and all ports could appear offline after upgrading when using PPPoE with additional IP addresses.",
+          "Fixed an issue where a LAN DNS server could become unreachable after a reboot when Honeypot was enabled on the network.",
+          "Fixed an issue where OpenVPN connections using an imported configuration with AES-256-CBC could fail to establish.",
+          "Fixed an issue where DNS resolution for Policy-Based Routing could fail after restoring a backup that changed the WAN connection type.",
+          "Fixed issues where a Shadow console could remain offline or fail to synchronize UniFi Network after a primary restart or failback.",
+          "Fixed an issue where large UniFi Network backups could time out before completion.",
+          "Fixed an issue where reinstalled applications could later stop because a previously disabled state was retained.",
+          "Fixed an issue where declining an invitation could remove an existing administrator's cloud identity or permissions.",
+          "Fixed an issue where the factory reset confirmation could obscure the critical operation review dialog.",
+          "Fixed missing application update failure events in System Log.",
+          "Fixed an issue where UniFi Endpoint invitations could incorrectly show Specific Wi-Fi Connection Required when connected to the correct network.",
+          "Fixed an issue where blocked flows were not shown for the Block Invalid Traffic Firewall Policy.",
+          "Fixed an issue where Sent and Received traffic values were reversed in Traffic Info.",
+          "Fixed an issue where application and category information could be missing in Traffic Flows.",
+          "Fixed an issue where Ad Blocking could prevent some websites from functioning correctly.",
+          "Fixed an issue where multiple PPPoE WAN connections could use DNS servers from the wrong ISP.",
+          "Fixed an issue where scheduled Firewall and Content Filtering rules could apply incorrectly on Sundays.",
+          "Fixed link-local addresses being incorrectly reported as WAN addresses.",
+          "Fixed an issue where Alarm Manager emails were not sent to local administrators when Remote Access was disabled.",
+          "Fixed an issue where device lists could fail to synchronize with the cloud on consoles managing large numbers of devices.",
+          "Fixed an issue where console configurations could fail to synchronize with Fabric after switching organizations.",
+          "Fixed an issue where application updates could install a different version than the one displayed as available.",
+          "[UDM] Fixed an issue where some switch ports could become disabled after an upgrade.",
+          "[UDM-Pro/UDM-SE/UDM-Pro-Max/UDM-Beast] Fixed an issue where Shadow Mode setup could fail after a temporary connection loss to the primary console.",
+          "[UDM-Pro/UDM-SE/UDM-Pro-Max/UDM-Beast] Fixed an issue where a Shadow Mode gateway could fail to become active after a failover.",
+          "[UDM-Pro-Max/UDM-Beast] Fixed incorrect Storage Not Initialized warnings and Erase and Format prompts when drive bays were empty and built-in storage was healthy.",
+          "[UDM-Beast] Fixed missing Virtual Network Override options.",
+          "[UDM-Beast] Fixed an issue where hardware offloading did not work correctly in Shadow Mode.",
+          "[UDM-Beast] Fixed an issue where High Availability setup could fail when using a custom Native VLAN on the sync port.",
+          "[UDM-Beast] Fixed an issue where Deep Inspection domain category updates could cause the device to run out of memory and restart.",
+          "[UDM-Pro/UDM-SE/UDM-Pro-Max/UDM-Beast] Fixed a compatibility issue with 4Kn disks."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 6.0.17 includes the improvements and bugfixes below.</p><p>&nbsp;</p><p><strong>Bundled</strong></p><ul><li><p>UniFi Network <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.ui.com/releases/r/network/10.6.109\">10.6.109</a></p></li><li><p>Identity Sync Service <a target=\"_blank\" rel=\"nofollow\" href=\"https://community.ui.com/releases/r/identity-sync/1.8.8\">1.8.8</a></p></li></ul><p></p><h2>Improvements</h2><ul><li><p>Added configurable backup schedules, multiple backup destinations, local backup management, and an improved restore experience.</p></li><li><p>Added a configurable session duration for Remember Me in Local Login.</p></li><li><p>Added Console resource reporting to Control Plane settings.</p></li><li><p>Added support for internationalized domain names in automatic certificates.</p></li><li><p>Added application update guidance when an adopted device requires a newer application version.</p></li><li><p>Added a STARTTLS option for custom mail servers.</p></li><li><p>Added a manual override for device upgrades, reboots, and resets during critical operations.</p></li><li><p>Improved storage reliability and resiliency.</p></li><li><p>Improved application installation resiliency.</p></li><li><p>Improved WAN SLA reliability.</p></li><li><p>Improved reporting to Site Manager</p></li><li><p>Improved system reliability</p></li><li><p>Improved mDNS stability</p></li><li><p>Improved UniFi OS backup restore reliability.</p></li><li><p>Improved application update behavior after firmware updates by only updating applications with auto-update enabled.</p></li><li><p>Improved ownership transfers with a clearer pending status.</p><ul><li><p>Transfers to UI Accounts now complete after the recipient accepts the invitation.</p></li></ul></li><li><p>Improved DNS and DHCP resiliency under heavy device load.</p></li><li><p>Improved Application Rollback resiliency.</p></li><li><p>Improved DNS resiliency when DNS-over-HTTPS providers rotate their server certificates.</p></li><li><p>Improved time synchronization resiliency.</p></li><li><p>Improved authentication reliability during two-factor challenges.</p></li><li><p>Improved Bluetooth reliability during setup.</p></li><li><p>Improved SFP negotiation speed.</p></li><li><p>Improved 1 Gbps link reliability when using the UACC-CM-RJ45-MG SFP module.</p></li><li><p>Improved Shadow Mode resiliency.</p></li><li><p>Upgraded the Debian distribution to Trixie.</p></li><li><p>[UDM/UDM-Pro/UDM-SE/UDM-Pro-Max] Improved PPPoE throughput for IPv6.</p></li><li><p>[UDM-Pro/UDM-SE/UDM-Pro-Max] Added LAG support for SFP ports.</p></li><li><p>[UDM-Pro-Max/UDM-Beast] Improved storage resiliency during RAID reshape operations.</p></li><li><p>[UDM-Pro-Max/UDM-Beast] Improved RAID scrubbing.</p></li><li><p>[UDM-Beast] Improved hardware offloading.</p></li></ul><p></p><h2>Bugfixes</h2><ul><li><p>Fixed an issue where WAN failover could trigger unnecessary DHCP renewals.</p></li><li><p>Fixed an issue where Policy-Based Routing could fail when many WireGuard tunnels were connected.</p></li><li><p>Fixed an issue where Network Application updates were not displayed when the application failed to start.</p></li><li><p>Fixed an issue where VPN client DNS settings could affect DNS resolution for all LAN clients.</p></li><li><p>Fixed connectivity issues affecting WireGuard VPNs.</p></li><li><p>Fixed an issue where Add New Person could become unresponsive when Remote Access was disabled.</p></li><li><p>Fixed an issue where DHCP leases could become corrupted after a High Availability failover, causing clients to receive incorrect IP addresses.</p></li><li><p>Fixed an issue where PPPoE configuration errors could cause connection instability.</p></li><li><p>Fixed an issue where heavy DNS traffic during a network outage could cause system instability when Content Filtering or Ad Blocking was enabled.</p></li><li><p>Fixed an issue where Honeypot alerts could stop being reported after a large number of detections.</p></li><li><p>Fixed an issue where WireGuard clients using IPv6 could lose connectivity after the WAN IPv6 prefix changed.</p></li><li><p>Fixed an issue where WAN interfaces using MAC Cloning could fail to obtain an IP address after reconnecting the cable.</p></li><li><p>Fixed an issue where deleting a network using a delegated IPv6 prefix could cause other networks to change IPv6 addresses after a reboot.</p></li><li><p>Fixed an issue where WAN DHCP connectivity could drop.</p></li><li><p>Fixed an IPS/IDS SIP signature parsing issue.</p></li><li><p>Fixed an issue where a disabled port could become enabled again after a reboot.</p></li><li><p>Fixed incorrect At Risk status reporting for disks with an extremely high power cycle count.</p></li><li><p>Fixed an issue where the Dashboard could show no data and all ports could appear offline after upgrading when using PPPoE with additional IP addresses.</p></li><li><p>Fixed an issue where a LAN DNS server could become unreachable after a reboot when Honeypot was enabled on the network.</p></li><li><p>Fixed an issue where OpenVPN connections using an imported configuration with AES-256-CBC could fail to establish.</p></li><li><p>Fixed an issue where DNS resolution for Policy-Based Routing could fail after restoring a backup that changed the WAN connection type.</p></li><li><p>Fixed issues where a Shadow console could remain offline or fail to synchronize UniFi Network after a primary restart or failback.</p></li><li><p>Fixed an issue where large UniFi Network backups could time out before completion.</p></li><li><p>Fixed an issue where reinstalled applications could later stop because a previously disabled state was retained.</p></li><li><p>Fixed an issue where declining an invitation could remove an existing administrator's cloud identity or permissions.</p></li><li><p>Fixed an issue where the factory reset confirmation could obscure the critical operation review dialog.</p></li><li><p>Fixed missing application update failure events in System Log.</p></li><li><p>Fixed an issue where UniFi Endpoint invitations could incorrectly show Specific Wi-Fi Connection Required when connected to the correct network.</p></li><li><p>Fixed an issue where blocked flows were not shown for the Block Invalid Traffic Firewall Policy.</p></li><li><p>Fixed an issue where Sent and Received traffic values were reversed in Traffic Info.</p></li><li><p>Fixed an issue where application and category information could be missing in Traffic Flows.</p></li><li><p>Fixed an issue where Ad Blocking could prevent some websites from functioning correctly.</p></li><li><p>Fixed an issue where multiple PPPoE WAN connections could use DNS servers from the wrong ISP.</p></li><li><p>Fixed an issue where scheduled Firewall and Content Filtering rules could apply incorrectly on Sundays.</p></li><li><p>Fixed link-local addresses being incorrectly reported as WAN addresses.</p></li><li><p>Fixed an issue where Alarm Manager emails were not sent to local administrators when Remote Access was disabled.</p></li><li><p>Fixed an issue where device lists could fail to synchronize with the cloud on consoles managing large numbers of devices.</p></li><li><p>Fixed an issue where console configurations could fail to synchronize with Fabric after switching organizations.</p></li><li><p>Fixed an issue where application updates could install a different version than the one displayed as available.</p></li><li><p>[UDM] Fixed an issue where some switch ports could become disabled after an upgrade.</p></li><li><p>[UDM-Pro/UDM-SE/UDM-Pro-Max/UDM-Beast] Fixed an issue where Shadow Mode setup could fail after a temporary connection loss to the primary console.</p></li><li><p>[UDM-Pro/UDM-SE/UDM-Pro-Max/UDM-Beast] Fixed an issue where a Shadow Mode gateway could fail to become active after a failover.</p></li><li><p>[UDM-Pro-Max/UDM-Beast] Fixed incorrect Storage Not Initialized warnings and Erase and Format prompts when drive bays were empty and built-in storage was healthy.</p></li><li><p>[UDM-Beast] Fixed missing Virtual Network Override options.</p></li><li><p>[UDM-Beast] Fixed an issue where hardware offloading did not work correctly in Shadow Mode.</p></li><li><p>[UDM-Beast] Fixed an issue where High Availability setup could fail when using a custom Native VLAN on the sync port.</p></li><li><p>[UDM-Beast] Fixed an issue where Deep Inspection domain category updates could cause the device to run out of memory and restart.</p></li><li><p>[UDM-Pro/UDM-SE/UDM-Pro-Max/UDM-Beast] Fixed a compatibility issue with 4Kn disks.</p></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "89d2ba2f-3db1-481f-82bd-3b13f90af57e",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.35",
+      "titel": "UniFi OS - Dream Machines 5.1.35",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-35/89d2ba2f-3db1-481f-82bd-3b13f90af57e",
+      "veroeffentlicht": "2026-11-03T17:12:11+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.35 includes the improvements and bugfixes below.",
+          "Bundled",
+          "UniFi Network 10.5.67",
+          "Identity Sync Service 1.8.8"
+        ],
+        "Bugfixes": [
+          "Fixed the security vulnerability tracked as CVE-2026-98432."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.35 includes the improvements and bugfixes below.</p><p></p><p>&nbsp;</p><p><strong>Bundled</strong></p><ul><li><p>UniFi Network <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.ui.com/releases/r/network/10.5.67\">10.5.67</a></p></li><li><p>Identity Sync Service <a target=\"_blank\" rel=\"nofollow\" href=\"https://community.ui.com/releases/r/identity-sync/1.8.8\">1.8.8</a></p></li></ul><p></p><h2>Bugfixes</h2><ul><li><p>Fixed the security vulnerability tracked as CVE-2026-98432.</p></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "4c02c624-652f-4ef4-8c3c-da21c2c0734e",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.34",
+      "titel": "UniFi OS - Dream Machines 5.1.34",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-34/4c02c624-652f-4ef4-8c3c-da21c2c0734e",
+      "veroeffentlicht": "2026-10-27T15:01:35+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.34 includes the improvements and bugfixes below.",
+          "Bundled",
+          "UniFi Network 10.5.67",
+          "Identity Sync Service 1.8.8"
+        ],
+        "Improvements": [
+          "Revoked compromised eMudhra CA certificates."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.34 includes the improvements and bugfixes below.</p><p></p><p>&nbsp;</p><p><strong>Bundled</strong></p><ul><li><p>UniFi Network <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.ui.com/releases/r/network/10.5.67\">10.5.67</a></p></li><li><p>Identity Sync Service <a target=\"_blank\" rel=\"nofollow\" href=\"https://community.ui.com/releases/r/identity-sync/1.8.8\">1.8.8</a></p></li></ul><p></p><h2>Improvements</h2><ul><li><p>Revoked compromised eMudhra CA certificates.</p></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "bdb30bcf-c8b9-4713-8fc7-2405d9de1f8d",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.33",
+      "titel": "UniFi OS - Dream Machines 5.1.33",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-33/bdb30bcf-c8b9-4713-8fc7-2405d9de1f8d",
+      "veroeffentlicht": "2026-09-09T12:43:43+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.33 includes the improvements and bugfixes below.",
+          "Bundled",
+          "UniFi Network 10.5.67",
+          "Identity Sync Service 1.8.4"
+        ],
+        "Bugfixes": [
+          "Fixed an issue where applications could fail to install or update."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.33 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled </strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.5.67\" rel=\"noopener noreferrer\" target=\"_blank\">10.5.67</a></li><li>Identity Sync Service <a href=\"https://community.ui.com/releases/r/identity-sync/1.8.4\" rel=\"noopener noreferrer\" target=\"_blank\">1.8.4</a></li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where applications could fail to install or update.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "43fabe07-77c5-42e9-ba67-2b87543e800a",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.31",
+      "titel": "UniFi OS - Dream Machines 5.1.31",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-31/43fabe07-77c5-42e9-ba67-2b87543e800a",
+      "veroeffentlicht": "2026-08-20T10:14:02+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.31 includes the improvements and bugfixes below.",
+          "Bundled",
+          "UniFi Network 10.5.67",
+          "Identity Sync Service 1.8.4"
+        ],
+        "Improvements": [
+          "Improved Shadow Mode resiliency.",
+          "Improved device stability."
+        ],
+        "Bugfixes": [
+          "Fixed the security issues mentioned in Security Advisory Bulletin 067.",
+          "Fixed the security issues mentioned in Security Advisory Bulletin 069."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.31 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled </strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.5.67\" rel=\"noopener noreferrer\" target=\"_blank\">10.5.67</a></li><li>Identity Sync Service <a href=\"https://community.ui.com/releases/r/identity-sync/1.8.4\" rel=\"noopener noreferrer\" target=\"_blank\">1.8.4</a></li></ul><h2>Improvements</h2><ul><li>Improved Shadow Mode resiliency.</li><li>Improved device stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/r/security/067\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 067</a>.</li><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/Security-Advisory-Bulletin-069-069/07e367a7-edec-4d85-a058-f97e5ce9ac9c\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 069</a>.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "ef80a242-8e01-446e-a678-41cb122cbb1f",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.30",
+      "titel": "UniFi OS - Dream Machines 5.1.30",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-30/ef80a242-8e01-446e-a678-41cb122cbb1f",
+      "veroeffentlicht": "2026-08-17T11:34:58+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.30 includes the improvements and bugfixes below.",
+          "Bundled",
+          "UniFi Network 10.5.67",
+          "Identity Sync Service 1.8.3"
+        ],
+        "Improvements": [
+          "Improved Shadow Mode resiliency.",
+          "Improved device stability."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.30 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled </strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.5.67\" rel=\"noopener noreferrer\" target=\"_blank\">10.5.67</a></li><li>Identity Sync Service <a href=\"https://community.ui.com/releases/r/identity-sync/1.8.3\" rel=\"noopener noreferrer\" target=\"_blank\">1.8.3</a></li></ul><h2>Improvements</h2><ul><li>Improved Shadow Mode resiliency.</li><li>Improved device stability.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "468e3abb-c3c3-42a8-a77d-db7c43283cac",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.27",
+      "titel": "UniFi OS - Dream Machines 5.1.27",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-27/468e3abb-c3c3-42a8-a77d-db7c43283cac",
+      "veroeffentlicht": "2026-08-04T12:24:40+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.27 includes the improvements and bugfixes below.",
+          "Bundled application",
+          "UniFi Network 10.4.57"
+        ],
+        "Improvements": [
+          "Improved device stability."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.27 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.4.57\" rel=\"noopener noreferrer\" target=\"_blank\">10.4.57</a></li></ul><h2>Improvements</h2><ul><li>Improved device stability.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "f9b69430-ef8c-46d7-9015-a51bbc92a901",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.26",
+      "titel": "UniFi OS - Dream Machines 5.1.26",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-26/f9b69430-ef8c-46d7-9015-a51bbc92a901",
+      "veroeffentlicht": "2026-07-22T11:24:34+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.26 includes the improvements and bugfixes below.",
+          "Bundled application",
+          "UniFi Network 10.4.57"
+        ],
+        "Improvements": [
+          "Improved device stability.",
+          "Improved Shadow Mode resiliency.",
+          "Improved WAN failover resiliency.",
+          "Improved IPS/IDS memory usage.",
+          "Updated Suricata to version 8.0.6.",
+          "Requires Network Application 10.5.48 or newer.",
+          "[UDM-Beast] Improved hardware offloading.",
+          "[UDM-Beast] Improved reliability on the SFP28 ports."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where \"Remember Me\" local login sessions expired sooner than expected following recent security updates.",
+          "\"Remember Me\" sessions now remain active for up to 30 days. Re-authentication is still required after UniFi OS upgrades and console reboots.",
+          "For the best authentication experience, use the UniFi Mobile App or unifi.ui.com.",
+          "Fixed an issue where IPS/IDS rule updates could fail, resulting in no IPS/IDS rules being applied.",
+          "Fixed an issue where WAN monitors could fail to resolve when using LAN DNS servers on WAN interfaces.",
+          "Fixed an issue where PPPoE 1500 MTU could stop working after a reboot.",
+          "Fixed an issue where remote mDNS hosts could not be discovered.",
+          "Fixed an issue where the Access application would start when starting the Protect application.",
+          "[UDM-Beast] Fixed incorrect RX error counts on RJ45 ports."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.26 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.4.57\" rel=\"noopener noreferrer\" target=\"_blank\">10.4.57</a></li></ul><h2>Improvements</h2><ul><li>Improved device stability.</li><li>Improved Shadow Mode resiliency.</li><li>Improved WAN failover resiliency.</li><li>Improved IPS/IDS memory usage.</li><li>Updated Suricata to version 8.0.6.</li><li class=\"ql-indent-1\">Requires Network Application 10.5.48 or newer.</li><li>[UDM-Beast] Improved hardware offloading.</li><li>[UDM-Beast] Improved reliability on the SFP28 ports.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where \"Remember Me\" local login sessions expired sooner than expected following recent security updates.</li><li class=\"ql-indent-1\">\"Remember Me\" sessions now remain active for up to 30 days. Re-authentication is still required after UniFi OS upgrades and console reboots.</li><li class=\"ql-indent-1\">For the best authentication experience, use the UniFi Mobile App or <a href=\"http://unifi.ui.com/\" rel=\"noopener noreferrer\" target=\"_blank\">unifi.ui.com</a>.</li><li>Fixed an issue where IPS/IDS rule updates could fail, resulting in no IPS/IDS rules being applied.</li><li>Fixed an issue where WAN monitors could fail to resolve when using LAN DNS servers on WAN interfaces.</li><li>Fixed an issue where PPPoE 1500 MTU could stop working after a reboot.</li><li>Fixed an issue where remote mDNS hosts could not be discovered.</li><li>Fixed an issue where the Access application would start when starting the Protect application.</li><li>[UDM-Beast] Fixed incorrect RX error counts on RJ45 ports.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "32c35941-c2b6-4fa2-9e63-09470bfb85f6",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.19",
+      "titel": "UniFi OS - Dream Machines 5.1.19",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-19/32c35941-c2b6-4fa2-9e63-09470bfb85f6",
+      "veroeffentlicht": "2026-06-17T17:29:02+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.19 includes the improvements and bugfixes below.",
+          "Bundled application",
+          "UniFi Network 10.4.57"
+        ],
+        "Improvements": [
+          "Improved backup restore resiliency.",
+          "Improved system stability.",
+          "[UDM-Beast] Improved compatibility with Verizon Fios ISP.",
+          "[UDM-Beast] Improved max concurrent Site Magic tunnels."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where a false “No DNS IP Address” message could appear on the screen in rare cases.",
+          "Fixed an issue where loop protection didn't work correctly in rare cases.",
+          "[UDM-beast] Fixed SNMP monitoring using UDP port forwarding.",
+          "Fixed the security issues mentioned in Security Advisory Bulletin 066."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.19 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.4.57\" rel=\"noopener noreferrer\" target=\"_blank\">10.4.57</a></li></ul><h2>Improvements</h2><ul><li>Improved backup restore resiliency.</li><li>Improved system stability.</li><li>[UDM-Beast] Improved compatibility with Verizon Fios ISP.</li><li>[UDM-Beast] Improved max concurrent Site Magic tunnels.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where a false “No DNS IP Address” message could appear on the screen in rare cases.</li><li>Fixed an issue where loop protection didn't work correctly in rare cases.</li><li>[UDM-beast] Fixed SNMP monitoring using UDP port forwarding.</li><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/Security-Advisory-Bulletin-066-066/984eceb3-49c8-4227-942d-671c289b3afc\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 066.</a></li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "5ed916bc-aa53-4618-81b4-d97d45590b8d",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.15",
+      "titel": "UniFi OS - Dream Machines 5.1.15",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-15/5ed916bc-aa53-4618-81b4-d97d45590b8d",
+      "veroeffentlicht": "2026-06-01T14:30:42+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.15 includes the improvements and bugfixes below.",
+          "Bundled application",
+          "UniFi Network 10.4.57"
+        ],
+        "Improvements": [
+          "Improved system stability.",
+          "[UDM-Beast] Improved the resiliency of the Hardware Offload Engine."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where DNS queries could fail over IPv6 when Content Filtering is used.",
+          "Fixed an issue where obtaining a WAN IP could fail when receiving a malformed DHCP Option 3 on WAN.",
+          "Fixed the security issues mentioned in Security Advisory Bulletin 065."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.15 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.4.57\" rel=\"noopener noreferrer\" target=\"_blank\">10.4.57</a></li></ul><h2>Improvements</h2><ul><li>Improved system stability.</li><li>[UDM-Beast] Improved the resiliency of the Hardware Offload Engine.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where DNS queries could fail over IPv6 when Content Filtering is used.</li><li>Fixed an issue where obtaining a WAN IP could fail when receiving a malformed DHCP Option 3 on WAN.</li><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/Security-Advisory-Bulletin-065-065/aa46a22b-fc43-4eae-9382-6fc8feda967a\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 065</a>.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "6a229a80-ed47-4509-a9a3-046122ecc1b9",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.12",
+      "titel": "UniFi OS - Dream Machines 5.1.12",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-12/6a229a80-ed47-4509-a9a3-046122ecc1b9",
+      "veroeffentlicht": "2026-05-21T11:27:49+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.12 includes the improvements and bugfixes below.",
+          "Bundled application",
+          "UniFi Network 10.3.58"
+        ],
+        "Improvements": [
+          "Added support for Ad Blocking and Content Filtering with Policy-Based Routing.",
+          "Added support for IPv6 WireGuard VPN clients.",
+          "Added support for automatic Let’s Encrypt certificates.",
+          "Added the ability to revert applications and restore configuration backups.",
+          "Allowed Super Admins to restore local backups.",
+          "Improved the Alarm Manager user experience.",
+          "Improved IDS/IPS performance and CPU utilization.",
+          "Improved multi-WAN failover behavior and resiliency.",
+          "Improved VPN stability across IPsec, WireGuard, and OpenVPN.",
+          "Improved DNS over HTTPS (DoH) stability and configuration handling.",
+          "Improved system stability.",
+          "Improved SFP connectivity.",
+          "Improved WireGuard connectivity resiliency.",
+          "Improved backup restore resiliency.",
+          "Improved DNS cache responsiveness.",
+          "Improved firmware upgrade behavior by updating the Network Application to the latest official release after an upgrade.",
+          "Improved device discovery and overall device stability.",
+          "Improved storage mounting resiliency.",
+          "Improved the app restoration experience after a firmware update.",
+          "Improved compatibility with ISPs that require periodic ARP on the WAN.",
+          "[UDM] Improved WiFi stability.",
+          "[UDM-Pro-Max] Improved hot-plug disk resiliency.",
+          "[UDM-Pro|UDM-SE] Improved stability by using the native UniFi Network Application."
+        ],
+        "Bugfixes": [
+          "Fixed the security issues mentioned in Security Advisory Bulletin 064.",
+          "Fixed an issue where QoS configuration was not restored after a PPP interface reconnected.",
+          "Fixed an issue where OpenVPN client disconnection notifications could be inaccurate.",
+          "Fixed an issue where large file downloads could intermittently fail.",
+          "Fixed an issue where VPN failover scenarios could leave tunnels established but traffic blackholed.",
+          "Fixed an issue where WireGuard fallback behavior did not activate as expected.",
+          "Fixed an issue where OpenVPN DNS query storms could occur when multiple tunnels were configured.",
+          "Fixed various DHCP and IPv6 edge cases that could result in connectivity issues.",
+          "Fixed excessive IGMP join and leave log entries on WAN interfaces.",
+          "Fixed an issue where QoS CPU affinity settings were not properly restored after disabling Smart Queues.",
+          "Fixed an issue where the ping monitor behavior was incorrect when using LAN DNS servers.",
+          "Fixed an issue where DDNS updates could fail with Cloudflare.",
+          "Fixed an issue where custom NTP servers could be overridden after reboot.",
+          "Fixed an issue where Protect incorrectly reported disks as “At Risk” when they had different capacities or RPM values compared to other disks in the RAID array.",
+          "Fixed an issue where IPsec traffic could be lost."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.12 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.3.58\" rel=\"noopener noreferrer\" target=\"_blank\">10.3.58</a></li></ul><h2>Improvements</h2><ul><li>Added support for Ad Blocking and Content Filtering with Policy-Based Routing.</li><li>Added support for IPv6 WireGuard VPN clients.</li><li>Added support for automatic Let’s Encrypt certificates.</li><li>Added the ability to revert applications and restore configuration backups.</li><li>Allowed Super Admins to restore local backups.</li><li>Improved the Alarm Manager user experience.</li><li>Improved IDS/IPS performance and CPU utilization.</li><li>Improved multi-WAN failover behavior and resiliency.</li><li>Improved VPN stability across IPsec, WireGuard, and OpenVPN.</li><li>Improved DNS over HTTPS (DoH) stability and configuration handling.</li><li>Improved system stability.</li><li>Improved SFP connectivity.</li><li>Improved WireGuard connectivity resiliency.</li><li>Improved backup restore resiliency.</li><li>Improved DNS cache responsiveness.</li><li>Improved firmware upgrade behavior by updating the Network Application to the latest official release after an upgrade.</li><li>Improved device discovery and overall device stability.</li><li>Improved storage mounting resiliency.</li><li>Improved the app restoration experience after a firmware update.</li><li>Improved compatibility with ISPs that require periodic ARP on the WAN.</li><li>[UDM] Improved WiFi stability.</li><li>[UDM-Pro-Max] Improved hot-plug disk resiliency.</li><li>[UDM-Pro|UDM-SE] Improved stability by using the native UniFi Network Application.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/r/security/064\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 064</a>.</li><li>Fixed an issue where QoS configuration was not restored after a PPP interface reconnected.</li><li>Fixed an issue where OpenVPN client disconnection notifications could be inaccurate.</li><li>Fixed an issue where large file downloads could intermittently fail.</li><li>Fixed an issue where VPN failover scenarios could leave tunnels established but traffic blackholed.</li><li>Fixed an issue where WireGuard fallback behavior did not activate as expected.</li><li>Fixed an issue where OpenVPN DNS query storms could occur when multiple tunnels were configured.</li><li>Fixed various DHCP and IPv6 edge cases that could result in connectivity issues.</li><li>Fixed excessive IGMP join and leave log entries on WAN interfaces.</li><li>Fixed an issue where QoS CPU affinity settings were not properly restored after disabling Smart Queues.</li><li>Fixed an issue where the ping monitor behavior was incorrect when using LAN DNS servers.</li><li>Fixed an issue where DDNS updates could fail with Cloudflare.</li><li>Fixed an issue where custom NTP servers could be overridden after reboot.</li><li>Fixed an issue where Protect incorrectly reported disks as “At Risk” when they had different capacities or RPM values compared to other disks in the RAID array.</li><li>Fixed an issue where IPsec traffic could be lost.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "12eae3e2-94b5-4efe-81d8-e5881721fb22",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.11",
+      "titel": "UniFi OS - Dream Machine Beast 5.1.11",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machine-Beast-5-1-11/12eae3e2-94b5-4efe-81d8-e5881721fb22",
+      "veroeffentlicht": "2026-05-21T11:27:29+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.11 includes the improvements and bugfixes below.",
+          "Bundled application",
+          "UniFi Network 10.3.58"
+        ],
+        "Improvements": [
+          "Improved the user experience during app restoration after a firmware update.",
+          "Improved routing performance for traffic over Link Aggregated ports."
+        ],
+        "Bugfixes": [
+          "Fixed the security issues mentioned in Security Advisory Bulletin 064.",
+          "Fixed an issue where IPS/IDS events were always reported as low risk.",
+          "Fixed an issue where non-Network UniFi devices did not appear in the UniFi device list when they were on a VLAN.",
+          "Fixed an issue where application auto-updates could fail after a firmware update."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.11 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.3.58\" rel=\"noopener noreferrer\" target=\"_blank\">10.3.58</a></li></ul><h2>Improvements</h2><ul><li>Improved the user experience during app restoration after a firmware update.</li><li>Improved routing performance for traffic over Link Aggregated ports.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/r/security/064\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 064</a>.</li><li>Fixed an issue where IPS/IDS events were always reported as low risk.</li><li>Fixed an issue where non-Network UniFi devices did not appear in the UniFi device list when they were on a VLAN.</li><li>Fixed an issue where application auto-updates could fail after a firmware update.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "72c042d2-6b49-48ee-ab13-a14c1fc1bf43",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.11",
+      "titel": "UniFi OS - Dream Machines 5.1.11",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-1-11/72c042d2-6b49-48ee-ab13-a14c1fc1bf43",
+      "veroeffentlicht": "2026-05-14T14:04:21+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.11 includes the improvements and bugfixes below.",
+          "Bundled application",
+          "UniFi Network 10.3.58"
+        ],
+        "Improvements": [
+          "Added support for Ad Blocking and Content Filtering with Policy-Based Routing.",
+          "Added support for IPv6 WireGuard VPN clients.",
+          "Added support for automatic Let’s Encrypt certificates.",
+          "Added the ability to revert applications and restore configuration backups.",
+          "Allowed Super Admins to restore local backups.",
+          "Improved the Alarm Manager user experience.",
+          "Improved IDS/IPS performance and CPU utilization.",
+          "Improved multi-WAN failover behavior and resiliency.",
+          "Improved VPN stability across IPsec, WireGuard, and OpenVPN.",
+          "Improved DNS over HTTPS (DoH) stability and configuration handling.",
+          "Improved system stability.",
+          "Improved SFP connectivity.",
+          "Improved WireGuard connectivity resiliency.",
+          "Improved backup restore resiliency.",
+          "Improved DNS cache responsiveness.",
+          "Improved firmware upgrade behavior by updating the Network Application to the latest official release after an upgrade.",
+          "Improved device discovery and overall device stability.",
+          "Improved storage mounting resiliency.",
+          "Improved the app restoration experience after a firmware update.",
+          "Improved compatibility with ISPs that require periodic ARP on the WAN.",
+          "[UDM] Improved WiFi stability.",
+          "[UDM-Pro-Max] Improved hot-plug disk resiliency.",
+          "[UDM-Pro|UDM-SE] Improved stability by using the native UniFi Network Application.",
+          "[UDM-Beast] Improved routing performance for traffic over link-aggregated ports."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where QoS configuration was not restored after a PPP interface reconnected.",
+          "Fixed an issue where OpenVPN client disconnection notifications could be inaccurate.",
+          "Fixed an issue where large file downloads could intermittently fail.",
+          "Fixed an issue where VPN failover scenarios could leave tunnels established but traffic blackholed.",
+          "Fixed an issue where WireGuard fallback behavior did not activate as expected.",
+          "Fixed an issue where OpenVPN DNS query storms could occur when multiple tunnels were configured.",
+          "Fixed various DHCP and IPv6 edge cases that could result in connectivity issues.",
+          "Fixed excessive IGMP join and leave log entries on WAN interfaces.",
+          "Fixed an issue where QoS CPU affinity settings were not properly restored after disabling Smart Queues.",
+          "Fixed an issue where the ping monitor behavior was incorrect when using LAN DNS servers.",
+          "Fixed an issue where DDNS updates could fail with Cloudflare.",
+          "Fixed an issue where custom NTP servers could be overridden after reboot.",
+          "Fixed an issue where Protect incorrectly reported disks as “At Risk” when they had different capacities or RPM values compared to other disks in the RAID array.",
+          "Fixed an issue where IPsec traffic could be lost."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.11 includes the improvements and bugfixes below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.3.58\" rel=\"noopener noreferrer\" target=\"_blank\">10.3.58</a></li></ul><h2>Improvements</h2><ul><li>Added support for Ad Blocking and Content Filtering with Policy-Based Routing.</li><li>Added support for IPv6 WireGuard VPN clients.</li><li>Added support for automatic Let’s Encrypt certificates.</li><li>Added the ability to revert applications and restore configuration backups.</li><li>Allowed Super Admins to restore local backups.</li><li>Improved the Alarm Manager user experience.</li><li>Improved IDS/IPS performance and CPU utilization.</li><li>Improved multi-WAN failover behavior and resiliency.</li><li>Improved VPN stability across IPsec, WireGuard, and OpenVPN.</li><li>Improved DNS over HTTPS (DoH) stability and configuration handling.</li><li>Improved system stability.</li><li>Improved SFP connectivity.</li><li>Improved WireGuard connectivity resiliency.</li><li>Improved backup restore resiliency.</li><li>Improved DNS cache responsiveness.</li><li>Improved firmware upgrade behavior by updating the Network Application to the latest official release after an upgrade.</li><li>Improved device discovery and overall device stability.</li><li>Improved storage mounting resiliency.</li><li>Improved the app restoration experience after a firmware update.</li><li>Improved compatibility with ISPs that require periodic ARP on the WAN.</li><li>[UDM] Improved WiFi stability.</li><li>[UDM-Pro-Max] Improved hot-plug disk resiliency.</li><li>[UDM-Pro|UDM-SE] Improved stability by using the native UniFi Network Application.</li><li>[UDM-Beast] Improved routing performance for traffic over link-aggregated ports.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where QoS configuration was not restored after a PPP interface reconnected.</li><li>Fixed an issue where OpenVPN client disconnection notifications could be inaccurate.</li><li>Fixed an issue where large file downloads could intermittently fail.</li><li>Fixed an issue where VPN failover scenarios could leave tunnels established but traffic blackholed.</li><li>Fixed an issue where WireGuard fallback behavior did not activate as expected.</li><li>Fixed an issue where OpenVPN DNS query storms could occur when multiple tunnels were configured.</li><li>Fixed various DHCP and IPv6 edge cases that could result in connectivity issues.</li><li>Fixed excessive IGMP join and leave log entries on WAN interfaces.</li><li>Fixed an issue where QoS CPU affinity settings were not properly restored after disabling Smart Queues.</li><li>Fixed an issue where the ping monitor behavior was incorrect when using LAN DNS servers.</li><li>Fixed an issue where DDNS updates could fail with Cloudflare.</li><li>Fixed an issue where custom NTP servers could be overridden after reboot.</li><li>Fixed an issue where Protect incorrectly reported disks as “At Risk” when they had different capacities or RPM values compared to other disks in the RAID array.</li><li>Fixed an issue where IPsec traffic could be lost.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "aac985cd-4ef1-4a1e-b8e2-318c91b820ad",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.1.8",
+      "titel": "UniFi OS - Dream Machine Beast 5.1.8",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machine-Beast-5-1-8/aac985cd-4ef1-4a1e-b8e2-318c91b820ad",
+      "veroeffentlicht": "2026-04-30T15:13:47+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "This is the initial release for the UDM-Beast.",
+          "Bundled application",
+          "UniFi Network 10.2.105"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>This is the initial release for the UDM-Beast.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.2.105\" rel=\"noopener noreferrer\" target=\"_blank\">10.2.10</a><a href=\"https://community.ui.com/releases/r/network/10.1.89\" rel=\"noopener noreferrer\" target=\"_blank\">5</a></li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "4b8a0a8b-f241-49a0-b0a3-c3de80d503ef",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.0.16",
+      "titel": "UniFi OS - Dream Machines 5.0.16",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-0-16/4b8a0a8b-f241-49a0-b0a3-c3de80d503ef",
+      "veroeffentlicht": "2026-03-11T10:07:34+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled application",
+          "UniFi Network 10.0.162"
+        ],
+        "Improvements": [
+          "Improved system stability.",
+          "Improved DHCP resiliency for clients that do not comply with the RFC."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.0.162\" rel=\"noopener noreferrer\" target=\"_blank\">10.0.162</a></li></ul><h2>Improvements</h2><ul><li>Improved system stability.</li><li>Improved DHCP resiliency for clients that do not comply with the RFC.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "5b5a5a6d-c255-4749-9dbc-4ff57f43028c",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.0.12",
+      "titel": "UniFi OS - Dream Machines 5.0.12",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-0-12/5b5a5a6d-c255-4749-9dbc-4ff57f43028c",
+      "veroeffentlicht": "2026-02-03T12:51:50+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.0.12 includes the improvements listed below.",
+          "Bundled application",
+          "UniFi Network 10.0.162"
+        ],
+        "Improvements": [
+          "Added time/date mismatch toast messages.",
+          "Improved the Internet connectivity check.",
+          "Improved the backup and restore resiliency.",
+          "Improved the device discovery process for faster detection.",
+          "Improved certificate file validation.",
+          "Improved Shadow Mode resiliency.",
+          "Improved Web UI Stability and performance.",
+          "Improved the Alarm Manager user experience and resiliency.",
+          "Improved WAN throughput reporting when having more than 2 WAN interfaces.",
+          "Improved system stability.",
+          "Improved Speed Test stability.",
+          "Updated Traffic Identification signatures.",
+          "[Identity] Renamed Group to Role when the console is managed by Fabric.",
+          "[UDM] Improved WiFi stability.",
+          "[UDM-Pro/SE] Improved compatibility with HDD WD43PURZ-74BWPY0.",
+          "[UDM-Pro/SE] Improved Link Aggregation stability."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Policy-Based Routing rules were ignored for VPN Client Traffic, causing traffic to route via the wrong WAN interface.",
+          "Fixed an issue where IPv6 addresses didn't show up for WAN interfaces.",
+          "Fixed an STP-related network loop issue in Shadow Mode when using dual LAN switch deployments.",
+          "Fixed an issue where a corrupted WireGuard remote peer address was not restored in Shadow Mode Mesh deployments.",
+          "Fixed a WireGuard site-to-site connection issue when using a specific WAN listen address.",
+          "Fixed an OpenVPN connection resiliency issue that could cause reconnection failures during renegotiation.",
+          "Fixed incorrect SFP voltage readings from SFP modules."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.0.12 includes the improvements listed below.</p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.0.162\" rel=\"noopener noreferrer\" target=\"_blank\">10.0.162</a></li></ul><h2>Improvements</h2><ul><li>Added time/date mismatch toast messages.</li><li>Improved the Internet connectivity check.</li><li>Improved the backup and restore resiliency.</li><li>Improved the device discovery process for faster detection.</li><li>Improved certificate file validation.</li><li>Improved Shadow Mode resiliency.</li><li>Improved Web UI Stability and performance.</li><li>Improved the Alarm Manager user experience and resiliency.</li><li>Improved WAN throughput reporting when having more than 2 WAN interfaces.</li><li>Improved system stability.</li><li>Improved Speed Test stability.</li><li>Updated Traffic Identification signatures.</li><li>[Identity] Renamed Group to Role when the console is managed by Fabric.</li><li>[UDM] Improved WiFi stability.</li><li>[UDM-Pro/SE] Improved compatibility with HDD WD43PURZ-74BWPY0.</li><li>[UDM-Pro/SE] Improved Link Aggregation stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where Policy-Based Routing rules were ignored for VPN Client Traffic, causing traffic to route via the wrong WAN interface.</li><li>Fixed an issue where IPv6 addresses didn't show up for WAN interfaces.</li><li>Fixed an STP-related network loop issue in Shadow Mode when using dual LAN switch deployments.</li><li>Fixed an issue where a corrupted WireGuard remote peer address was not restored in Shadow Mode Mesh deployments.</li><li>Fixed a WireGuard site-to-site connection issue when using a specific WAN listen address.</li><li>Fixed an OpenVPN connection resiliency issue that could cause reconnection failures during renegotiation.</li><li>Fixed incorrect SFP voltage readings from SFP modules.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "32c58fd2-ed50-4fff-a181-2708b273ebdd",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "5.0.10",
+      "titel": "UniFi OS - Dream Machines 5.0.10",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-5-0-10/32c58fd2-ed50-4fff-a181-2708b273ebdd",
+      "veroeffentlicht": "2026-01-12T10:44:12+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.0.10 includes the improvements and bugfixes listed below.",
+          "Bundled application",
+          "UniFi Network 10.0.162"
+        ],
+        "Improvements": [
+          "Added time/date mismatch toast messages.",
+          "Improved the Internet connectivity check.",
+          "Improved the backup and restore resiliency.",
+          "Improved the device discovery process for faster detection.",
+          "Improved certificate file validation.",
+          "Improved Shadow Mode resiliency.",
+          "Improved Web UI Stability and performance.",
+          "Improved the Alarm Manager user experience and resiliency.",
+          "Improved WAN throughput reporting when having more than 2 WAN interfaces.",
+          "Improved system stability.",
+          "Updated Traffic Identification signatures.",
+          "[UDM] Improved WiFi stability.",
+          "[UDM-Pro/SE] Improved compatibility with HDD WD43PURZ-74BWPY0.",
+          "[UDM-Pro/SE] Improved Link Aggregation stability."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where Policy-Based Routing rules were ignored for VPN Client Traffic, causing traffic to route via the wrong WAN interface.",
+          "Fixed an issue where IPv6 addresses didn't show up for WAN interfaces.",
+          "Fixed an STP-related network loop issue in Shadow Mode when using dual LAN switch deployments.",
+          "Fixed an issue where a corrupted WireGuard remote peer address was not restored in Shadow Mode Mesh deployments.",
+          "Fixed a WireGuard site-to-site connection issue when using a specific WAN listen address.",
+          "Fixed an OpenVPN connection resiliency issue that could cause reconnection failures during renegotiation.",
+          "Fixed incorrect SFP voltage readings from SFP modules."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.0.10 includes the improvements and bugfixes listed below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/10.0.162\" rel=\"noopener noreferrer\" target=\"_blank\">10.0.162</a></li></ul><h2>Improvements</h2><ul><li>Added time/date mismatch toast messages.</li><li>Improved the Internet connectivity check.</li><li>Improved the backup and restore resiliency.</li><li>Improved the device discovery process for faster detection.</li><li>Improved certificate file validation.</li><li>Improved Shadow Mode resiliency.</li><li>Improved Web UI Stability and performance.</li><li>Improved the Alarm Manager user experience and resiliency.</li><li>Improved WAN throughput reporting when having more than 2 WAN interfaces.</li><li>Improved system stability.</li><li>Updated Traffic Identification signatures.</li><li>[UDM] Improved WiFi stability.</li><li>[UDM-Pro/SE] Improved compatibility with HDD WD43PURZ-74BWPY0.</li><li>[UDM-Pro/SE] Improved Link Aggregation stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where Policy-Based Routing rules were ignored for VPN Client Traffic, causing traffic to route via the wrong WAN interface.</li><li>Fixed an issue where IPv6 addresses didn't show up for WAN interfaces.</li><li>Fixed an STP-related network loop issue in Shadow Mode when using dual LAN switch deployments.</li><li>Fixed an issue where a corrupted WireGuard remote peer address was not restored in Shadow Mode Mesh deployments.</li><li>Fixed a WireGuard site-to-site connection issue when using a specific WAN listen address.</li><li>Fixed an OpenVPN connection resiliency issue that could cause reconnection failures during renegotiation.</li><li>Fixed incorrect SFP voltage readings from SFP modules.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "b715fd40-77ec-4ccf-b712-abf87257f697",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "4.4.6",
+      "titel": "UniFi OS - Dream Machines 4.4.6",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-4-4-6/b715fd40-77ec-4ccf-b712-abf87257f697",
+      "veroeffentlicht": "2025-10-30T16:11:32+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 4.4.6 includes the improvements and bugfixes listed below.",
+          "Bundled application",
+          "UniFi Network 9.4.19"
+        ],
+        "Improvements": [
+          "Added a Block Page for Content Filtering and Ad-Blocking.",
+          "Requires UniFi Network 9.4.11 or newer.",
+          "Added IPv6 support for the Direct Connect feature.",
+          "Improved disk detection logic to prevent certain HDDs from being misidentified as SSDs when RPM data is unavailable via S.M.A.R.T.",
+          "Improved DNS monitoring resiliency for WAN SLA.",
+          "Improved Alarm Manager.",
+          "Improved IPsec VPN connection stability.",
+          "Improved Remote Access connection resiliency.",
+          "Improved storage mounting resiliency.",
+          "Improved the setup experience for Shadow Mode.",
+          "Improved the Shadow Mode failover time.",
+          "Prevent transferring ownership while the device is hosting Identity Hub."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where you could experience excessive logging related to MAC address scanning.",
+          "Fixed the Traffic Activity display for clients.",
+          "Fixed a gateway configuration issue when applying IPv6 NAT.",
+          "Fixed false-positive alerts claiming that the DHCP pool is running out of addresses.",
+          "Fixed an issue where Static Routes were missing after removing Shadow consoles.",
+          "Fixed an issue where local account users did not receive email notifications.",
+          "Fixed an issue where static routes were missing after switching the WAN type from dynamic to static.",
+          "Fixed an issue where DDNS didn't function correctly when using dual PPPoE WAN connections.",
+          "Fixed an issue where content filtering didn't apply to specific traffic flows.",
+          "Fixed an issue with WireGuard VPN server when using non-primary WAN interfaces.",
+          "Fixed an issue where RADIUS authentication could fail when using anonymous identity.",
+          "[UDM-Pro] Fixed an issue where the Network Application could fail to start after an HDD replacement when Traffic Flows are stored on disk."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 4.4.6 includes the improvements and bugfixes listed below.</p><p><br></p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/9.4.19\" rel=\"noopener noreferrer\" target=\"_blank\">9.4.19</a></li></ul><h2>Improvements</h2><ul><li>Added a Block Page for Content Filtering and Ad-Blocking.</li><li class=\"ql-indent-1\">Requires UniFi Network 9.4.11 or newer.</li><li>Added IPv6 support for the Direct Connect feature.</li><li>Improved disk detection logic to prevent certain HDDs from being misidentified as SSDs when RPM data is unavailable via S.M.A.R.T.</li><li>Improved DNS monitoring resiliency for WAN SLA.</li><li>Improved Alarm Manager.</li><li>Improved IPsec VPN connection stability.</li><li>Improved Remote Access connection resiliency.</li><li>Improved storage mounting resiliency.</li><li>Improved the setup experience for Shadow Mode.</li><li>Improved the Shadow Mode failover time.</li><li>Prevent transferring ownership while the device is hosting Identity Hub.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where you could experience excessive logging related to MAC address scanning.</li><li>Fixed the Traffic Activity display for clients.</li><li>Fixed a gateway configuration issue when applying IPv6 NAT.</li><li>Fixed false-positive alerts claiming that the DHCP pool is running out of addresses.</li><li>Fixed an issue where Static Routes were missing after removing Shadow consoles.</li><li>Fixed an issue where local account users did not receive email notifications.</li><li>Fixed an issue where static routes were missing after switching the WAN type from dynamic to static.</li><li>Fixed an issue where DDNS didn't function correctly when using dual PPPoE WAN connections.</li><li>Fixed an issue where content filtering didn't apply to specific traffic flows.</li><li>Fixed an issue with WireGuard VPN server when using non-primary WAN interfaces.</li><li>Fixed an issue where RADIUS authentication could fail when using anonymous identity.</li><li>[UDM-Pro] Fixed an issue where the Network Application could fail to start after an HDD replacement when Traffic Flows are stored on disk.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "57589c0c-a1e6-41d7-ac93-8dd24f45f358",
+      "kategorie": "unifi-os-dream-machines",
+      "version": "4.3.6",
+      "titel": "UniFi OS - Dream Machines 4.3.6",
+      "link": "https://community.ui.com/releases/UniFi-OS-Dream-Machines-4-3-6/57589c0c-a1e6-41d7-ac93-8dd24f45f358",
+      "veroeffentlicht": "2025-07-14T15:53:46+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 4.3.6 includes Alarm Manager for Network, Cloudflare Content Filtering and improvements and bugfixes listed below.",
+          "Bundled application",
+          "UniFi Network 9.2.87"
+        ],
+        "Improvements": [
+          "Added support for CNAME DNS Records.",
+          "Requires UniFi Network Application 9.3 or newer.",
+          "Added support for Alarm Manager.",
+          "Requires UniFi Network Application 9.3 or newer.",
+          "Added support for Enhanced Content Filtering with CyberSecure.",
+          "Requires UniFi Network Application 9.3 or newer.",
+          "Requires an active CyberSecure subscription for granular content categories powered by Cloudflare.",
+          "Added the ability to create a new user account while performing the ownership transfer.",
+          "Improved the Analytics and Data Sharing user experience.",
+          "Added the ability to completely turn off data sharing.",
+          "Improved Flows data accuracy.",
+          "Improved Hostname resolution.",
+          "Improved Incoming Interface listing for Threats.",
+          "Improved the Shadow Console resiliency.",
+          "Improved DDNS resiliency when a non-primary WAN is used.",
+          "Improved the Admins and Users management user experience.",
+          "Improved Remote Access connection resiliency.",
+          "Improved backup and restore resiliency, including better feedback when a restore fails.",
+          "Improved storage health reporting.",
+          "Updated Traffic Identification signatures."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where the Release channel could change unexpectedly.",
+          "Fixed an issue where transfer ownership could fail in rare cases.",
+          "Fixed an issue where local users didn't receive email notifications using a custom SMTP server.",
+          "Fixed an issue where you couldn't configure SNMP Location and Contact separately; both were required.",
+          "Fixed an issue where users would be required to re-login every hour locally.",
+          "Fixed an issue where the \"Plug in Internet Cable\" could be shown in rare cases.",
+          "Fixed routing issues when the same subnets are configured on multiple IPsec VPNs."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 4.3.6 includes Alarm Manager for Network, Cloudflare Content Filtering and improvements and bugfixes listed below.</p><p>&nbsp;</p><p><strong>Bundled application</strong></p><ul><li>UniFi Network&nbsp;<a href=\"https://community.ui.com/releases/r/network/9.2.87\" rel=\"noopener noreferrer\" target=\"_blank\">9.2.87</a></li></ul><h2>Improvements</h2><ul><li>Added support for CNAME DNS Records.</li><li class=\"ql-indent-1\">Requires UniFi Network Application 9.3 or newer.</li><li>Added support for Alarm Manager.</li><li class=\"ql-indent-1\">Requires UniFi Network Application 9.3 or newer.</li><li>Added support for Enhanced Content Filtering with CyberSecure.</li><li class=\"ql-indent-1\">Requires UniFi Network Application 9.3 or newer.</li><li class=\"ql-indent-1\">Requires an active CyberSecure subscription for granular content categories powered by Cloudflare.</li><li>Added the ability to create a new user account while performing the ownership transfer.</li><li>Improved the Analytics and Data Sharing user experience.</li><li class=\"ql-indent-1\">Added the ability to completely turn off data sharing.</li><li>Improved Flows data accuracy.</li><li class=\"ql-indent-1\">Improved Hostname resolution.</li><li class=\"ql-indent-1\">Improved Incoming Interface listing for Threats.</li><li>Improved the Shadow Console resiliency.</li><li>Improved DDNS resiliency when a non-primary WAN is used.</li><li>Improved the Admins and Users management user experience.</li><li>Improved Remote Access connection resiliency.</li><li>Improved backup and restore resiliency, including better feedback when a restore fails.</li><li>Improved storage health reporting.</li><li>Updated Traffic Identification signatures.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where the Release channel could change unexpectedly.</li><li>Fixed an issue where transfer ownership could fail in rare cases.</li><li>Fixed an issue where local users didn't receive email notifications using a custom SMTP server.</li><li>Fixed an issue where you couldn't configure SNMP Location and Contact separately; both were required.</li><li>Fixed an issue where users would be required to re-login every hour locally.</li><li>Fixed an issue where the \"Plug in Internet Cable\" could be shown in rare cases.</li><li>Fixed routing issues when the same subnets are configured on multiple IPsec VPNs.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    }
+  ]
+}
