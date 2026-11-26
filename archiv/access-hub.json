@@ -1,0 +1,552 @@
+{
+  "kategorie": "access-hub",
+  "feed": "https://community.ui.com/rss/releases/x/e047d85b-e99f-4ae8-9cf9-849b6ce28f44",
+  "zuletzt_abgerufen": "2026-11-26T04:54:38+00:00",
+  "releases": [
+    {
+      "id": "2bd0b4ac-dc3c-4bf8-a79c-b6c507e8c18f",
+      "kategorie": "access-hub",
+      "version": "4.13.14.0",
+      "titel": "UniFi Access Hub 4.13.14.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-13-14-0/2bd0b4ac-dc3c-4bf8-a79c-b6c507e8c18f",
+      "veroeffentlicht": "2026-11-24T02:52:54+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.13.14.0 includes the following improvements and bugfixes."
+        ],
+        "Improvements": [
+          "Improved device stability and reliability."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where NFC authentication could fail."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with the latest support file by navigating to Site Manager > UniFi Console > Access > Devices > select the device > Settings > Download Support File."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.13.14.0 includes the following improvements and bugfixes. </p><h2>Improvements</h2><ul><li><p>Improved device stability and reliability.</p></li></ul><p></p><h2>Bugfixes</h2><ul><li><p>Fixed an issue where NFC authentication could fail.</p></li></ul><p></p><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with the latest support file by navigating to <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the device &gt; Settings &gt; Download Support File</strong>.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "5381b5c7-7e30-4d07-8795-ff70974d8be2",
+      "kategorie": "access-hub",
+      "version": "4.13.9",
+      "titel": "UniFi Access Hub 4.13.9",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-13-9/5381b5c7-7e30-4d07-8795-ff70974d8be2",
+      "veroeffentlicht": "2026-10-15T02:53:00+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.13.9 includes the following improvements."
+        ],
+        "Improvements": [
+          "Improved network connectivity and recovery reliability.",
+          "Improved device stability and memory management.",
+          "Improved device identity persistence after restart.",
+          "Improved device provisioning reliability.",
+          "Improved License Plate Unlock credential handling.",
+          "Improved Access configuration and database reliability."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with the latest support file by navigating to Site Manager > UniFi Console > Access > Devices > select the device > Settings > Download Support File."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.13.9 includes the following improvements.</p><h2>Improvements</h2><ul><li>Improved network connectivity and recovery reliability.</li><li>Improved device stability and memory management.</li><li>Improved device identity persistence after restart.</li><li>Improved device provisioning reliability.</li><li>Improved License Plate Unlock credential handling.</li><li>Improved Access configuration and database reliability.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with the latest support file by navigating to <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the device &gt; Settings &gt; Download Support File</strong>.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "5660a04c-7da1-470b-afe0-1aa0fe16a0b2",
+      "kategorie": "access-hub",
+      "version": "4.13.4",
+      "titel": "UniFi Access Hub 4.13.4",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-13-4/5660a04c-7da1-470b-afe0-1aa0fe16a0b2",
+      "veroeffentlicht": "2026-09-09T03:02:58+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.13.4 includes the following improvements."
+        ],
+        "Improvements": [
+          "Improved overall system reliability and stability."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with the latest support file by navigating to Site Manager > UniFi Console > Access > Devices > select the device > Settings > Download Support File."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.13.4 includes the following improvements.</p><h2>Improvements</h2><ul><li>Improved overall system reliability and stability.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with the latest support file by navigating to <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the device &gt; Settings &gt; Download Support File</strong>.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "2bbdab9f-3bc7-4cc7-bc0b-e0e7292efb3a",
+      "kategorie": "access-hub",
+      "version": "4.12.19.0",
+      "titel": "UniFi Access Hub 4.12.19.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-12-19-0/2bbdab9f-3bc7-4cc7-bc0b-e0e7292efb3a",
+      "veroeffentlicht": "2026-05-20T02:32:43+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.12.19.0 includes the following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where visitor credentials could incorrectly trigger the Double-Badge Override feature."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with the latest support file by navigating to Site Manager > UniFi Console > Access > Devices > select the device > Settings > Download Support File."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.12.19.0 includes the following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed an issue where visitor credentials could incorrectly trigger the Double-Badge Override feature.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with the latest support file by navigating to <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the device &gt; Settings &gt; Download Support File</strong>.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "41c9eed5-c371-48ac-966d-f49b41ac71d5",
+      "kategorie": "access-hub",
+      "version": "4.11.19.0",
+      "titel": "UniFi Access Hub 4.11.19.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-11-19-0/41c9eed5-c371-48ac-966d-f49b41ac71d5",
+      "veroeffentlicht": "2026-04-08T05:49:09+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.11.19.0 includes the following improvements."
+        ],
+        "Improvements": [
+          "Improved reliability.",
+          "Supports automatic recovery."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with the latest support file by navigating to Site Manager > UniFi Console > Access > Devices > select the device > Settings > Download Support File."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.11.19.0 includes the following improvements.</p><h2>Improvements</h2><ul><li>Improved reliability.</li><li>Supports automatic recovery.</li></ul><h2>Additional information</h2><p>If you encounter any issues with this release, please provide us with the latest support file by navigating to <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the device &gt; Settings &gt; Download Support File</strong>.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "0c6a0b8c-401d-4ab5-a5f8-9adccc5f9d7d",
+      "kategorie": "access-hub",
+      "version": "4.10.7.0",
+      "titel": "UniFi Access Hub 4.10.7.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-10-7-0/0c6a0b8c-401d-4ab5-a5f8-9adccc5f9d7d",
+      "veroeffentlicht": "2025-09-04T10:58:05+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.10.7.0 includes the following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed potential firmware update fail issues."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with the latest support file at Site Manager > UniFi Console > Access > Devices > select the hub > Settings > Download Support File.",
+          "This version is rolling out gradually. If you haven't received it yet, please wait. It will be available within the next few days. To update manually, download the firmware from the provided link, then go to Site Manager > UniFi Console > Access > Devices > select the hub > Settings > Manual Firmware Update."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.10.7.0 includes the following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed potential firmware update fail issues.</li></ul><h2>Additional information</h2><ul><li>If you encounter any issues with this release, please provide us with the latest support file at <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the hub &gt; Settings &gt; Download Support File</strong>.</li><li>This version is rolling out gradually. If you haven't received it yet, please wait. It will be available within the next few days. To update manually, download the firmware from the provided link, then go to <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the hub &gt; Settings &gt; Manual Firmware Update</strong>.</li></ul><p><br></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "d9794887-42db-463c-acd8-ee1a9825b709",
+      "kategorie": "access-hub",
+      "version": "4.10.5.0",
+      "titel": "UniFi Access Hub 4.10.5.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-10-5-0/d9794887-42db-463c-acd8-ee1a9825b709",
+      "veroeffentlicht": "2025-07-30T14:39:51+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.10.5.0 includes the following improvements."
+        ],
+        "Improvements": [
+          "Improved device performance."
+        ],
+        "Additional information": [
+          "If you encounter any issues with this release, please provide us with the latest support file at Site Manager > UniFi Console > Access > Devices > select the hub > Settings > Download Support File.",
+          "This version is rolling out gradually. If you haven't received it yet, please wait. It will be available within the next few days. To update manually, download the firmware from the provided link, then go to Site Manager > UniFi Console > Access > Devices > select the hub > Settings > Manual Firmware Update."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.10.5.0 includes the following improvements.</p><h2>Improvements</h2><ul><li>Improved device performance.</li></ul><h2>Additional information</h2><ul><li>If you encounter any issues with this release, please provide us with the latest support file at <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the hub &gt; Settings &gt; Download Support File</strong>.</li><li>This version is rolling out gradually. If you haven't received it yet, please wait. It will be available within the next few days. To update manually, download the firmware from the provided link, then go to <strong>Site Manager &gt; UniFi Console &gt; Access &gt; Devices &gt; select the hub &gt; Settings &gt; Manual Firmware Update</strong>.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "5dab6e4c-e345-4a1d-95ad-bfd822a2ed26",
+      "kategorie": "access-hub",
+      "version": "4.9.14.0",
+      "titel": "UniFi Access Hub 4.9.14.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-9-14-0/5dab6e4c-e345-4a1d-95ad-bfd822a2ed26",
+      "veroeffentlicht": "2025-05-13T10:49:47+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.9.14.0 includes the following improvements and bugfixes."
+        ],
+        "Improvements": [
+          "Optimized door unlocking response time.",
+          "Supports 2-Step Authentication.",
+          "Enable it in Access application > Devices > select Reader > Settings > Access Methods > 2-Step Authentication and select Require Two Methods or Require Approver.",
+          "Requirements:",
+          "Access application 3.2.42 or later",
+          "G3 Intercom 1.7.29 or later",
+          "UA Intercom 1.7.28 or later",
+          "G3 Pro 1.10.30 or later",
+          "G2 Pro 1.10.32 or later"
+        ],
+        "Bugfixes": [
+          "Fixed an issue with time synchronization that could prevent door unlocking.",
+          "Fixed a potential issue that could cause the UA Hub to run out of memory and go offline.",
+          "Fixed an issue where the UA Hub failed to maintain the emergency evacuation mode if it was activated during the unlock duration following successful authentication."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.9.14.0 includes the following improvements and bugfixes.</p><h2>Improvements</h2><ul><li>Optimized door unlocking response time.&nbsp;</li><li>Supports 2-Step Authentication.&nbsp;</li><li class=\"ql-indent-1\">Enable it in&nbsp;<strong>Access application &gt; Devices &gt; select Reader &gt; Settings &gt; Access Methods &gt; 2-Step Authentication</strong>&nbsp;and select&nbsp;<strong>Require Two Methods</strong>&nbsp;or&nbsp;<strong>Require Approver</strong>.</li><li class=\"ql-indent-1\">Requirements:</li><li class=\"ql-indent-2\">Access application 3.2.42 or later</li><li class=\"ql-indent-2\">G3 Intercom 1.7.29 or later</li><li class=\"ql-indent-2\">UA Intercom 1.7.28 or later</li><li class=\"ql-indent-2\">G3 Pro 1.10.30 or later</li><li class=\"ql-indent-2\">G2 Pro 1.10.32 or later</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue with time synchronization that could prevent door unlocking.</li><li>Fixed a potential issue that could cause the UA Hub to run out of memory and go offline.</li><li>Fixed an issue where the UA Hub failed to maintain the emergency evacuation mode if it was activated during the unlock duration following successful authentication.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "58bee4ae-bbf8-457c-a673-b8cde11f20ba",
+      "kategorie": "access-hub",
+      "version": "4.8.3.1",
+      "titel": "UniFi Access Hub 4.8.3.1",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-8-3-1/58bee4ae-bbf8-457c-a673-b8cde11f20ba",
+      "veroeffentlicht": "2025-03-03T10:35:55+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UA-Hub 4.8.3.1 includes the following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed network congestion in version 4.8.3.0 caused by network monitoring in large domain environments, which previously led to device offline issues and unlock failures."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UA-Hub 4.8.3.1 includes the following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed network congestion in version 4.8.3.0 caused by network monitoring in large domain environments, which previously led to device offline issues and unlock failures.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "9bf433b4-a91e-4872-abf4-c9fc7928ad46",
+      "kategorie": "access-hub",
+      "version": "4.8.3.0",
+      "titel": "UniFi Access Hub 4.8.3.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-8-3-0/9bf433b4-a91e-4872-abf4-c9fc7928ad46",
+      "veroeffentlicht": "2025-02-26T13:20:13+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi Access Hub 4.8.3.0 includes the following bugfixes."
+        ],
+        "Improvements": [
+          "Optimized the Access Reader responses for door unlock events."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where the Unlock Schedule failed to activate when the user designated as first-person-in unlocked the door using Touch Pass."
+        ],
+        "Additional information": [
+          "We are recalling this version due to critical bugs and will re-release it once the issues are resolved. We apologize for any inconvenience."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi Access Hub 4.8.3.0 includes the following bugfixes.&nbsp;</p><h2>Improvements</h2><ul><li>Optimized the Access Reader responses for door unlock events.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where the Unlock Schedule failed to activate when the user designated as first-person-in unlocked the door using Touch Pass.</li></ul><h2>Additional information</h2><p>We are recalling this version due to critical bugs and will re-release it once the issues are resolved. We apologize for any inconvenience.</p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "b8efecbd-772e-46d8-8b5e-2d10750a446c",
+      "kategorie": "access-hub",
+      "version": "4.7.3.0",
+      "titel": "UniFi Access Hub 4.7.3.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-7-3-0/b8efecbd-772e-46d8-8b5e-2d10750a446c",
+      "veroeffentlicht": "2024-12-04T09:32:22+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UA-Hub 4.7.3.0 includes the following bugfixes."
+        ],
+        "Improvements": [
+          "Optimized the door unlock response speed."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where a door unlock event triggered by a device's REX or Button terminal occasionally resulted in duplicate logs.",
+          "Fixed an issue where the hub's REN or Button mode in Settings > Terminal Manager sometimes did not revert to default settings after a physical reset."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UA-Hub 4.7.3.0 includes the following bugfixes.</p><h2>Improvements</h2><ul><li>Optimized the door unlock response speed.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where a door unlock event triggered by a device's REX or Button terminal occasionally resulted in duplicate logs.</li><li>Fixed an issue where the hub's REN or Button mode in <em>Settings &gt; Terminal Manager </em>sometimes<em> </em>did not revert to default settings after a physical reset.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "36214326-5690-4d69-b20c-f004da702c9a",
+      "kategorie": "access-hub",
+      "version": "4.6.2.0",
+      "titel": "UniFi Access Hub 4.6.2.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-6-2-0/36214326-5690-4d69-b20c-f004da702c9a",
+      "veroeffentlicht": "2024-08-22T08:32:21+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UA-Hub 4.6.2.0 offers the following bugfixes."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where a location could not be unlocked if the UniFi Console went offline after a power failure.",
+          "Fixed an issue where a location could not be unlocked from 23:59:59 to 00:00:00 when the policy was set to \"Always.\"",
+          "Fixed an issue where the unlock schedule did not work as expected."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UA-Hub 4.6.2.0 offers the following bugfixes.</p><h2>Bugfixes</h2><ul><li>Fixed an issue where a location could not be unlocked if the UniFi Console went offline after a power failure.</li><li>Fixed an issue where a location could not be unlocked from 23:59:59 to 00:00:00 when the policy was set to \"Always.\"</li><li>Fixed an issue where the unlock schedule did not work as expected.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "ddb75b89-0fea-4e3e-96a9-597469140104",
+      "kategorie": "access-hub",
+      "version": "4.5.3.0",
+      "titel": "UniFi Access Hub 4.5.3.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-5-3-0/ddb75b89-0fea-4e3e-96a9-597469140104",
+      "veroeffentlicht": "2024-06-06T08:01:38+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "A terminal’s LED flashes white when triggered."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where door unlocks failed after the hub had been used for a while.",
+          "Fixed an issue where changes in DPS status were not logged after activating the Emergency Evacuation mode."
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>A terminal’s LED flashes white when triggered.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where door unlocks failed after the hub had been used for a while.</li><li>Fixed an issue where changes in DPS status were not logged after activating the Emergency Evacuation mode.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "a3c25b84-e6f9-47d0-a57a-6711edcb419f",
+      "kategorie": "access-hub",
+      "version": "4.4.5.0",
+      "titel": "UniFi Access Hub 4.4.5.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-4-5-0/a3c25b84-e6f9-47d0-a57a-6711edcb419f",
+      "veroeffentlicht": "2024-02-02T12:34:22+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UA Hub 4.4.5.0 fixes several issues related to PoE, door opening detection, rare device crashes, and Leave Unlocked mode."
+        ],
+        "Bugfixes": [
+          "Fixed the PoE output power drop issue during UA Hub restart. (UA Hub Door is not affected by this issue.)",
+          "Fixed the issue where Leave Unlocked mode ending could interfere with door state set by other modes, e.g., evacuation.",
+          "[Identity Enterprise] Fixed the issue where the device incorrectly reported the following events to Identity Enterprise as unauthorized door openings:",
+          "The door was opened after being unlocked remotely.",
+          "The door was opened during Emergency Evacuation mode.",
+          "Fixed the following issues caused by the device crash:",
+          "Users could not unlock doors within a brief timeframe.",
+          "The device update initially failed but was successful upon retrying."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UA Hub 4.4.5.0 fixes several issues related to PoE, door opening detection, rare device crashes, and Leave Unlocked mode.&nbsp;</p><h2>Bugfixes</h2><ul><li>Fixed the PoE output power drop issue during UA Hub restart. (UA Hub Door is not affected by this issue.)</li><li>Fixed the issue where Leave Unlocked mode ending could interfere with door state set by other modes, e.g., evacuation.</li><li>[Identity Enterprise] Fixed the issue where the device incorrectly reported the following events to Identity Enterprise as unauthorized door openings:</li><li class=\"ql-indent-1\">The door was opened after being unlocked remotely.</li><li class=\"ql-indent-1\">The door was opened during Emergency Evacuation mode.</li><li>Fixed the following issues caused by the device crash:</li><li class=\"ql-indent-1\">Users could not unlock doors within a brief timeframe.</li><li class=\"ql-indent-1\">The device update initially failed but was successful upon retrying.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "d3fe6576-970e-4764-8b01-de3aff6ca452",
+      "kategorie": "access-hub",
+      "version": "4.3.8.0",
+      "titel": "UniFi Access Hub 4.3.8.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-3-8-0/d3fe6576-970e-4764-8b01-de3aff6ca452",
+      "veroeffentlicht": "2023-12-25T12:30:20+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Adjusted the total PoE power budget limit to 45W.",
+          "The Emergency mode can take immediate effect upon activation (requires Access application 1.21.8 or later).",
+          "Updates on users, visitors, NFC cards, and door access policies can be synced to the device immediately (requires Access application 1.21.4 or later)."
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Adjusted the total PoE power budget limit to 45W.</li><li>The Emergency mode can take immediate effect upon activation (requires <a href=\"https://community.ui.com/releases/UniFi-Access-Application-1-21-8/7b88860d-6829-4033-98eb-7f34c040d57a\" rel=\"noopener noreferrer\" target=\"_blank\">Access application 1.21.8</a> or later).</li><li>Updates on users, visitors, NFC cards, and door access policies can be synced to the device immediately (requires <a href=\"https://community.ui.com/releases/UniFi-Access-Application-1-21-4/3ec14e7d-5a6e-4c92-ace3-2e807c273371\" rel=\"noopener noreferrer\" target=\"_blank\">Access application 1.21.4</a> or later).</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "66dc2837-1047-4c99-a82d-9ba77c10f07a",
+      "kategorie": "access-hub",
+      "version": "4.2.9.0",
+      "titel": "UniFi Access Hub 4.2.9.0",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-2-9-0/66dc2837-1047-4c99-a82d-9ba77c10f07a",
+      "veroeffentlicht": "2023-11-10T03:14:23+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "New Features",
+          "Added support for the following features in Access application > Devices > Location Hubs > select a Hub > Overview (requires Access application v1.20.13 or later).",
+          "Unlock doors for a specific duration.",
+          "End the Leave Unlocked schedule ahead of time.",
+          "Always keep doors locked. Users can only unlock doors remotely or by using a physical button.",
+          "Topology",
+          "Improved the display of UA device topology in the Network application, ensuring that the connection of readers to the UA Hub within the topology is accurately represented."
+        ],
+        "Bugfixes": [
+          "Fixed the issue where the doors were sometimes unlocked automatically.",
+          "Fixed the issue where doors sometimes could not be unlocked."
+        ],
+        "Known issues": [
+          "Updating UA Hubs may sometimes fail. Update failures are not system-threatening. When this occurs, please attempt the update again."
+        ]
+      },
+      "html": "<h2>Improvements</h2><p><strong>New Features</strong></p><ul><li>Added support for the following features in <strong>Access application &gt; Devices &gt; Location Hubs &gt; select a Hub &gt; Overview </strong>(requires Access application v1.20.13 or later).</li><li class=\"ql-indent-1\">Unlock doors for a specific duration.</li><li class=\"ql-indent-1\">End the <strong>Leave Unlocked</strong> schedule ahead of time.</li><li class=\"ql-indent-1\">Always keep doors locked. Users can only unlock doors remotely or by using a physical button.</li></ul><p><strong>Topology</strong></p><ul><li>Improved the display of UA device topology in the Network application, ensuring that the connection of readers to the UA Hub within the topology is accurately represented.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the issue where the doors were sometimes unlocked automatically.</li><li>Fixed the issue where doors sometimes could not be unlocked.</li></ul><h2>Known issues</h2><ul><li>Updating UA Hubs may sometimes fail. Update failures are not system-threatening. When this occurs, please attempt the update again.&nbsp;</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "9c3dbffd-117a-4d63-af2d-8f1f0b8b8121",
+      "kategorie": "access-hub",
+      "version": "4.1.3.8",
+      "titel": "UniFi Access Hub 4.1.3.8",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-1-3-8/9c3dbffd-117a-4d63-af2d-8f1f0b8b8121",
+      "veroeffentlicht": "2023-07-12T01:46:24+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UA Hub 4.1.3.8 enables admins to set the AUX DRY mode and the AUX POWERED mode separately, has optimized the UA Hub’s removal and LED behaviors, and has fixed issues associated with door unlock and emergency mode."
+        ],
+        "Improvements": [
+          "AUX Behavior",
+          "Added support for setting the AUX DRY mode and the AUX POWERED mode separately (requires the UniFi Access application v1.5.10 or later).",
+          "The DRY Port can be set to three modes:",
+          "Door Opener (Default)",
+          "Alarm",
+          "Chime",
+          "The POWERED Port can be set to two modes:",
+          "Alarm",
+          "Chime (Default)",
+          "When the AUX is in Alarm mode, an alarm will be triggered if a door is left open for too long.",
+          "Device Removal",
+          "Removing a UA Hub from the Access application will also reset the hub.",
+          "LED",
+          "Optimized the device’s LED behavior."
+        ],
+        "Bugfixes": [
+          "Door Unlock",
+          "Fixed an issue where doors sometimes could not be unlocked.",
+          "Settings",
+          "Fixed the issue where the emergency evacuation mode could not be switched to the emergency lockdown mode."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UA Hub 4.1.3.8 enables admins to set the AUX DRY mode and the AUX POWERED mode separately, has optimized the UA Hub’s removal and LED behaviors, and has fixed issues associated with door unlock and emergency mode.</p><h2>Improvements</h2><p><strong>AUX Behavior</strong></p><ul><li>Added support for setting the AUX DRY mode and the AUX POWERED mode separately (requires the UniFi Access application v1.5.10 or later).</li><li class=\"ql-indent-1\">The DRY Port can be set to three modes:</li><li class=\"ql-indent-2\">Door Opener (Default)</li><li class=\"ql-indent-2\">Alarm</li><li class=\"ql-indent-2\">Chime</li><li class=\"ql-indent-1\">The POWERED Port can be set to two modes:</li><li class=\"ql-indent-2\">Alarm</li><li class=\"ql-indent-2\">Chime (Default)</li><li>When the AUX is in <strong>Alarm</strong> mode, an alarm will be triggered if a door is left open for too long.</li></ul><p><strong>Device Removal</strong></p><ul><li>Removing a UA Hub from the Access application will also reset the hub.</li></ul><p><strong>LED</strong></p><ul><li>Optimized the device’s LED behavior.</li></ul><h2>Bugfixes</h2><p><strong>Door Unlock</strong></p><ul><li>Fixed an issue where doors sometimes could not be unlocked.</li></ul><p><strong>Settings</strong></p><ul><li>Fixed the issue where the emergency evacuation mode could not be switched to the emergency lockdown mode.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "2bae7656-de1b-4642-9578-b1d94055b3b3",
+      "kategorie": "access-hub",
+      "version": "4.0.14.15",
+      "titel": "UniFi Access Hub 4.0.14.15",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-0-14-15/2bae7656-de1b-4642-9578-b1d94055b3b3",
+      "veroeffentlicht": "2022-11-15T07:19:51+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Support wiring chimes to UA-Hub.",
+          "Support setting DPS input terminal in the UniFi Access application."
+        ],
+        "Additional information": [
+          "1. For wiring chimes to UA-Hub, we provide two methods for different scenarios:",
+          "Scenario 1: You have installed one UA-Pro outdoor and one chime indoor, and you want the chime inside to ring when someone makes a call on UA-Pro:",
+          "Launch your UniFi Access application.",
+          "Click Devices and select a hub. A panel showing the hub details will appear.",
+          "Click Ports.",
+          "Scroll down to AUX Mode and select Doorbell Mode.",
+          "Click Save.",
+          "Scenario 2: You have installed the chime indoors, and you want the chime inside to ring when someone presses the doorbell push button outside.",
+          "Launch your UniFi Access application.",
+          "Click Devices and select a hub. A panel showing the hub details will appear.",
+          "Click Ports.",
+          "Scroll down to AUX Mode and select Doorbell Mode.",
+          "Scroll down to REN Mode and select Doorbell Mode.",
+          "Click Save.",
+          "2. To set the DPS input terminal, follow the steps below:",
+          "Launch your UniFi Access application.",
+          "Go to Devices.",
+          "Select a UA-Hub and click Ports.",
+          "Scroll down to the Input Terminal section.",
+          "Select High Active NO or Low Active NC from the DPS dropdown menu."
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Support wiring chimes to UA-Hub.</li><li>Support setting DPS input terminal in the <strong>UniFi Access application</strong>.&nbsp;</li></ul><h2>Additional information</h2><p>1. For wiring chimes to UA-Hub, we provide two methods for different scenarios:</p><ul><li><strong>Scenario 1:</strong> You have installed one UA-Pro outdoor and one chime indoor, and you want the chime inside to ring when someone makes a call on UA-Pro:</li></ul><ol><li class=\"ql-indent-1\">Launch your UniFi Access application.</li><li class=\"ql-indent-1\">Click <strong>Devices</strong> and select a hub. A panel showing the hub details will appear.</li><li class=\"ql-indent-1\">Click <strong>Ports</strong>.</li><li class=\"ql-indent-1\">Scroll down to <strong>AUX Mode</strong> and select <strong>Doorbell Mode</strong>.</li><li class=\"ql-indent-1\">Click <strong>Save</strong>.</li></ol><ul><li><strong>Scenario 2:</strong> You have installed the chime indoors, and you want the chime inside to ring when someone presses the doorbell push button outside.&nbsp;</li></ul><ol><li class=\"ql-indent-1\">Launch your UniFi Access application.</li><li class=\"ql-indent-1\">Click <strong>Devices</strong> and select a hub. A panel showing the hub details will appear.</li><li class=\"ql-indent-1\">Click <strong>Ports</strong>.</li><li class=\"ql-indent-1\">Scroll down to <strong>AUX Mode</strong> and select <strong>Doorbell Mode</strong>.</li><li class=\"ql-indent-1\">Scroll down to <strong>REN Mode</strong> and select <strong>Doorbell Mode</strong>.</li><li class=\"ql-indent-1\">Click <strong>Save</strong>.</li></ol><img src=\"https://img.community.ui.com/9a57de77-6c3d-497d-9c62-a5ea73075420/releases/2bae7656-de1b-4642-9578-b1d94055b3b3/317321ff-2582-47ba-819e-dfbf44ebdf66\" style=\"width: 100%;object-fit: cover;height: 205px\" /><p>2. To set the DPS input terminal, follow the steps below:</p><ol><li class=\"ql-indent-1\">Launch your UniFi Access application.</li><li class=\"ql-indent-1\">Go to&nbsp;<strong>Devices</strong>.</li><li class=\"ql-indent-1\">Select a UA-Hub and click&nbsp;<strong>Ports</strong>.</li><li class=\"ql-indent-1\">Scroll down to the&nbsp;<strong>Input</strong> <strong>Terminal</strong>&nbsp;section.</li><li class=\"ql-indent-1\">Select&nbsp;<strong>High Active&nbsp;NO</strong>&nbsp;or&nbsp;<strong>Low Active NC</strong>&nbsp;from the&nbsp;<strong>DPS</strong>&nbsp;dropdown menu.</li></ol><p><br></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "4e8d4bcf-da35-4574-869c-2e6f61be549d",
+      "kategorie": "access-hub",
+      "version": "4.0.13.47",
+      "titel": "UniFi Access Hub 4.0.13.47",
+      "link": "https://community.ui.com/releases/UniFi-Access-Hub-4-0-13-47/4e8d4bcf-da35-4574-869c-2e6f61be549d",
+      "veroeffentlicht": "2022-10-18T08:00:19+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Support automatically repairing the database of a UA-Hub."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where doors were automatically unlocked when the following three conditions were met:",
+          "Policies were synced from UniFi OS Console to UA-Hub.",
+          "Unlock Schedule was enabled.",
+          "AUX Mode was set to Door Opener Mode."
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Support automatically repairing the database of a UA-Hub.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where doors were automatically unlocked when the following three conditions were met:&nbsp;</li></ul><ol><li class=\"ql-indent-1\">Policies were synced from UniFi OS Console to UA-Hub.</li><li class=\"ql-indent-1\"><strong>Unlock Schedule </strong>was enabled.&nbsp;</li><li class=\"ql-indent-1\"><strong>AUX Mode</strong> was set to <strong>Door Opener Mode</strong>.</li></ol><p><br></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "f04b2a43-56cc-4be1-80c7-4f22e0901544",
+      "kategorie": "access-hub",
+      "version": "4.0.13.30",
+      "titel": "UA-Hub Firmware 4.0.13.30",
+      "link": "https://community.ui.com/releases/UA-Hub-Firmware-4-0-13-30/f04b2a43-56cc-4be1-80c7-4f22e0901544",
+      "veroeffentlicht": "2022-07-19T10:30:23+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Improvements": [
+          "Enhanced the users carrying capacity. This version has currently passed a 10,000-user test."
+        ],
+        "Bugfixes": [
+          "Fixed an issue that caused the door unlocking failure even though the users’ identity is authenticated.",
+          "Fixed an issue that caused the door unlocking failure during upgrading access policies.",
+          "Fixed an issue that prevented the doors from remaining open when the unlock schedule is enabled.",
+          "Other bug fixes."
+        ],
+        "Additional information": [
+          "To enhance users carrying capacity, please upgrade your UniFi Access application and UniFi OS Consoles to the following versions:",
+          "Access Application: v1.4.3",
+          "UDM Pro: v1.12.22",
+          "CKP/UDM SE: v2.5.4 (EA Channel)"
+        ]
+      },
+      "html": "<h2>Improvements</h2><ul><li>Enhanced the users carrying capacity. This version has currently passed a 10,000-user test.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue that caused the door unlocking failure even though the users’ identity is authenticated.</li><li>Fixed an issue that caused the door unlocking failure during upgrading access policies.</li><li>Fixed an issue that prevented the doors from remaining open when the unlock schedule is enabled.</li><li>Other bug fixes.</li></ul><h2>Additional information</h2><ul><li>To enhance users carrying capacity, please upgrade your UniFi Access application and UniFi OS Consoles to the following versions:</li><li class=\"ql-indent-1\">Access Application: v1.4.3</li><li class=\"ql-indent-1\">UDM Pro: v1.12.22</li><li class=\"ql-indent-1\">CKP/UDM SE: v2.5.4 (EA Channel)</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    }
+  ]
+}

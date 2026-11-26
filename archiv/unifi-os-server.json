@@ -1,0 +1,340 @@
+{
+  "kategorie": "unifi-os-server",
+  "feed": "https://community.ui.com/rss/releases/x/76650b06-fc47-4892-9c12-25c64c39f842",
+  "zuletzt_abgerufen": "2026-11-26T04:54:38+00:00",
+  "releases": [
+    {
+      "id": "93888caf-da53-4444-9648-4a34d7d1375a",
+      "kategorie": "unifi-os-server",
+      "version": "6.0.21",
+      "titel": "UniFi OS Server 6.0.21",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-6-0-21/93888caf-da53-4444-9648-4a34d7d1375a",
+      "veroeffentlicht": "2026-11-17T16:10:24+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled",
+          "UniFi Network 10.6.109",
+          "Identity Sync Service 1.8.8"
+        ],
+        "Improvements": [
+          "Added configurable backup schedules, multiple backup destinations, local backup management, and an improved restore experience.",
+          "Added a configurable session duration for Remember Me in Local Login.",
+          "Added Console resource reporting to Control Plane settings.",
+          "Added support for internationalized domain names in automatic certificates.",
+          "Added application update guidance when an adopted device requires a newer application version.",
+          "Added a STARTTLS option for custom mail servers.",
+          "Added a manual override for device upgrades, reboots, and resets during critical operations.",
+          "Improved ownership transfers with a clearer pending status.",
+          "Transfers to UI Accounts now complete after the recipient accepts the invitation.",
+          "Improved application installation resiliency.",
+          "Improved system reliability.",
+          "Improved UniFi OS backup restore reliability.",
+          "Improved application update behavior after UniFi OS updates by only updating applications with auto-update enabled.",
+          "Improved Application Rollback resiliency.",
+          "Improved time synchronization resiliency.",
+          "Improved authentication reliability during two-factor challenges.",
+          "Improved device stability.",
+          "Improved storage reliability.",
+          "Upgraded the Debian distribution to Trixie.",
+          "Requires your server to have a working internet connection."
+        ]
+      },
+      "html": "<h2>Overview</h2><p></p><p></p><p><strong>Bundled</strong></p><ul><li><p>UniFi Network <a target=\"_blank\" rel=\"nofollow\" href=\"https://community.ui.com/releases/r/network/10.6.109\">10.6.109</a></p></li><li><p>Identity Sync Service <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.ui.com/releases/r/identity-sync/1.8.8\">1.8.8</a></p></li></ul><p></p><h2>Improvements</h2><ul><li><p>Added configurable backup schedules, multiple backup destinations, local backup management, and an improved restore experience.</p></li><li><p>Added a configurable session duration for Remember Me in Local Login.</p></li><li><p>Added Console resource reporting to Control Plane settings.</p></li><li><p>Added support for internationalized domain names in automatic certificates.</p></li><li><p>Added application update guidance when an adopted device requires a newer application version.</p></li><li><p>Added a STARTTLS option for custom mail servers.</p></li><li><p>Added a manual override for device upgrades, reboots, and resets during critical operations.</p></li><li><p>Improved ownership transfers with a clearer pending status.</p><ul><li><p>Transfers to UI Accounts now complete after the recipient accepts the invitation.</p></li></ul></li><li><p>Improved application installation resiliency.</p></li><li><p>Improved system reliability.</p></li><li><p>Improved UniFi OS backup restore reliability.</p></li><li><p>Improved application update behavior after UniFi OS updates by only updating applications with auto-update enabled.</p></li><li><p>Improved Application Rollback resiliency.</p></li><li><p>Improved time synchronization resiliency.</p></li><li><p>Improved authentication reliability during two-factor challenges.</p></li><li><p>Improved device stability.</p></li><li><p>Improved storage reliability.</p></li><li><p>Upgraded the Debian distribution to Trixie.</p><ul><li><p>Requires your server to have a working internet connection.</p></li></ul></li></ul><p></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "509f4de9-8fe4-4718-abad-1bb6990dedcc",
+      "kategorie": "unifi-os-server",
+      "version": "5.1.42",
+      "titel": "UniFi OS Server 5.1.42",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-1-42/509f4de9-8fe4-4718-abad-1bb6990dedcc",
+      "veroeffentlicht": "2026-09-09T13:45:22+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled",
+          "UniFi Network 10.5.67",
+          "Identity Sync Service 1.8.4"
+        ],
+        "Bugfixes": [
+          "Fixed an issue where applications could fail to install or update."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.5.67\" rel=\"noopener noreferrer\" target=\"_blank\">10.5.67</a></li><li>Identity Sync Service <a href=\"https://community.ui.com/releases/r/identity-sync/1.8.4\" rel=\"noopener noreferrer\" target=\"_blank\">1.8.4</a></li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where applications could fail to install or update.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "b65fa5e0-5797-4efe-89d6-666b391973ed",
+      "kategorie": "unifi-os-server",
+      "version": "5.1.40",
+      "titel": "UniFi OS Server 5.1.40",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-1-40/b65fa5e0-5797-4efe-89d6-666b391973ed",
+      "veroeffentlicht": "2026-08-31T07:44:42+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled",
+          "UniFi Network 10.5.67",
+          "Identity Sync Service 1.8.4"
+        ],
+        "Improvements": [
+          "Improved Linux directory and file permissions."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where the Windows Elevation Service could fail to run commands when it could not retrieve the active user token.",
+          "Affected users must update manually by running the installer in the foreground."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.5.67\" rel=\"noopener noreferrer\" target=\"_blank\">10.5.67</a></li><li>Identity Sync Service <a href=\"https://community.ui.com/releases/r/identity-sync/1.8.4\" rel=\"noopener noreferrer\" target=\"_blank\">1.8.4</a></li></ul><h2>Improvements</h2><ul><li>Improved Linux directory and file permissions.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where the Windows Elevation Service could fail to run commands when it could not retrieve the active user token.</li><li class=\"ql-indent-1\">Affected users must update manually by running the installer in the foreground.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "ca9003ca-2c3f-42e6-9a1c-0a4f8edc0854",
+      "kategorie": "unifi-os-server",
+      "version": "5.1.37",
+      "titel": "UniFi OS Server 5.1.37",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-1-37/ca9003ca-2c3f-42e6-9a1c-0a4f8edc0854",
+      "veroeffentlicht": "2026-08-18T12:51:19+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled Application",
+          "UniFi Network 10.5.67"
+        ],
+        "Improvements": [
+          "Added the option to disable Remote Access on Fabric-linked UniFi OS Server consoles.",
+          "Improved Windows updates to prevent them from being blocked by UAC prompts.",
+          "Improved application backup reliability for large datasets.",
+          "Improved UniFi OS Server update reliability when downloads stop transferring data.",
+          "Improved error messages when required ports are already in use or unsupported WSL mirrored networking is enabled.",
+          "Improved system stability."
+        ],
+        "Bugfixes": [
+          "Fixed the security issues mentioned in Security Advisory Bulletin 067.",
+          "Fixed an issue where IP addresses could be missing on Windows.",
+          "Fixed legacy Network migration on Windows and macOS.",
+          "Fixed an issue where Identity WiFi could crash due to incomplete Network connectivity settings.",
+          "Fixed an issue where One-Click WiFi system log events could be missing for some RADIUS usernames.",
+          "Fixed an issue where Network-managed console devices could disappear from discovery results.",
+          "Fixed an issue where a stopped application could restart when another application was registered."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled Application</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.5.67\" rel=\"noopener noreferrer\" target=\"_blank\">10.5.67</a></li></ul><h2>Improvements</h2><ul><li>Added the option to disable Remote Access on Fabric-linked UniFi OS Server consoles.</li><li>Improved Windows updates to prevent them from being blocked by UAC prompts.</li><li>Improved application backup reliability for large datasets.</li><li>Improved UniFi OS Server update reliability when downloads stop transferring data.</li><li>Improved error messages when required ports are already in use or unsupported WSL mirrored networking is enabled.</li><li>Improved system stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/r/security/067\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 067</a>.</li><li>Fixed an issue where IP addresses could be missing on Windows.</li><li>Fixed legacy Network migration on Windows and macOS.</li><li>Fixed an issue where Identity WiFi could crash due to incomplete Network connectivity settings.</li><li>Fixed an issue where One-Click WiFi system log events could be missing for some RADIUS usernames.</li><li>Fixed an issue where Network-managed console devices could disappear from discovery results.</li><li>Fixed an issue where a stopped application could restart when another application was registered.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "f4f0ef76-3e10-4de5-837b-30ff4500f36e",
+      "kategorie": "unifi-os-server",
+      "version": "5.1.21",
+      "titel": "UniFi OS Server 5.1.21",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-1-21/f4f0ef76-3e10-4de5-837b-30ff4500f36e",
+      "veroeffentlicht": "2026-07-07T12:16:24+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled Application",
+          "UniFi Network 10.4.57"
+        ],
+        "Bugfixes": [
+          "Fixed an issue where \"Remember Me\" local login sessions expired sooner than expected following recent security updates.",
+          "\"Remember Me\" sessions now remain active for up to 30 days. Re-authentication is still required after UniFi OS upgrades and console reboots.",
+          "For the best authentication experience, use the UniFi Mobile App or unifi.ui.com."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled Application</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.4.57\" rel=\"noopener noreferrer\" target=\"_blank\">10.4.57</a></li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where \"Remember Me\" local login sessions expired sooner than expected following recent security updates.</li><li class=\"ql-indent-1\">\"Remember Me\" sessions now remain active for up to 30 days. Re-authentication is still required after UniFi OS upgrades and console reboots.</li><li class=\"ql-indent-1\">For the best authentication experience, use the UniFi Mobile App or <a href=\"http://unifi.ui.com/\" rel=\"noopener noreferrer\" target=\"_blank\">unifi.ui.com</a>.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "05db58f8-3306-48dc-bbd8-6cb681046a6d",
+      "kategorie": "unifi-os-server",
+      "version": "5.1.19",
+      "titel": "UniFi OS Server 5.1.19",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-1-19/05db58f8-3306-48dc-bbd8-6cb681046a6d",
+      "veroeffentlicht": "2026-06-17T17:07:02+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS 5.1.19 includes the improvements and bugfixes below.",
+          "Bundled Application",
+          "UniFi Network 10.4.57"
+        ],
+        "Improvements": [
+          "Improved update resiliency.",
+          "Improved generating support files.",
+          "Improved backup restore resiliency."
+        ],
+        "Bugfixes": [
+          "Fixed the security issues mentioned in Security Advisory Bulletin 066."
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS 5.1.19 includes the improvements and bugfixes below.</p><p><strong>&nbsp;</strong></p><p><strong>Bundled Application</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.4.57\" rel=\"noopener noreferrer\" target=\"_blank\">10.4.57</a></li></ul><h2>Improvements</h2><ul><li>Improved update resiliency.</li><li>Improved generating support files.</li><li>Improved backup restore resiliency.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/Security-Advisory-Bulletin-066-066/984eceb3-49c8-4227-942d-671c289b3afc\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 066.</a></li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "11843c60-7c4f-4263-9773-4c3df7168d07",
+      "kategorie": "unifi-os-server",
+      "version": "5.1.15",
+      "titel": "UniFi OS Server 5.1.15",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-1-15/11843c60-7c4f-4263-9773-4c3df7168d07",
+      "veroeffentlicht": "2026-05-29T06:39:28+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled Application",
+          "UniFi Network 10.4.57"
+        ],
+        "Improvements": [
+          "Added support for automatic Let’s Encrypt certificates.",
+          "Added support for configuring a custom Network memory limit.",
+          "Allowed Super Admins to restore local backups.",
+          "Improved firmware upgrade behavior by updating the Network Application to the latest official release after upgrades.",
+          "Improved the Alarm Manager user experience.",
+          "Improved remote connection reliability and fixed cases where pages could load indefinitely.",
+          "Improved backup restore resiliency.",
+          "Improved overall system stability and device discovery resiliency.",
+          "Removed unused external port 8443.",
+          "Lowered the default Network memory limit from 80% to 70% of host memory to improve system headroom and stability.",
+          "Linux",
+          "Added automatic migration from the legacy Network Server.",
+          "Added low swap-space warnings to help prevent failures caused by memory pressure.",
+          "Improved installer resiliency by applying only targeted and custom sysctl overrides.",
+          "Improved update reliability by waiting for ports to close before applying updates.",
+          "Restricted port 11084 to loopback access.",
+          "Windows & macOS",
+          "Improved the Windows WSL bootstrap flow with better resiliency and clearer error messages.",
+          "Improved container port binding behavior by binding explicitly instead of all interfaces.",
+          "Improved Windows diagnostics and troubleshooting logs.",
+          "Restored ICMP and ping functionality inside Podman containers."
+        ],
+        "Bugfixes": [
+          "Fixed an issue where downloading device support files via the side panel failed.",
+          "This requires port 28082 to be accessible for the devices.",
+          "Fixed cases where Network support files could be empty.",
+          "Fixed the security issues mentioned in Security Advisory Bulletin 065.",
+          "Linux",
+          "Fixed update failures caused by disk quota limitations on temporary host storage.",
+          "Fixed an issue where the service could fail to start after boot because the user session was not yet ready.",
+          "Windows & macOS",
+          "Fixed unnecessary container recreation caused by mount reordering.",
+          "Fixed WSL version detection on non-English and non-US locale systems.",
+          "Fixed an issue where support file generation could corrupt Podman state on Windows.",
+          "Fixed Windows 10 firewall blocking for the discovery port."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled Application</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.4.57\" rel=\"noopener noreferrer\" target=\"_blank\">10.4.57</a></li></ul><h2>Improvements</h2><ul><li>Added support for automatic Let’s Encrypt certificates.</li><li>Added support for configuring a custom Network memory limit.</li><li>Allowed Super Admins to restore local backups.</li><li>Improved firmware upgrade behavior by updating the Network Application to the latest official release after upgrades.</li><li>Improved the Alarm Manager user experience.</li><li>Improved remote connection reliability and fixed cases where pages could load indefinitely.</li><li>Improved backup restore resiliency.</li><li>Improved overall system stability and device discovery resiliency.</li><li>Removed unused external port 8443.</li><li>Lowered the default Network memory limit from 80% to 70% of host memory to improve system headroom and stability.</li></ul><p><strong>&nbsp;</strong></p><p class=\"ql-indent-1\"><strong>Linux</strong></p><ul><li>Added automatic migration from the legacy Network Server.</li><li>Added low swap-space warnings to help prevent failures caused by memory pressure.</li><li>Improved installer resiliency by applying only targeted and custom sysctl overrides.</li><li>Improved update reliability by waiting for ports to close before applying updates.</li><li>Restricted port 11084 to loopback access.</li></ul><p>&nbsp;</p><p class=\"ql-indent-1\"><strong>Windows &amp; macOS</strong></p><ul><li>Improved the Windows WSL bootstrap flow with better resiliency and clearer error messages.</li><li>Improved container port binding behavior by binding explicitly instead of all interfaces.</li><li>Improved Windows diagnostics and troubleshooting logs.</li><li>Restored ICMP and ping functionality inside Podman containers.</li></ul><h2>Bugfixes</h2><ul><li>Fixed an issue where downloading device support files via the side panel failed.</li><li class=\"ql-indent-1\">This requires port 28082 to be accessible for the devices.</li><li>Fixed cases where Network support files could be empty.</li><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/Security-Advisory-Bulletin-065-065/aa46a22b-fc43-4eae-9382-6fc8feda967a\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 065</a>.</li></ul><p><br></p><p><strong>&nbsp;</strong></p><p class=\"ql-indent-1\"><strong>Linux</strong></p><ul><li>Fixed update failures caused by disk quota limitations on temporary host storage.</li><li>Fixed an issue where the service could fail to start after boot because the user session was not yet ready.</li></ul><p>&nbsp;</p><p class=\"ql-indent-1\"><strong>Windows &amp; macOS</strong></p><ul><li>Fixed unnecessary container recreation caused by mount reordering.</li><li>Fixed WSL version detection on non-English and non-US locale systems.</li><li>Fixed an issue where support file generation could corrupt Podman state on Windows.</li><li>Fixed Windows 10 firewall blocking for the discovery port.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "6b00e638-d383-4767-b886-fde29f5e331b",
+      "kategorie": "unifi-os-server",
+      "version": "5.0.8",
+      "titel": "UniFi OS Server 5.0.8",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-0-8/6b00e638-d383-4767-b886-fde29f5e331b",
+      "veroeffentlicht": "2026-05-20T17:14:02+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled Application",
+          "UniFi Network 10.3.58"
+        ],
+        "Improvements": [
+          "Improved stability."
+        ],
+        "Bugfixes": [
+          "Fixed the security issues mentioned in Security Advisory Bulletin 064."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled Application</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/10.3.58\" rel=\"noopener noreferrer\" target=\"_blank\">10.3.58</a></li></ul><h2>Improvements</h2><ul><li>Improved stability.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the security issues mentioned in <a href=\"https://community.ui.com/releases/r/security/064\" rel=\"noopener noreferrer\" target=\"_blank\">Security Advisory Bulletin 064</a>.</li></ul><p><br></p>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "27e08ff9-377c-4ffe-a67b-8c138d7faae1",
+      "kategorie": "unifi-os-server",
+      "version": "5.0.6",
+      "titel": "UniFi OS Server 5.0.6",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-5-0-6/27e08ff9-377c-4ffe-a67b-8c138d7faae1",
+      "veroeffentlicht": "2025-12-04T14:59:27+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "Bundled Application",
+          "UniFi Network 9.5.21"
+        ],
+        "Improvements": [
+          "Added support for recovering corrupted states on macOS and Windows.",
+          "Added support for Pasta networking mode on Linux.",
+          "Required podman version 4.9.3 or newer.",
+          "Added time/date mismatch toast messages.",
+          "Improved Network Application stability.",
+          "Improved the Alarm Manager user experience and resiliency.",
+          "Improved Remote Access connection resiliency.",
+          "Improved the Internet connectivity check.",
+          "Improved the resiliency of the backup and restore process.",
+          "Improved the device discovery process for faster detection.",
+          "Improved the certificate file validation.",
+          "Improved required packages/versions validation."
+        ],
+        "Bugfixes": [
+          "Fixed the inability to create support files in rare cases.",
+          "Fixed an issue where the application was shown as ready while it was actually still starting.",
+          "Fixed an issue where local account users did not receive email notifications."
+        ]
+      },
+      "html": "<h2>Overview</h2><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled Application</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/9.5.21\" rel=\"noopener noreferrer\" target=\"_blank\">9.5.21</a></li></ul><h2>Improvements</h2><ul><li>Added support for recovering corrupted states on macOS and Windows.</li><li>Added support for Pasta networking mode on Linux.</li><li class=\"ql-indent-1\">Required podman version 4.9.3 or newer.</li><li>Added time/date mismatch toast messages.</li><li>Improved Network Application stability.</li><li>Improved the Alarm Manager user experience and resiliency.</li><li>Improved Remote Access connection resiliency.</li><li>Improved the Internet connectivity check.</li><li>Improved the resiliency of the backup and restore process.</li><li>Improved the device discovery process for faster detection.</li><li>Improved the certificate file validation.</li><li>Improved required packages/versions validation.</li></ul><h2>Bugfixes</h2><ul><li>Fixed the inability to create support files in rare cases.</li><li>Fixed an issue where the application was shown as ready while it was actually still starting.</li><li>Fixed an issue where local account users did not receive email notifications.</li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    },
+    {
+      "id": "6203a43a-d19b-43ee-9cf9-835522f19eae",
+      "kategorie": "unifi-os-server",
+      "version": "4.3.6",
+      "titel": "UniFi OS Server 4.3.6",
+      "link": "https://community.ui.com/releases/UniFi-OS-Server-4-3-6/6203a43a-d19b-43ee-9cf9-835522f19eae",
+      "veroeffentlicht": "2025-09-22T13:42:05+00:00",
+      "kanal": "unbekannt",
+      "stable_freigaben": [],
+      "abschnitte": {
+        "Overview": [
+          "UniFi OS Server allows users to run the full UniFi OS experience on their own Windows, macOS, or Linux hardware. Initially, it will support the UniFi Network and InnerSpace application.",
+          "Benefits of UniFi OS Server (Compared to Self-Hosting Only the Network Application)",
+          "Opting for a UniFi OS Server provides several advantages over simply running the standalone UniFi Network application:",
+          "Full UniFi OS Experience: Enjoy the comprehensive and unified UniFi OS interface, providing a consistent management experience similar to that found on official UniFi Consoles.",
+          "Future-Proof Platform: Built on the UniFi OS foundation, this self-hosted solution is better positioned to support new features, updates, and upcoming UniFi applications, offering greater extensibility.",
+          "Unified Updates: Manage updates for the underlying UniFi OS and its applications through a more integrated process.",
+          "System Requirements",
+          "Storage:",
+          "Minimum: 20GB of free disk space.",
+          "Software Dependencies:",
+          "The UniFi OS Server installer will typically include necessary dependencies or guide you through their setup.",
+          "On Linux - Podman 4.3.1 or higher.",
+          "On Windows - WSL (Windows Subsystem for Linux) version 2 - installed during setup.",
+          "Ports used:",
+          "3478, 5005, 5514, 6789, 8080, 8444, 8880, 8881, 8882, 9543, 10003, 11084, 11443.",
+          "Bundled Application",
+          "UniFi Network 9.4.19"
+        ]
+      },
+      "html": "<h2>Overview</h2><p>UniFi OS Server allows users to run the full UniFi OS experience on their own Windows, macOS, or Linux hardware. Initially, it will support the UniFi Network and InnerSpace application.</p><p>&nbsp;</p><p><strong>Benefits of UniFi OS Server (Compared to Self-Hosting Only the Network Application)</strong></p><p>Opting for a UniFi OS Server provides several advantages over simply running the standalone UniFi Network application:</p><ul><li><strong>Full UniFi OS Experience:</strong>&nbsp;Enjoy the comprehensive and unified UniFi OS interface, providing a consistent management experience similar to that found on official UniFi Consoles.</li><li><strong>Future-Proof Platform:</strong>&nbsp;Built on the UniFi OS foundation, this self-hosted solution is better positioned to support new features, updates, and upcoming UniFi applications, offering greater extensibility.</li><li><strong>Unified Updates:</strong>&nbsp;Manage updates for the underlying UniFi OS and its applications through a more integrated process.</li></ul><p><strong>&nbsp;</strong></p><p><strong>System Requirements</strong></p><ul><li><strong>Storage:</strong></li><li class=\"ql-indent-1\">Minimum: 20GB of free disk space.</li><li><strong>Software Dependencies:</strong>&nbsp;</li><li class=\"ql-indent-1\">The UniFi OS Server installer will typically include necessary dependencies or guide you through their setup.</li><li class=\"ql-indent-1\">On Linux - Podman 4.3.1 or higher.</li><li class=\"ql-indent-1\">On Windows - WSL (Windows Subsystem for Linux) version 2 - installed during setup.</li><li><strong>Ports used:</strong></li><li class=\"ql-indent-1\"><strong>3478, 5005, 5514, 6789, 8080, 8444, 8880, 8881, 8882, 9543, 10003, 11084, 11443.</strong></li></ul><p><br></p><p><strong>&nbsp;</strong></p><p><strong>Bundled Application</strong></p><ul><li>UniFi Network <a href=\"https://community.ui.com/releases/r/network/9.4.19\" rel=\"noopener noreferrer\" target=\"_blank\">9.4.19</a></li></ul>",
+      "zuerst_gesehen": "2026-11-26T04:38:01+00:00",
+      "zuletzt_geaendert": "2026-11-26T04:38:01+00:00"
+    }
+  ]
+}
