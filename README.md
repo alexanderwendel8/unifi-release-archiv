@@ -20,10 +20,26 @@ Stable-Freigabe) erscheinen als Commit, die Git-Historie zeigt also jede Änderu
 | `archiv/protect-application.json` | UniFi Protect Application |
 | `archiv/access-hub.json` | UniFi Access Hub |
 | `archiv/security-advisories.json` | Security Advisory Bulletins |
+| `archiv/index.json` | Liste der Kategorien für die Weboberfläche (wird automatisch erzeugt) |
 
 Weitere Kategorie hinzufügen: die Feed-UUID (aus
 `https://community.ui.com/rss/releases/<Name>/<UUID>`) im Dictionary `FEEDS`
 in `unifi_archiv.py` ergänzen.
+
+## Weboberfläche
+
+`index.html` zeigt das Archiv im Browser: Suche nach Modell oder Text (z. B.
+`UDB-Switch`, trifft auch „UDB Switch“), Filter nach Kategorie und Kanal,
+aufklappbare Release Notes und „Stable für <Modell> seit …“. Filter stehen in
+der URL, Links lassen sich also teilen (z. B. `#q=UDB-Switch&kanal=stable`).
+
+Die Seite lädt `archiv/index.json` und die Kategorie-Dateien per `fetch` und
+braucht deshalb einen Webserver:
+
+- **GitHub Pages**: *Settings → Pages → Deploy from a branch → `main` / root*.
+  Die Seite zeigt nach jedem Workflow-Lauf automatisch den neuen Stand.
+- **Lokal**: `python3 -m http.server` im Repo-Verzeichnis, dann
+  http://localhost:8000 öffnen.
 
 ## Aufbau eines Eintrags
 

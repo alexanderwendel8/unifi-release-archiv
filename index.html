@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UniFi Release-Archiv</title>
+<style>
+:root {
+  --bg: #f6f7f9; --card: #fff; --text: #1b1f24; --muted: #5f6b7a; --line: #e2e6eb;
+  --accent: #006fff; --accent-soft: #e6f0ff; --mark: #fff1a8;
+  --stable: #157f3b; --stable-soft: #e3f5e9; --rc: #a35a00; --rc-soft: #fdf0dc;
+  --unk: #5f6b7a; --unk-soft: #eef0f3;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111418; --card: #1a1e24; --text: #e6e9ed; --muted: #9aa5b1; --line: #2b313a;
+    --accent: #4d9bff; --accent-soft: #1b2b44; --mark: #5a4b00;
+    --stable: #5fd38a; --stable-soft: #17301f; --rc: #f0b25a; --rc-soft: #33260f;
+    --unk: #9aa5b1; --unk-soft: #252a31;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header, main { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 24px; }
+h1 { font-size: 1.5rem; margin: 0 0 4px; }
+.sub { color: var(--muted); margin: 0 0 16px; font-size: .9rem; }
+.controls { display: grid; gap: 8px; grid-template-columns: 1fr auto auto; margin-bottom: 12px; }
+@media (max-width: 640px) { .controls { grid-template-columns: 1fr 1fr; } .controls input { grid-column: 1 / -1; } }
+input, select { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line);
+  border-radius: 8px; padding: 8px 10px; min-width: 0; }
+input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.chip { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px;
+  padding: 4px 12px; cursor: pointer; font: inherit; font-size: .85rem; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip .n { opacity: .7; margin-left: 4px; }
+.status { color: var(--muted); font-size: .9rem; margin: 8px 0 12px; }
+.release { background: var(--card); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 8px; }
+.release > button { all: unset; box-sizing: border-box; display: grid; width: 100%; cursor: pointer;
+  grid-template-columns: 92px 1fr auto; gap: 4px 12px; padding: 12px 14px; align-items: baseline; }
+.release > button:focus-visible { outline: 2px solid var(--accent); border-radius: 10px; }
+.date { color: var(--muted); font-variant-numeric: tabular-nums; font-size: .9rem; }
+.title { font-weight: 600; overflow-wrap: anywhere; }
+.meta { grid-column: 2 / -1; display: flex; flex-wrap: wrap; gap: 6px; font-size: .8rem; }
+@media (max-width: 640px) {
+  .release > button { grid-template-columns: 1fr auto; }
+  .date { grid-column: 1 / -1; }
+  .meta { grid-column: 1 / -1; }
+}
+.badge { border-radius: 6px; padding: 1px 8px; font-size: .78rem; font-weight: 600; white-space: nowrap; }
+.k-stable { color: var(--stable); background: var(--stable-soft); }
+.k-release-candidate { color: var(--rc); background: var(--rc-soft); }
+.k-unbekannt { color: var(--unk); background: var(--unk-soft); }
+.cat { color: var(--accent); background: var(--accent-soft); }
+.hint { color: var(--stable); font-weight: 600; }
+.details { border-top: 1px solid var(--line); padding: 4px 14px 14px; }
+.details h3 { font-size: .95rem; margin: 14px 0 4px; }
+.details ul { margin: 0; padding-left: 20px; }
+.details li { margin: 2px 0; overflow-wrap: anywhere; }
+.details a { color: var(--accent); }
+table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+td, th { text-align: left; padding: 4px 8px 4px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+mark { background: var(--mark); color: inherit; border-radius: 2px; }
+.more { display: block; margin: 12px auto 32px; }
+footer { max-width: 980px; margin: 0 auto; padding: 0 16px 32px; color: var(--muted); font-size: .8rem; }
+.error { background: var(--rc-soft); color: var(--rc); padding: 12px; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>UniFi Release-Archiv</h1>
+  <p class="sub" id="sub">Lade Archiv …</p>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Modell oder Text suchen, z. B. UDB-Switch" aria-label="Suche">
+    <select id="kanal" aria-label="Kanal">
+      <option value="">Alle Kanäle</option>
+      <option value="stable">Stable</option>
+      <option value="release-candidate">Release Candidate</option>
+      <option value="unbekannt">Kanal unbekannt</option>
+    </select>
+    <select id="sort" aria-label="Sortierung">
+      <option value="neu">Neueste zuerst</option>
+      <option value="alt">Älteste zuerst</option>
+    </select>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Kategorien"></div>
+</header>
+<main>
+  <div class="status" id="status" aria-live="polite"></div>
+  <div id="liste"></div>
+  <button class="chip more" id="more" hidden>Weitere anzeigen</button>
+</main>
+<footer>
+  Quelle: <a href="https://community.ui.com/releases">Ubiquiti Community – Releases</a>.
+  Täglich archiviert aus den öffentlichen RSS-Feeds.
+</footer>
+
+<script>
+"use strict";
+const NAMEN = {
+  "access-point": "Access Point", "switch": "Switch",
+  "unifi-os-dream-machines": "UniFi OS (Dream Machines)", "unifi-os-server": "UniFi OS Server",
+  "network-application": "Network App", "protect-application": "Protect App",
+  "access-hub": "Access Hub", "security-advisories": "Security",
+};
+const KANAL = { "stable": "Stable", "release-candidate": "Release Candidate", "unbekannt": "Kanal ?" };
+const SEITE = 50;
+const $ = id => document.getElementById(id);
+const name = k => NAMEN[k] || k;
+
+let alle = [];            // alle Releases
+let kategorien = [];
+const auswahl = new Set(); // gewaehlte Kategorien (leer = alle)
+let sichtbar = SEITE;
+const offen = new Set();
+
+function el(tag, attrs = {}, ...kinder) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v;
+    else e.setAttribute(k, v);
+  }
+  for (const k of kinder) if (k != null) e.append(k);
+  return e;
+}
+
+// Suchbegriff -> RegExp; "UDB-Switch" trifft auch "UDB Switch"
+function muster(q) {
+  if (!q) return null;
+  const teile = q.trim().split(/\s+/).map(t =>
+    t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\\?-/g, "[- ]?"));
+  return teile.map(t => new RegExp(t, "i"));
+}
+
+// Text mit <mark> fuer Treffer, ohne innerHTML
+function markiert(text, res) {
+  if (!res) return document.createTextNode(text);
+  const quelle = res.map(r => r.source).join("|");
+  const re = new RegExp(quelle, "gi");
+  const frag = document.createDocumentFragment();
+  let pos = 0, m;
+  while ((m = re.exec(text)) && m[0]) {
+    frag.append(text.slice(pos, m.index), el("mark", { text: m[0] }));
+    pos = m.index + m[0].length;
+  }
+  frag.append(text.slice(pos));
+  return frag;
+}
+
+function stableFuer(r, res) {
+  if (!res) return null;
+  for (const f of r.stable_freigaben || [])
+    if (f.modelle.some(m => res.every(re => re.test(m)))) return f.stable_seit;
+  return null;
+}
+
+function datum(iso) {
+  return iso ? new Date(iso).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) : "–";
+}
+function tag(isoDatum) { // "2026-11-12" -> "12.11.2026"
+  const [j, m, t] = isoDatum.split("-"); return `${t}.${m}.${j}`;
+}
+
+function filtern() {
+  const res = muster($("q").value);
+  const kanal = $("kanal").value;
+  let liste = alle.filter(r =>
+    (!auswahl.size || auswahl.has(r.kategorie)) &&
+    (!kanal || r.kanal === kanal) &&
+    (!res || res.every(re => re.test(r._text))));
+  liste.sort((a, b) => (a.veroeffentlicht || "").localeCompare(b.veroeffentlicht || ""));
+  if ($("sort").value === "neu") liste.reverse();
+  return { liste, res };
+}
+
+function details(r, res) {
+  const d = el("div", { class: "details" });
+  if (r.stable_freigaben?.length) {
+    const t = el("table", {}, el("tr", {}, el("th", { text: "Stable-Freigabe für" }), el("th", { text: "seit" })));
+    for (const f of r.stable_freigaben)
+      t.append(el("tr", {}, el("td", {}, markiert(f.modelle.join(", "), res)), el("td", { text: tag(f.stable_seit) })));
+    d.append(el("h3", { text: "Freigaben" }), t);
+  }
+  for (const [abschnitt, zeilen] of Object.entries(r.abschnitte || {})) {
+    const ul = el("ul");
+    for (const z of zeilen) ul.append(el("li", {}, markiert(z, res)));
+    d.append(el("h3", { text: abschnitt }), ul);
+  }
+  d.append(el("p", {}, el("a", { href: r.link, target: "_blank", rel: "noopener", text: "Original bei Ubiquiti öffnen ↗" })));
+  return d;
+}
+
+function zeigen() {
+  const { liste, res } = filtern();
+  const box = $("liste");
+  box.replaceChildren();
+  for (const r of liste.slice(0, sichtbar)) {
+    const sf = stableFuer(r, res);
+    const meta = el("div", { class: "meta" },
+      el("span", { class: "badge cat", text: name(r.kategorie) }),
+      el("span", { class: `badge k-${r.kanal}`, text: KANAL[r.kanal] || r.kanal }),
+      sf ? el("span", { class: "hint", text: `Stable für „${$("q").value.trim()}“ seit ${tag(sf)}` }) : null);
+    const knopf = el("button", { "aria-expanded": String(offen.has(r.id)) },
+      el("span", { class: "date", text: datum(r.veroeffentlicht) }),
+      el("span", { class: "title" }, markiert(r.titel, res)),
+      el("span", { class: "date", text: r.version ? "v" + r.version : "" }),
+      meta);
+    const karte = el("article", { class: "release" }, knopf);
+    if (offen.has(r.id)) karte.append(details(r, res));
+    knopf.addEventListener("click", () => {
+      offen.has(r.id) ? offen.delete(r.id) : offen.add(r.id);
+      const auf = offen.has(r.id);
+      knopf.setAttribute("aria-expanded", String(auf));
+      if (auf) karte.append(details(r, muster($("q").value))); else karte.querySelector(".details")?.remove();
+    });
+    box.append(karte);
+  }
+  $("status").textContent = liste.length
+    ? `${liste.length} von ${alle.length} Releases` + (liste.length > sichtbar ? ` – ${sichtbar} angezeigt` : "")
+    : "Keine Releases gefunden.";
+  $("more").hidden = liste.length <= sichtbar;
+}
+
+function chips() {
+  const box = $("chips");
+  box.replaceChildren();
+  const alleChip = el("button", { class: "chip", "aria-pressed": String(!auswahl.size) }, "Alle",
+    el("span", { class: "n", text: alle.length }));
+  alleChip.onclick = () => { auswahl.clear(); neu(); };
+  box.append(alleChip);
+  for (const k of kategorien) {
+    const c = el("button", { class: "chip", "aria-pressed": String(auswahl.has(k.kategorie)) },
+      name(k.kategorie), el("span", { class: "n", text: k.anzahl }));
+    c.onclick = () => { auswahl.has(k.kategorie) ? auswahl.delete(k.kategorie) : auswahl.add(k.kategorie); neu(); };
+    box.append(c);
+  }
+}
+
+// Zustand in der URL (#q=…&kat=…&kanal=…), damit Links teilbar sind
+function urlSchreiben() {
+  const p = new URLSearchParams();
+  if ($("q").value.trim()) p.set("q", $("q").value.trim());
+  if (auswahl.size) p.set("kat", [...auswahl].join(","));
+  if ($("kanal").value) p.set("kanal", $("kanal").value);
+  if ($("sort").value !== "neu") p.set("sort", $("sort").value);
+  history.replaceState(null, "", p.toString() ? "#" + p : location.pathname + location.search);
+}
+function urlLesen() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  $("q").value = p.get("q") || "";
+  $("kanal").value = p.get("kanal") || "";
+  $("sort").value = p.get("sort") || "neu";
+  auswahl.clear();
+  for (const k of (p.get("kat") || "").split(",")) if (k) auswahl.add(k);
+}
+
+function neu() { sichtbar = SEITE; chips(); zeigen(); urlSchreiben(); }
+
+async function laden() {
+  try {
+    const index = await (await fetch("archiv/index.json", { cache: "no-cache" })).json();
+    kategorien = index.kategorien;
+    const dateien = await Promise.all(kategorien.map(k =>
+      fetch("archiv/" + k.datei, { cache: "no-cache" }).then(r => r.json())));
+    let abgerufen = "";
+    for (const d of dateien) {
+      if (d.zuletzt_abgerufen > abgerufen) abgerufen = d.zuletzt_abgerufen;
+      for (const r of d.releases) {
+        r._text = [r.titel, ...Object.values(r.abschnitte || {}).flat()].join("\n");
+        alle.push(r);
+      }
+    }
+    $("sub").textContent = `${alle.length} Releases aus ${kategorien.length} Kategorien · zuletzt abgerufen ${
+      new Date(abgerufen).toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "short" })}`;
+    urlLesen();
+    chips();
+    zeigen();
+  } catch (e) {
+    $("sub").textContent = "";
+    $("liste").replaceChildren(el("div", { class: "error",
+      text: "Archiv konnte nicht geladen werden. Die Seite muss über einen Webserver geöffnet werden " +
+            "(z. B. GitHub Pages oder „python3 -m http.server“), nicht als Datei. (" + e.message + ")" }));
+  }
+}
+
+let timer;
+$("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(neu, 150); });
+$("kanal").addEventListener("change", neu);
+$("sort").addEventListener("change", neu);
+$("more").addEventListener("click", () => { sichtbar += SEITE; zeigen(); });
+window.addEventListener("hashchange", () => { urlLesen(); chips(); zeigen(); });
+laden();
+</script>
+</body>
+</html>
